@@ -31,6 +31,13 @@ export default function Talks() {
                 &quot;Automatización de Pruebas Modernas con Playwright&quot;
               </p>
               <p className="text-black">Wellington, Nueva Zelanda</p>
+              <div className="mt-4">
+                <img
+                  src="url_de_la_imagen"
+                  alt="TestingConf 2023"
+                  className="w-full h-auto rounded-lg"
+                />
+              </div>
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-md">
@@ -41,6 +48,130 @@ export default function Talks() {
                 &quot;Mejores Prácticas en Testing de APIs&quot;
               </p>
               <p className="text-black">Sydney, Australia</p>
+              <div className="mt-4">
+                <img
+                  src="url_de_la_imagen"
+                  alt="QA Summit 2023"
+                  className="w-full h-auto rounded-lg"
+                />
+              </div>
+            </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <h3 className="text-xl font-bold mb-4 text-black">
+                Nerdearla 2023
+              </h3>
+              <p className="text-black mb-4">
+                &quot;Innovaciones en Testing&quot;
+              </p>
+              <p className="text-black">Buenos Aires, Argentina</p>
+              <div className="mt-4">
+                <img
+                  src="url_de_la_imagen"
+                  alt="Nerdearla 2023"
+                  className="w-full h-auto rounded-lg"
+                />
+              </div>
+            </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <h3 className="text-xl font-bold mb-4 text-black">
+                Nerdearla 2024
+              </h3>
+              <p className="text-black mb-4">
+                &quot;Tendencias Futuras en Testing&quot;
+              </p>
+              <p className="text-black">Buenos Aires, Argentina</p>
+              <div className="mt-4">
+                <img
+                  src="url_de_la_imagen"
+                  alt="Nerdearla 2024"
+                  className="w-full h-auto rounded-lg"
+                />
+              </div>
+            </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <h3 className="text-xl font-bold mb-4 text-black">
+                NZTesting Conference
+              </h3>
+              <p className="text-black mb-4">
+                &quot;Testing en la Era Digital&quot;
+              </p>
+              <p className="text-black">Auckland, Nueva Zelanda</p>
+              <div className="mt-4">
+                <img
+                  src="url_de_la_imagen"
+                  alt="NZTesting Conference"
+                  className="w-full h-auto rounded-lg"
+                />
+              </div>
+            </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <h3 className="text-xl font-bold mb-4 text-black">VLCTesting</h3>
+              <p className="text-black mb-4">
+                &quot;Estrategias de Testing Efectivas&quot;
+              </p>
+              <p className="text-black">Valparaíso, Chile</p>
+              <div className="mt-4">
+                <img
+                  src="url_de_la_imagen"
+                  alt="VLCTesting"
+                  className="w-full h-auto rounded-lg"
+                />
+              </div>
+            </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <h3 className="text-xl font-bold mb-4 text-black">
+                TestingDays Chile
+              </h3>
+              <p className="text-black mb-4">
+                &quot;Automatización y Calidad&quot;
+              </p>
+              <p className="text-black">Santiago, Chile</p>
+              <div className="mt-4">
+                <img
+                  src="url_de_la_imagen"
+                  alt="TestingDays Chile"
+                  className="w-full h-auto rounded-lg"
+                />
+              </div>
+            </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <h3 className="text-xl font-bold mb-4 text-black">
+                QualitySense Conf
+              </h3>
+              <p className="text-black mb-4">
+                &quot;Mejorando la Calidad del Software&quot;
+              </p>
+              <p className="text-black">Lima, Perú</p>
+              <div className="mt-4">
+                <img
+                  src="url_de_la_imagen"
+                  alt="QualitySense Conf"
+                  className="w-full h-auto rounded-lg"
+                />
+              </div>
+            </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <h3 className="text-xl font-bold mb-4 text-black">
+                TestingMinds Auckland
+              </h3>
+              <p className="text-black mb-4">
+                &quot;Innovaciones en Automatización de Pruebas&quot;
+              </p>
+              <p className="text-black">Auckland, Nueva Zelanda</p>
+              <div className="mt-4">
+                <img
+                  src="url_de_la_imagen"
+                  alt="TestingMinds Auckland"
+                  className="w-full h-auto rounded-lg"
+                />
+              </div>
             </div>
           </div>
         </div>

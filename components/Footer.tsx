@@ -33,7 +33,7 @@ export default function Footer() {
 
           {/* Sección de Redes Sociales */}
           <div>
-            <h3 className="text-xl font-bold mb-4">Síguenos</h3>
+            <h3 className="text-xl font-bold mb-4">Follow us</h3>
             <ul className="space-y-2">
               <li>
                 <Link href="https://facebook.com" target="_blank">
@@ -60,14 +60,14 @@ export default function Footer() {
 
           {/* Sección de Contacto */}
           <div>
-            <h3 className="text-xl font-bold mb-4">Contacto</h3>
-            <p className="mb-2">Email: contacto@ejemplo.com</p>
-            <p>Teléfono: +123 456 7890</p>
+            <h3 className="text-xl font-bold mb-4">Contact me</h3>
+            <p className="mb-2">Email: john.doe@tester.com</p>
+            <p>Phone: +123 456 7890</p>
           </div>
 
           {/* Sección de Newsletter en el Footer */}
           <div>
-            <h2 className="text-xl font-bold mb-4">Mantente en contacto</h2>
+            <h2 className="text-xl font-bold mb-4">Be on the loop!</h2>
             <Newsletter />
           </div>
         </div>
