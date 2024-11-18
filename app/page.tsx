@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -18,10 +19,12 @@ export default function Home() {
             </div>
             <div className="flex-1">
               <div className="aspect-square bg-teal-700 rounded-lg border-2 border-teal-600 shadow-[8px_8px_0px_0px_rgba(134,239,172,1)]">
-                <img
+                <Image
                   src="/images/home-principal.png"
                   alt="Profile"
                   className="w-full h-full object-cover rounded-lg"
+                  width={800}
+                  height={600}
                 />
               </div>
             </div>

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Talks() {
   return (
@@ -32,10 +33,12 @@ export default function Talks() {
               </p>
               <p className="text-black">Wellington, Nueva Zelanda</p>
               <div className="mt-4">
-                <img
+                <Image
                   src="url_de_la_imagen"
                   alt="TestingConf 2023"
                   className="w-full h-auto rounded-lg"
+                  width={500}
+                  height={300}
                 />
               </div>
             </div>
@@ -49,10 +52,12 @@ export default function Talks() {
               </p>
               <p className="text-black">Sydney, Australia</p>
               <div className="mt-4">
-                <img
+                <Image
                   src="url_de_la_imagen"
                   alt="QA Summit 2023"
                   className="w-full h-auto rounded-lg"
+                  width={500}
+                  height={300}
                 />
               </div>
             </div>
@@ -66,10 +71,12 @@ export default function Talks() {
               </p>
               <p className="text-black">Buenos Aires, Argentina</p>
               <div className="mt-4">
-                <img
+                <Image
                   src="url_de_la_imagen"
                   alt="Nerdearla 2023"
                   className="w-full h-auto rounded-lg"
+                  width={500}
+                  height={300}
                 />
               </div>
             </div>
@@ -83,10 +90,12 @@ export default function Talks() {
               </p>
               <p className="text-black">Buenos Aires, Argentina</p>
               <div className="mt-4">
-                <img
+                <Image
                   src="url_de_la_imagen"
                   alt="Nerdearla 2024"
                   className="w-full h-auto rounded-lg"
+                  width={500}
+                  height={300}
                 />
               </div>
             </div>
@@ -100,10 +109,12 @@ export default function Talks() {
               </p>
               <p className="text-black">Auckland, Nueva Zelanda</p>
               <div className="mt-4">
-                <img
+                <Image
                   src="url_de_la_imagen"
                   alt="NZTesting Conference"
                   className="w-full h-auto rounded-lg"
+                  width={500}
+                  height={300}
                 />
               </div>
             </div>
@@ -115,10 +126,12 @@ export default function Talks() {
               </p>
               <p className="text-black">Valparaíso, Chile</p>
               <div className="mt-4">
-                <img
+                <Image
                   src="url_de_la_imagen"
                   alt="VLCTesting"
                   className="w-full h-auto rounded-lg"
+                  width={500}
+                  height={300}
                 />
               </div>
             </div>
@@ -132,10 +145,12 @@ export default function Talks() {
               </p>
               <p className="text-black">Santiago, Chile</p>
               <div className="mt-4">
-                <img
+                <Image
                   src="url_de_la_imagen"
                   alt="TestingDays Chile"
                   className="w-full h-auto rounded-lg"
+                  width={500}
+                  height={300}
                 />
               </div>
             </div>
@@ -149,10 +164,12 @@ export default function Talks() {
               </p>
               <p className="text-black">Lima, Perú</p>
               <div className="mt-4">
-                <img
+                <Image
                   src="url_de_la_imagen"
                   alt="QualitySense Conf"
                   className="w-full h-auto rounded-lg"
+                  width={500}
+                  height={300}
                 />
               </div>
             </div>
@@ -166,10 +183,12 @@ export default function Talks() {
               </p>
               <p className="text-black">Auckland, Nueva Zelanda</p>
               <div className="mt-4">
-                <img
+                <Image
                   src="url_de_la_imagen"
                   alt="TestingMinds Auckland"
                   className="w-full h-auto rounded-lg"
+                  width={500}
+                  height={300}
                 />
               </div>
             </div>
