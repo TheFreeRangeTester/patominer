@@ -92,7 +92,7 @@ export default function Courses() {
                   d="M11 7l-5 5m0 0l5 5m-5-5h12"
                 />
               </svg>
-              <span>Volver al inicio</span>
+              <span>Back to Home</span>
             </Link>
           </div>
         </div>

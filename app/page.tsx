@@ -18,9 +18,11 @@ export default function Home() {
             </div>
             <div className="flex-1">
               <div className="aspect-square bg-teal-700 rounded-lg border-2 border-teal-600 shadow-[8px_8px_0px_0px_rgba(134,239,172,1)]">
-                <div className="w-full h-full flex items-center justify-center text-white">
-                  Profile Image
-                </div>
+                <img
+                  src="/images/home-principal.png"
+                  alt="Profile"
+                  className="w-full h-full object-cover rounded-lg"
+                />
               </div>
             </div>
           </div>
@@ -48,7 +50,7 @@ export default function Home() {
                 href="/about"
                 className="group mt-3 inline-flex items-center gap-2 border-black border-2 bg-amber-500 px-6 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
               >
-                <span>Ver más</span>
+                <span>View more</span>
                 <svg
                   className="w-4 h-4 transition-transform duration-300 transform group-hover:translate-x-1"
                   fill="none"
@@ -82,7 +84,7 @@ export default function Home() {
                 href="/workshops"
                 className="group mt-3 inline-flex items-center gap-2 border-black border-2 bg-amber-500 px-6 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[8px_8px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
               >
-                <span>Ver más</span>
+                <span>View more</span>
                 <svg
                   className="w-4 h-4 transition-transform duration-300 transform group-hover:translate-x-1"
                   fill="none"
@@ -130,7 +132,7 @@ export default function Home() {
                 href="/courses"
                 className="group mt-3 inline-flex items-center gap-2 border-black border-2 bg-amber-500 px-6 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[8px_8px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
               >
-                <span>Ver más</span>
+                <span>View more</span>
                 <svg
                   className="w-4 h-4 transition-transform duration-300 transform group-hover:translate-x-1"
                   fill="none"
@@ -165,7 +167,7 @@ export default function Home() {
                 href="/tutoring"
                 className="group mt-3 inline-flex items-center gap-2 border-black border-2 bg-amber-500 px-6 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[8px_8px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
               >
-                <span>Ver más</span>
+                <span>View more</span>
                 <svg
                   className="w-4 h-4 transition-transform duration-300 transform group-hover:translate-x-1"
                   fill="none"
@@ -213,7 +215,7 @@ export default function Home() {
                 href="/consultations"
                 className="group mt-3 inline-flex items-center gap-2 border-black border-2 bg-amber-500 px-6 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[8px_8px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
               >
-                <span>Ver más</span>
+                <span>View more</span>
                 <svg
                   className="w-4 h-4 transition-transform duration-300 transform group-hover:translate-x-1"
                   fill="none"
@@ -248,7 +250,7 @@ export default function Home() {
                 href="/talks"
                 className="group mt-3 inline-flex items-center gap-2 border-black border-2 bg-amber-500 px-6 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[8px_8px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
               >
-                <span>Ver más</span>
+                <span>View more</span>
                 <svg
                   className="w-4 h-4 transition-transform duration-300 transform group-hover:translate-x-1"
                   fill="none"

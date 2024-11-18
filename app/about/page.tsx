@@ -20,26 +20,41 @@ export default function About() {
         <div className="container mx-auto px-4">
           <div className="prose max-w-none">
             <h2 className="text-3xl font-bold mb-8 text-black">My Journey</h2>
+            <div className="flex items-center mb-6">
+              <img
+                src="/ruta/a/tu/imagen1.jpg"
+                alt="Descripción de la imagen 1"
+                className="w-1/2 ml-4"
+              />
+              <p className="text-lg text-black">
+                Hello! I&apos;m Patricio Miner, a QA Engineering consultant and
+                trainer based in New Zealand. Originally from Argentina, I made
+                the exciting decision to relocate to New Zealand eight years
+                ago, embarking on a journey that would transform both my
+                personal and professional life.
+              </p>
+            </div>
+            <div className="flex items-center mb-6">
+              <p className="text-lg text-black">
+                With a passion for quality assurance and software testing,
+                I&apos;ve dedicated my career to helping organisations build
+                better, more reliable software. My experience spans across
+                various industries, working with teams of all sizes to implement
+                robust testing strategies and cultivate a quality-first mindset.
+              </p>
+              <img
+                src="/ruta/a/tu/imagen2.jpg"
+                alt="Descripción de la imagen 2"
+                className="w-1/2 mr-4"
+              />
+            </div>
             <p className="text-lg mb-6 text-black">
-              Hello! I&apos;m Patricio Miner, a QA Engineering consultant and
-              trainer based in New Zealand. Originally from Argentina, I made
-              the exciting decision to relocate to New Zealand eight years ago,
-              embarking on a journey that would transform both my personal and
-              professional life.
-            </p>
-            <p className="text-lg mb-6 text-black">
-              With a passion for quality assurance and software testing,
-              I&apos;ve dedicated my career to helping organisations build
-              better, more reliable software. My experience spans across various
-              industries, working with teams of all sizes to implement robust
-              testing strategies and cultivate a quality-first mindset.
-            </p>
-            <p className="text-lg mb-6 text-black">
-              As a trainer, I take great pride in sharing my knowledge and
-              experience with the next generation of QA engineers. Through
-              workshops, courses, and personalised training sessions, I help
-              professionals develop the skills they need to excel in the
-              ever-evolving field of software testing.
+              As a trainer, I take great pride in sharing my conocimiento y
+              experiencia con la próxima generación de ingenieros de QA. A
+              través de talleres, cursos y sesiones de capacitación
+              personalizadas, ayudo a los profesionales a desarrollar las
+              habilidades que necesitan para sobresalir en el campo en constante
+              evolución de las pruebas de software.
             </p>
             <h2 className="text-3xl font-bold my-8 text-black">What I Offer</h2>
             <ul className="list-disc pl-6 mb-6 space-y-2 text-black">
@@ -68,7 +83,7 @@ export default function About() {
                   d="M11 7l-5 5m0 0l5 5m-5-5h12"
                 />
               </svg>
-              <span>Volver al inicio</span>
+              <span>Back to Home</span>
             </Link>
           </div>
         </div>
