@@ -10,11 +10,11 @@ export default function Home() {
           <div className="flex flex-col md:flex-row items-center justify-between gap-12">
             <div className="flex-1">
               <h1 className="text-5xl font-bold leading-tight mb-6">
-                Teaching Testers Achieve Their Dreams
+                Elevate your Software Testing to the next level
               </h1>
               <p className="text-xl">
-                Empowering quality assurance professionals with the skills and
-                knowledge they need to excel in their careers.
+                Equipping quality assurance professionals with the skills and
+                knowledge to thrive and excel in their careers
               </p>
             </div>
             <div className="flex-1">
@@ -38,22 +38,27 @@ export default function Home() {
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="flex-1">
               <div className="aspect-video bg-gray-200 rounded-lg shadow-[8px_8px_0px_0px_rgba(251,146,60,1)]">
-                <div className="w-full h-full flex items-center justify-center text-gray-400">
-                  About Image
-                </div>
+                <Image
+                  src="/images/aboutmeMain.png"
+                  alt="About Me"
+                  className="w-full h-full object-cover rounded-lg"
+                  width={800}
+                  height={450}
+                />
               </div>
             </div>
             <div className="flex-1">
               <h2 className="text-3xl font-bold mb-4">About me</h2>
               <p className="text-gray-600 mb-6">
-                Learn more about my journey in software testing and how I help
-                others succeed in their QA careers.
+                Hello there, fellow tester! I am Pato, a QA Engineering
+                consultant and coach with more than 16 years of experience. Want
+                to know more about me? Click the button below 👇🏻
               </p>
               <Link
                 href="/about"
                 className="group mt-3 inline-flex items-center gap-2 border-black border-2 bg-amber-500 px-6 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
               >
-                <span>View more</span>
+                <span>Know more about me</span>
                 <svg
                   className="w-4 h-4 transition-transform duration-300 transform group-hover:translate-x-1"
                   fill="none"
@@ -80,14 +85,14 @@ export default function Home() {
             <div className="flex-1">
               <h2 className="text-3xl font-bold mb-4">Workshops</h2>
               <p className="text-gray-600 mb-6">
-                Interactive sessions designed to enhance your testing skills
-                through practical exercises.
+                Interactive sessions designed to get you from zero to hero (god
+                I hate that sentence) in the world of Testing and Automation
               </p>
               <Link
                 href="/workshops"
                 className="group mt-3 inline-flex items-center gap-2 border-black border-2 bg-amber-500 px-6 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[8px_8px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
               >
-                <span>View more</span>
+                <span>I want to learn!</span>
                 <svg
                   className="w-4 h-4 transition-transform duration-300 transform group-hover:translate-x-1"
                   fill="none"
@@ -105,9 +110,13 @@ export default function Home() {
             </div>
             <div className="flex-1">
               <div className="aspect-video bg-gray-200 rounded-lg shadow-[8px_8px_0px_0px_rgba(252,165,165,1)]">
-                <div className="w-full h-full flex items-center justify-center text-gray-400">
-                  Workshops Image
-                </div>
+                <Image
+                  src="/images/workshops.png"
+                  alt="Workshops"
+                  className="w-full h-full object-cover rounded-lg"
+                  width={800}
+                  height={450}
+                />
               </div>
             </div>
           </div>
@@ -135,7 +144,7 @@ export default function Home() {
                 href="/courses"
                 className="group mt-3 inline-flex items-center gap-2 border-black border-2 bg-amber-500 px-6 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[8px_8px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
               >
-                <span>View more</span>
+                <span>What can you learn?</span>
                 <svg
                   className="w-4 h-4 transition-transform duration-300 transform group-hover:translate-x-1"
                   fill="none"
@@ -170,7 +179,7 @@ export default function Home() {
                 href="/tutoring"
                 className="group mt-3 inline-flex items-center gap-2 border-black border-2 bg-amber-500 px-6 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[8px_8px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
               >
-                <span>View more</span>
+                <span>Let&apos;s talk!</span>
                 <svg
                   className="w-4 h-4 transition-transform duration-300 transform group-hover:translate-x-1"
                   fill="none"
@@ -218,7 +227,7 @@ export default function Home() {
                 href="/consultations"
                 className="group mt-3 inline-flex items-center gap-2 border-black border-2 bg-amber-500 px-6 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[8px_8px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
               >
-                <span>View more</span>
+                <span>Need some help?</span>
                 <svg
                   className="w-4 h-4 transition-transform duration-300 transform group-hover:translate-x-1"
                   fill="none"
@@ -253,7 +262,7 @@ export default function Home() {
                 href="/talks"
                 className="group mt-3 inline-flex items-center gap-2 border-black border-2 bg-amber-500 px-6 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[8px_8px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
               >
-                <span>View more</span>
+                <span>View more!</span>
                 <svg
                   className="w-4 h-4 transition-transform duration-300 transform group-hover:translate-x-1"
                   fill="none"

@@ -36,7 +36,7 @@ export default function RootLayout({
             <div className="container mx-auto px-4 py-4">
               <div className="flex justify-between items-center">
                 <Link href="/" className="text-xl font-bold text-black">
-                  Logo
+                  Pato Miner
                 </Link>
                 <div className="space-x-4">
                   <Link

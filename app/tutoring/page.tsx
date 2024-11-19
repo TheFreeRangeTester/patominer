@@ -23,11 +23,11 @@ export default function Tutoring() {
 
             <div className="prose max-w-none mb-12">
               <p className="text-lg mb-6">
-                Whether you&apos;re just starting your QA career or looking to take
-                the next step, I offer personalised 1:1 tutoring sessions to
-                help guide you on your journey. With my experience in both the
-                New Zealand market and international testing landscape, I can
-                provide valuable insights and practical advice.
+                Whether you&apos;re just starting your QA career or looking to
+                take the next step, I offer personalised 1:1 tutoring sessions
+                to help guide you on your journey. With my experience in both
+                the New Zealand market and international testing landscape, I
+                can provide valuable insights and practical advice.
               </p>
 
               <h3 className="text-2xl font-bold mb-4">
@@ -55,7 +55,8 @@ export default function Tutoring() {
                 Ready to Take the Next Step?
               </h3>
               <p className="text-gray-600 mb-6">
-                Book a tutoring session and let&apos;s discuss your QA career goals
+                Book a tutoring session and let&apos;s discuss your QA career
+                goals
               </p>
               <Link
                 href="https://calendly.com/placeholder"
@@ -68,8 +69,10 @@ export default function Tutoring() {
             </div>
 
             <div className="mt-12">
-              <Link href="/" className="group mt-3 inline-flex items-center gap-2 border-black border-2 bg-white px-6 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none">
-                <span>← Volver al inicio</span>
+              <Link
+                href="/"
+                className="group mt-3 inline-flex items-center gap-2 border-black border-2 bg-white px-6 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
+              >
                 <svg
                   className="w-4 h-4 transition-transform duration-300 transform group-hover:translate-x-1"
                   fill="none"
@@ -80,9 +83,10 @@ export default function Tutoring() {
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     strokeWidth={2}
-                    d="M13 7l5 5m0 0l-5 5m5-5H6"
+                    d="M11 7l-5 5m0 0l5 5m-5-5h12"
                   />
                 </svg>
+                <span>Back to Home</span>
               </Link>
             </div>
           </div>

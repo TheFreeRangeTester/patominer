@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Workshops() {
   const workshops = [
@@ -6,12 +7,20 @@ export default function Workshops() {
       title: "Selenium WebDriver with Cucumber",
       description:
         "The one workshop to dominate the most demanded tool in the market.",
+      location: "Online",
+      price: "$100",
+      duration: "50 hours",
+      image: "/images/workshop1.png",
       buyButtonId: "buy_btn_1QJ8DeGg3IBRIOi3Id5AAtmv",
     },
     {
       title: "Playwright with TypeScript",
       description:
         "Keen to learn the tool with the best projection for the upcoming years? This is the workshop for you!",
+      location: "In-person at Tech Center",
+      price: "$150",
+      duration: "8 hours",
+      image: "/images/workshop2.png",
       buyButtonId: "buy_btn_1QJ8DeGg3IBRIOi3Id5AAtmw",
     },
   ];
@@ -30,15 +39,38 @@ export default function Workshops() {
       {/* Workshops Section */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8 justify-center">
-          {workshops.map((workshop, index) => (
-            <div key={index} className="border rounded-lg p-6 shadow-lg">
+          {workshops.map((workshop) => (
+            <div
+              key={workshop.buyButtonId}
+              className="border rounded-lg p-6 shadow-lg"
+            >
+              <div className="aspect-video bg-gray-200 rounded-lg shadow-[8px_8px_0px_0px_rgba(251,146,60,1)] mb-4">
+                <Image
+                  src={workshop.image}
+                  alt={workshop.title}
+                  className="w-full h-full object-cover rounded-lg"
+                  width={800}
+                  height={450}
+                />
+              </div>
               <h2 className="text-2xl font-bold mb-4 text-black">
                 {workshop.title}
               </h2>
               <p className="text-lg mb-4 text-black">{workshop.description}</p>
+              <p className="text-md mb-2 text-gray-700">
+                Location: {workshop.location}
+              </p>
+              <p className="text-md mb-2 text-gray-700">
+                Price: {workshop.price}
+              </p>
+              <p className="text-md mb-4 text-gray-700">
+                Duration: {workshop.duration}
+              </p>
               <div className="flex flex-col items-center">
                 <Link
-                  href={`/workshops/${index}`}
+                  href={`/workshops/${workshop.title
+                    .toLowerCase()
+                    .replace(/ /g, "-")}`}
                   className="group mt-3 inline-flex items-center gap-2 border-black border-2 bg-white px-6 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none mb-2"
                 >
                   View more details
