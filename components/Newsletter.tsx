@@ -3,7 +3,7 @@ export default function Newsletter() {
     <div className="bg-gray-100 p-6 rounded-lg">
       <h3 className="text-xl font-bold mb-4">Subscribe to our newsletter!</h3>
       <form
-        action="https://app.convertkit.com/forms/YOUR_FORM_ID/subscriptions"
+        action="https://app.convertkit.com/forms/7383840/subscriptions"
         method="POST"
       >
         <input
