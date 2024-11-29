@@ -8,8 +8,10 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        teal: '#2FF3E0',
+        yellow: '#F8D210',
+        pink: '#FA26A0',
+        red: '#F51720',
       },
     },
   },

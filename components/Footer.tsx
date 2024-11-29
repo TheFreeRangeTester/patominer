@@ -51,7 +51,10 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="https://linkedin.com" target="_blank">
+                <Link
+                  href="https://www.linkedin.com/in/patricio-m-690b3729/"
+                  target="_blank"
+                >
                   LinkedIn
                 </Link>
               </li>
@@ -61,8 +64,11 @@ export default function Footer() {
           {/* Sección de Contacto */}
           <div>
             <h3 className="text-xl font-bold mb-4">Contact me</h3>
-            <p className="mb-2">Email: john.doe@tester.com</p>
-            <p>Phone: +123 456 7890</p>
+            <p className="mb-2">
+              <Link href="mailto:patominer@gmail.com">
+                Email: patominer@gmail.com
+              </Link>
+            </p>
           </div>
 
           {/* Sección de Newsletter en el Footer */}

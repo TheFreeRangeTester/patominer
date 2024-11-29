@@ -85,8 +85,8 @@ export default function Home() {
             <div className="flex-1">
               <h2 className="text-3xl font-bold mb-4">Workshops</h2>
               <p className="text-gray-600 mb-6">
-                Interactive sessions designed to get you from zero to hero (god
-                I hate that sentence) in the world of Testing and Automation
+                Hands-on, practical workshops to get you working with Test
+                Engineering tools professionally!
               </p>
               <Link
                 href="/workshops"

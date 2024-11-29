@@ -89,30 +89,29 @@ export default function Workshops() {
             </div>
           ))}
         </div>
-      </section>
-
-      {/* Botón para volver al inicio */}
-      <div className="text-center">
-        <Link
-          href="/"
-          className="group mt-3 inline-flex items-center gap-2 border-black border-2 bg-white px-6 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
-        >
-          <svg
-            className="w-4 h-4 transition-transform duration-300 transform group-hover:translate-x-1"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
+        {/* Botón para volver al inicio */}
+        <div className="mt-8 text-center">
+          <Link
+            href="/"
+            className="group mt-3 inline-flex items-center gap-2 border-black border-2 bg-white px-6 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
           >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M11 7l-5 5m0 0l5 5m-5-5h12"
-            />
-          </svg>
-          <span>Back to Home</span>
-        </Link>
-      </div>
+            <svg
+              className="w-4 h-4 transition-transform duration-300 transform group-hover:translate-x-1"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M11 7l-5 5m0 0l5 5m-5-5h12"
+              />
+            </svg>
+            <span>Back to Home</span>
+          </Link>
+        </div>
+      </section>
     </div>
   );
 }

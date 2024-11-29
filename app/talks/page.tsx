@@ -34,7 +34,7 @@ export default function Talks() {
               <p className="text-black">Wellington, Nueva Zelanda</p>
               <div className="mt-4">
                 <Image
-                  src="url_de_la_imagen"
+                  src="/images/testingconf2023.png"
                   alt="TestingConf 2023"
                   className="w-full h-auto rounded-lg"
                   width={500}
@@ -53,7 +53,7 @@ export default function Talks() {
               <p className="text-black">Sydney, Australia</p>
               <div className="mt-4">
                 <Image
-                  src="url_de_la_imagen"
+                  src="/images/qasummit2023.png"
                   alt="QA Summit 2023"
                   className="w-full h-auto rounded-lg"
                   width={500}
@@ -72,7 +72,7 @@ export default function Talks() {
               <p className="text-black">Buenos Aires, Argentina</p>
               <div className="mt-4">
                 <Image
-                  src="url_de_la_imagen"
+                  src="/url_de_la_imagen"
                   alt="Nerdearla 2023"
                   className="w-full h-auto rounded-lg"
                   width={500}
@@ -91,7 +91,7 @@ export default function Talks() {
               <p className="text-black">Buenos Aires, Argentina</p>
               <div className="mt-4">
                 <Image
-                  src="url_de_la_imagen"
+                  src="/url_de_la_imagen"
                   alt="Nerdearla 2024"
                   className="w-full h-auto rounded-lg"
                   width={500}
@@ -110,7 +110,7 @@ export default function Talks() {
               <p className="text-black">Auckland, Nueva Zelanda</p>
               <div className="mt-4">
                 <Image
-                  src="url_de_la_imagen"
+                  src="/url_de_la_imagen"
                   alt="NZTesting Conference"
                   className="w-full h-auto rounded-lg"
                   width={500}
@@ -127,7 +127,7 @@ export default function Talks() {
               <p className="text-black">Valparaíso, Chile</p>
               <div className="mt-4">
                 <Image
-                  src="url_de_la_imagen"
+                  src="/url_de_la_imagen"
                   alt="VLCTesting"
                   className="w-full h-auto rounded-lg"
                   width={500}
@@ -146,7 +146,7 @@ export default function Talks() {
               <p className="text-black">Santiago, Chile</p>
               <div className="mt-4">
                 <Image
-                  src="url_de_la_imagen"
+                  src="/url_de_la_imagen"
                   alt="TestingDays Chile"
                   className="w-full h-auto rounded-lg"
                   width={500}
@@ -165,7 +165,7 @@ export default function Talks() {
               <p className="text-black">Lima, Perú</p>
               <div className="mt-4">
                 <Image
-                  src="url_de_la_imagen"
+                  src="/url_de_la_imagen"
                   alt="QualitySense Conf"
                   className="w-full h-auto rounded-lg"
                   width={500}
@@ -184,7 +184,7 @@ export default function Talks() {
               <p className="text-black">Auckland, Nueva Zelanda</p>
               <div className="mt-4">
                 <Image
-                  src="url_de_la_imagen"
+                  src="/url_de_la_imagen"
                   alt="TestingMinds Auckland"
                   className="w-full h-auto rounded-lg"
                   width={500}
@@ -199,10 +199,10 @@ export default function Talks() {
       {/* Invítame a Hablar */}
       <section className="py-16">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-8 text-black">
+          <h2 className="text-3xl font-bold mb-8 text-black text-center">
             Invítame a Tu Conferencia
           </h2>
-          <div className="bg-white p-8 rounded-lg shadow-md">
+          <div className="bg-white p-8 rounded-lg shadow-md text-center">
             <p className="text-black mb-6">
               Estoy disponible para participar en conferencias y eventos:
             </p>
@@ -227,29 +227,29 @@ export default function Talks() {
             </div>
           </div>
         </div>
-      </section>
-
-      <div className="container mx-auto px-4 py-8">
-        <Link
-          href="/"
-          className="group mt-3 inline-flex items-center gap-2 border-black border-2 bg-white px-6 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
-        >
-          <svg
-            className="w-4 h-4 transition-transform duration-300 transform group-hover:translate-x-1"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
+        {/* Botón para volver al inicio */}
+        <div className="mt-8 text-center">
+          <Link
+            href="/"
+            className="group mt-3 inline-flex items-center gap-2 border-black border-2 bg-white px-6 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
           >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M11 7l-5 5m0 0l5 5m-5-5h12"
-            />
-          </svg>
-          <span>Back to Home</span>
-        </Link>
-      </div>
+            <svg
+              className="w-4 h-4 transition-transform duration-300 transform group-hover:translate-x-1"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M11 7l-5 5m0 0l5 5m-5-5h12"
+              />
+            </svg>
+            <span>Back to Home</span>
+          </Link>
+        </div>
+      </section>
     </div>
   );
 }
