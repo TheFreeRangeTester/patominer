@@ -50,9 +50,14 @@ export default function Home() {
             <div className="flex-1">
               <h2 className="text-3xl font-bold mb-4">About me</h2>
               <p className="text-gray-600 mb-6">
-                Hello there, fellow tester! I am Pato, a QA Engineering
-                consultant and coach with more than 16 years of experience. Want
-                to know more about me? Click the button below 👇🏻
+                Hi! I am Pato, a QA Engineering consultant and coach with more
+                than 16 years of experience working in high profile projects and
+                teaching others how to make{" "}
+                <strong>good, robust and reliable test enginering</strong>.
+                <br />
+                Want to know more about me?
+                <br />
+                Click the button below👇🏻
               </p>
               <Link
                 href="/about"
@@ -135,10 +140,11 @@ export default function Home() {
               </div>
             </div>
             <div className="flex-1">
-              <h2 className="text-3xl font-bold mb-4">Courses</h2>
+              <h2 className="text-3xl font-bold mb-4">Course</h2>
               <p className="text-gray-600 mb-6">
-                Comprehensive online courses to master software testing
-                fundamentals and advanced techniques.
+                One course to rule them all: The Future Proof Tester will be
+                updated yearly with everything you need to know to be market
+                ready, ever.
               </p>
               <Link
                 href="/courses"

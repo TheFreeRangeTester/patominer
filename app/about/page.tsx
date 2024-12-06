@@ -58,10 +58,10 @@ export default function About() {
                 of all sizes to implement robust testing strategies and
                 cultivate a quality-first mindset. In the last years I&apos;ve
                 been working in several{" "}
-                <strong>high profile AI Projects</strong> for goverment agencies
-                and banks, while still building great solutions with code and a
-                tester mindset, to keep things scalable, giving meaningful
-                feedback and with Quality as number one priority.
+                <strong>high profile AI Projects</strong> for government
+                agencies and banks, while still building great solutions with
+                code and a tester mindset, to keep things scalable, giving
+                meaningful feedback and with Quality as number one priority.
               </p>
             </div>
             <p className="text-lg mb-6 text-black text-center">
