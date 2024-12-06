@@ -8,20 +8,19 @@ export default function Talks() {
       <section className="py-20">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl font-bold text-center text-black">
-            Conferencias y Charlas
+            Conferences and Talks
           </h1>
           <p className="text-xl text-center mt-4 text-black">
-            Compartiendo conocimientos y experiencias con la comunidad de
-            testing
+            Sharing knowledge and experiences with the testing community
           </p>
         </div>
       </section>
 
-      {/* Conferencias Pasadas */}
+      {/* Past Conferences */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8 text-black">
-            Conferencias Pasadas
+            Past Conferences
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-md">
@@ -29,9 +28,9 @@ export default function Talks() {
                 TestingConf 2023
               </h3>
               <p className="text-black mb-4 text-black">
-                &quot;Automatización de Pruebas Modernas con Playwright&quot;
+                &quot;Modern Test Automation with Playwright&quot;
               </p>
-              <p className="text-black">Wellington, Nueva Zelanda</p>
+              <p className="text-black">Wellington, New Zealand</p>
               <div className="mt-4">
                 <Image
                   src="/images/testingconf2023.png"
@@ -48,7 +47,7 @@ export default function Talks() {
                 QA Summit 2023
               </h3>
               <p className="text-black mb-4">
-                &quot;Mejores Prácticas en Testing de APIs&quot;
+                &quot;Best Practices in API Testing&quot;
               </p>
               <p className="text-black">Sydney, Australia</p>
               <div className="mt-4">
@@ -67,7 +66,7 @@ export default function Talks() {
                 Nerdearla 2023
               </h3>
               <p className="text-black mb-4">
-                &quot;Innovaciones en Testing&quot;
+                &quot;Innovations in Testing&quot;
               </p>
               <p className="text-black">Buenos Aires, Argentina</p>
               <div className="mt-4">
@@ -86,7 +85,7 @@ export default function Talks() {
                 Nerdearla 2024
               </h3>
               <p className="text-black mb-4">
-                &quot;Tendencias Futuras en Testing&quot;
+                &quot;Future Trends in Testing&quot;
               </p>
               <p className="text-black">Buenos Aires, Argentina</p>
               <div className="mt-4">
@@ -105,9 +104,9 @@ export default function Talks() {
                 NZTesting Conference
               </h3>
               <p className="text-black mb-4">
-                &quot;Testing en la Era Digital&quot;
+                &quot;Testing in the Digital Age&quot;
               </p>
-              <p className="text-black">Auckland, Nueva Zelanda</p>
+              <p className="text-black">Auckland, New Zealand</p>
               <div className="mt-4">
                 <Image
                   src="/url_de_la_imagen"
@@ -122,7 +121,7 @@ export default function Talks() {
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-bold mb-4 text-black">VLCTesting</h3>
               <p className="text-black mb-4">
-                &quot;Estrategias de Testing Efectivas&quot;
+                &quot;Effective Testing Strategies&quot;
               </p>
               <p className="text-black">Valparaíso, Chile</p>
               <div className="mt-4">
@@ -141,7 +140,7 @@ export default function Talks() {
                 TestingDays Chile
               </h3>
               <p className="text-black mb-4">
-                &quot;Automatización y Calidad&quot;
+                &quot;Automation and Quality&quot;
               </p>
               <p className="text-black">Santiago, Chile</p>
               <div className="mt-4">
@@ -160,9 +159,9 @@ export default function Talks() {
                 QualitySense Conf
               </h3>
               <p className="text-black mb-4">
-                &quot;Mejorando la Calidad del Software&quot;
+                &quot;Improving Software Quality&quot;
               </p>
-              <p className="text-black">Lima, Perú</p>
+              <p className="text-black">Lima, Peru</p>
               <div className="mt-4">
                 <Image
                   src="/url_de_la_imagen"
@@ -179,9 +178,9 @@ export default function Talks() {
                 TestingMinds Auckland
               </h3>
               <p className="text-black mb-4">
-                &quot;Innovaciones en Automatización de Pruebas&quot;
+                &quot;Innovations in Test Automation&quot;
               </p>
-              <p className="text-black">Auckland, Nueva Zelanda</p>
+              <p className="text-black">Auckland, New Zealand</p>
               <div className="mt-4">
                 <Image
                   src="/url_de_la_imagen"
@@ -196,38 +195,36 @@ export default function Talks() {
         </div>
       </section>
 
-      {/* Invítame a Hablar */}
+      {/* Invite Me to Speak */}
       <section className="py-16">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8 text-black text-center">
-            Invítame a Tu Conferencia
+            Invite Me to Your Conference
           </h2>
           <div className="bg-white p-8 rounded-lg shadow-md text-center">
             <p className="text-black mb-6">
-              Estoy disponible para participar en conferencias y eventos:
+              I am available to participate in conferences and events:
             </p>
             <ul className="list-disc pl-5 mb-6 text-black">
-              <li>Conferencias online a nivel mundial</li>
-              <li>Eventos presenciales en Nueva Zelanda y Australia</li>
-              <li>
-                Charlas técnicas y keynotes sobre testing y automatización
-              </li>
-              <li>Workshops y sesiones interactivas</li>
+              <li>Online conferences worldwide</li>
+              <li>In-person events in New Zealand and Australia</li>
+              <li>Technical talks and keynotes on testing and automation</li>
+              <li>Workshops and interactive sessions</li>
             </ul>
             <div className="space-y-4">
               <p className="text-black">
-                Para invitarme a hablar en tu evento, contáctame a través de:
+                To invite me to speak at your event, please contact me at:
               </p>
               <a
                 href="mailto:your@email.com"
                 className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors text-black"
               >
-                Contactar para Eventos
+                Contact for Events
               </a>
             </div>
           </div>
         </div>
-        {/* Botón para volver al inicio */}
+        {/* Button to return to home */}
         <div className="mt-8 text-center">
           <Link
             href="/"

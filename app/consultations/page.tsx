@@ -7,10 +7,10 @@ export default function Consultations() {
       <section className="py-20">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl font-bold text-center text-black">
-            Consultoría en QA Engineering
+            QA Engineering Consultancy
           </h1>
           <p className="text-xl text-center mt-4 text-gray-800">
-            Servicios especializados para optimizar sus procesos de testing
+            Specialised services to optimise your testing processes
           </p>
         </div>
       </section>
@@ -19,66 +19,66 @@ export default function Consultations() {
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8 text-black">
-            Servicios de Consultoría
+            <div className="text-center">Consultancy services</div>
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-bold mb-4 text-black">
-                Estrategia de Testing
+                Testing Strategy
               </h3>
               <ul className="list-disc pl-5 space-y-2 text-gray-800">
-                <li>Evaluación de procesos actuales</li>
-                <li>Desarrollo de estrategias de QA</li>
-                <li>Implementación de mejores prácticas</li>
-                <li>Optimización de flujos de trabajo</li>
+                <li>Evaluation of current processes</li>
+                <li>Development of QA strategies</li>
+                <li>Implementation of best practices</li>
+                <li>Optimisation of workflows</li>
               </ul>
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-bold mb-4 text-black">
-                Automatización de Pruebas
+                Test Automation
               </h3>
               <ul className="list-disc pl-5 space-y-2 text-gray-800">
-                <li>Diseño de frameworks de automatización</li>
-                <li>Implementación de CI/CD</li>
-                <li>Selección de herramientas</li>
-                <li>Capacitación de equipos</li>
+                <li>Design of automation frameworks</li>
+                <li>Implementation of CI/CD</li>
+                <li>Selection of tools</li>
+                <li>Team training</li>
               </ul>
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-bold mb-4 text-black">
-                Gestión de Calidad
+                Quality Management
               </h3>
               <ul className="list-disc pl-5 space-y-2 text-gray-800">
-                <li>Auditorías de calidad</li>
-                <li>Métricas y reportes</li>
-                <li>Gestión de defectos</li>
-                <li>Procesos de QA ágil</li>
+                <li>Quality audits</li>
+                <li>Metrics and reporting</li>
+                <li>Defect management</li>
+                <li>Agile QA processes</li>
               </ul>
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-bold mb-4 text-black">
-                Performance y Seguridad
+                Performance and Security
               </h3>
               <ul className="list-disc pl-5 space-y-2 text-gray-800">
-                <li>Pruebas de rendimiento</li>
-                <li>Pruebas de seguridad básicas</li>
-                <li>Optimización de aplicaciones</li>
-                <li>Monitoreo y análisis</li>
+                <li>Performance testing</li>
+                <li>Basic security testing</li>
+                <li>Application optimisation</li>
+                <li>Monitoring and analysis</li>
               </ul>
             </div>
           </div>
 
           <div className="text-center">
             <h3 className="text-2xl font-bold mb-4 text-black">
-              ¿Interesado en mis servicios?
+              Interested in my services?
             </h3>
             <p className="text-gray-800 mb-6">
-              Agenda una llamada de consulta gratuita para discutir cómo puedo
-              ayudar a tu empresa
+              Schedule a free consultation call to discuss how I can help your
+              company
             </p>
             <Link
               href="https://calendly.com/placeholder"
@@ -86,11 +86,11 @@ export default function Consultations() {
               rel="noopener noreferrer"
               className="inline-block bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors"
             >
-              Agendar Llamada
+              Schedule Call
             </Link>
           </div>
 
-          {/* Botón para volver al inicio */}
+          {/* Button to go back to home */}
           <div className="mt-8 text-center">
             <Link
               href="/"

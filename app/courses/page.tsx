@@ -19,33 +19,63 @@ export default function Courses() {
       {/* Courses Section */}
       <section className="py-16 bg-gray-50 text-center">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-8 text-black">Our Course</h2>
+          <h2 className="text-3xl font-bold mb-8 text-black">Our Courses</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 justify-center items-center">
-            {/* The Future Proof Tester Course */}
+            {/* Full Stack Test Engineer Course */}
             <div className="flex justify-center">
               <div className="border rounded-lg p-6 shadow-lg text-center mx-auto">
                 <div className="aspect-video bg-gray-200 rounded-lg shadow-[8px_8px_0px_0px_rgba(251,146,60,1)] mb-4">
                   <Image
-                    src="/images/future-proof-tester.png"
-                    alt="The Future Proof Tester"
+                    src="/images/full-stack-test-engineer.png"
+                    alt="Full Stack Test Engineer"
                     className="w-full h-full object-cover rounded-lg"
                     width={800}
                     height={450}
                   />
                 </div>
                 <h2 className="text-2xl font-bold mb-4 text-black">
-                  The Future Proof Tester
+                  Full Stack Test Engineer
                 </h2>
                 <p className="text-lg mb-4 text-black">
-                  This course covers everything needed to acquire the skills
-                  demanded by the market, updated annually based on market
-                  needs.
+                  This course provides comprehensive training in both front-end
+                  and back-end testing techniques.
                 </p>
-                <p className="text-md mb-2 text-gray-700">Duration: 40 hours</p>
+                <p className="text-md mb-2 text-gray-700">Duration: 50 hours</p>
                 <div className="flex flex-col items-center">
                   <Link
-                    href="/courses/future-proof-tester"
+                    href="/courses/full-stack-test-engineer"
+                    className="group mt-3 inline-flex items-center gap-2 border-black border-2 bg-white px-6 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none mb-2"
+                  >
+                    View more details
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+            {/* Introduction to Software Testing Course */}
+            <div className="flex justify-center">
+              <div className="border rounded-lg p-6 shadow-lg text-center mx-auto">
+                <div className="aspect-video bg-gray-200 rounded-lg shadow-[8px_8px_0px_0px_rgba(251,146,60,1)] mb-4">
+                  <Image
+                    src="/images/introduction-to-software-testing.png"
+                    alt="Introduction to Software Testing"
+                    className="w-full h-full object-cover rounded-lg"
+                    width={800}
+                    height={450}
+                  />
+                </div>
+                <h2 className="text-2xl font-bold mb-4 text-black">
+                  Introduction to Software Testing
+                </h2>
+                <p className="text-lg mb-4 text-black">
+                  This course introduces the fundamental concepts of software
+                  testing and quality assurance.
+                </p>
+                <p className="text-md mb-2 text-gray-700">Duration: 30 hours</p>
+                <div className="flex flex-col items-center">
+                  <Link
+                    href="/courses/introduction-to-software-testing"
                     className="group mt-3 inline-flex items-center gap-2 border-black border-2 bg-white px-6 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none mb-2"
                   >
                     View more details
