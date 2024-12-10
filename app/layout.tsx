@@ -17,8 +17,9 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Mi Sitio Web",
-  description: "Descripción de mi sitio web",
+  title: "Helping software projects achieve their quality goals",
+  description:
+    "Consultancy, workshops and tutoring services to help individuals and teams make better software",
 };
 
 export default function RootLayout({
