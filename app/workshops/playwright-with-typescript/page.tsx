@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function PlaywrightTypeScript() {
   return (
@@ -31,10 +32,12 @@ export default function PlaywrightTypeScript() {
                 Apply now
               </a>
             </div>
-            <img
+            <Image
               src="/path/to/image.jpg"
-              alt="Workshop Image"
-              className="mb-4 rounded-lg shadow-lg"
+              alt="Curso de Playwright y TypeScript"
+              width={500}
+              height={300}
+              className="mb-4 rounded-lg shadow-lg max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
               style={{ width: "50%", height: "auto" }}
             />
           </div>
@@ -103,10 +106,12 @@ export default function PlaywrightTypeScript() {
       <section className="py-20 bg-white text-black">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-center">
-            <img
+            <Image
               src="/path_to_your_image.jpg"
-              alt="Teacher's photo"
-              className="mr-4 w-64 h-64"
+              alt="Instructor de Playwright"
+              width={256}
+              height={256}
+              className="mr-4 w-64 h-64 max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
             />
             <div>
               <h2 className="text-3xl font-semibold mb-2">The teacher:</h2>
@@ -127,20 +132,30 @@ export default function PlaywrightTypeScript() {
       {/* Sección 4 */}
       <section className="py-20 bg-gray-800 text-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-semibold mb-2 text-center">
-            Workshop dynamics
-          </h2>
           <div className="flex items-center justify-center">
-            <img
-              src="/path_to_your_image.jpg"
-              alt="Workshop details"
-              className="mr-4 w-64 h-64"
-            />
-            <ul className="list-disc list-inside mb-4 text-center">
-              <li>Date: March 15, 2023</li>
-              <li>Time: 10:00 AM - 4:00 PM</li>
-              <li>Location: Online (Zoom link will be provided)</li>
-            </ul>
+            <div className="flex justify-center">
+              <div>
+                <h2 className="text-3xl font-semibold mb-2">
+                  Workshop dynamic
+                </h2>
+                <ul className="list-disc list-inside mb-4">
+                  <li>
+                    Dictado por un Ingeniero QA y Coach con 16 años de
+                    experiencia.
+                  </li>
+                  <li>Enfocado en la comunidad latina y española.</li>
+                  <li>
+                    Impartido desde Nueva Zelanda, compartiendo conocimiento en
+                    pruebas automatizadas.
+                  </li>
+                </ul>
+              </div>
+              <img
+                src="/path_to_your_image.jpg"
+                alt="Teacher's photo"
+                className="ml-4 w-64 h-64 max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
+              />
+            </div>
           </div>
         </div>
       </section>
@@ -148,36 +163,78 @@ export default function PlaywrightTypeScript() {
       {/* Sección 5 */}
       <section className="py-20 bg-white text-black">
         <div className="container mx-auto px-4">
-          <h2 className="text-xl font-semibold mb-2">Best Practices:</h2>
-          <ul className="list-disc list-inside mb-4">
-            <li>Debugging and troubleshooting Playwright tests</li>
-            <li>Best practices for test automation with Playwright</li>
-          </ul>
+          <div className="flex items-center justify-center">
+            <Image
+              src="/path_to_your_image.jpg"
+              alt="Instructor de Playwright"
+              width={256}
+              height={256}
+              className="mr-4 w-64 h-64 max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
+            />
+            <div>
+              <h2 className="text-3xl font-semibold mb-2">
+                What will we cover?
+              </h2>
+              <ul className="list-disc list-inside mb-4">
+                <p>
+                  Con 16 años de experiencia como Ingeniero QA y Coach, he
+                  dedicado mi carrera a enseñar a la comunidad latina y
+                  española. Ahora, viviendo en Nueva Zelanda, estoy emocionado
+                  de compartir mi conocimiento y experiencia en el campo de las
+                  pruebas automatizadas.
+                </p>
+              </ul>
+            </div>
+          </div>
         </div>
       </section>
 
       {/* Sección 6 */}
-      <section className="py-20 bg-gray-200 text-black">
+      <section className="py-20 bg-gray-800 text-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-xl font-semibold mb-2">Register Now!</h2>
-          <p>
-            To secure your spot in the Playwright with TypeScript workshop,
-            please fill out the registration form.
-          </p>
-          <a href="/register" className="text-blue-600 underline">
-            Register Here
-          </a>
+          <div className="flex items-center justify-center">
+            <div className="flex justify-center">
+              <div>
+                <h2 className="text-3xl font-semibold mb-2">Join today!</h2>
+                <ul className="list-disc list-inside mb-4">
+                  <li>
+                    Dictado por un Ingeniero QA y Coach con 16 años de
+                    experiencia.
+                  </li>
+                  <li>Enfocado en la comunidad latina y española.</li>
+                  <li>
+                    Impartido desde Nueva Zelanda, compartiendo conocimiento en
+                    pruebas automatizadas.
+                  </li>
+                </ul>
+                <div className="text-center mt-6">
+                  <a
+                    href="https://tu-enlace-de-pago-stripe.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block bg-blue-500 text-white px-8 py-3 rounded-lg shadow hover:bg-blue-600 transition duration-300 text-lg font-semibold"
+                  >
+                    Inscríbete Ahora - $299 USD
+                  </a>
+                </div>
+              </div>
+              <img
+                src="/path_to_your_image.jpg"
+                alt="Teacher's photo"
+                className="ml-4 w-64 h-64 max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
+              />
+            </div>
+          </div>
+        </div>
+        <div className="text-center">
+          <Link
+            href="/workshops"
+            className="group mt-3 inline-flex items-center gap-2 border-black border-2 bg-white px-6 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
+          >
+            Back to Workshops
+          </Link>
         </div>
       </section>
-
-      <div className="text-center">
-        <Link
-          href="/workshops"
-          className="group mt-3 inline-flex items-center gap-2 border-black border-2 bg-white px-6 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
-        >
-          Back to Workshops
-        </Link>
-      </div>
     </div>
   );
 }
