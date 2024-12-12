@@ -5,7 +5,7 @@ export default function PlaywrightTypeScript() {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Sección 1 */}
-      <section className="py-20 bg-white text-black shadow-md">
+      <section className="py-16 bg-gray-100/50">
         <div className="container mx-auto px-4">
           <div className="flex justify-between items-center">
             <div>
@@ -45,57 +45,56 @@ export default function PlaywrightTypeScript() {
       </section>
 
       {/* Sección 2 */}
-      <section className="py-20 bg-gray-200 text-black">
+      <section className="py-16 bg-gray-100">
         <div className="container mx-auto px-4">
           <h4 className="text-2xl font-semibold mb-2">
-            ¿Por qué aprender Playwright con TypeScript?
+            Why do you need to learn Playwright for E2E Testing NOW?
           </h4>
-          <h4 className="text-2xl font-semibold mb-2">¿Qué es Playwright?</h4>
           <p>
-            Playwright es una herramienta de automatización de pruebas de
-            extremo a extremo para aplicaciones web modernas. Es compatible con
-            todos los navegadores principales y proporciona una API de alto
-            nivel para interactuar con ellos.
+            Playwright is an end-to-end testing automation tool for modern web
+            applications. It is compatible with all major browsers and provides
+            a high-level API for interacting with them.
             <br />
             <br />
           </p>
           <h4 className="text-2xl font-semibold mb-1">
-            ¿Por qué TypeScript con Playwright?
+            Why using TypeScript and not just JavaScript?
           </h4>
           <p>
-            TypeScript es un superconjunto tipado de JavaScript que se compila a
-            JavaScript simple. Proporciona una forma más segura de escribir
-            código y es compatible con Playwright para una mejor experiencia de
-            desarrollo.
+            “TypeScript is a powerful, typed superset of JavaScript that
+            compiles into clean, readable JavaScript. It’s the smart way to
+            write safer, more reliable code. Combined with Playwright, it
+            transforms your development experience, making test automation
+            smoother and more efficient than ever!”
           </p>
           <div className="flex justify-center gap-4 mt-8">
             <div className="max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none">
               <h5 className="text-lg font-semibold mb-2">
-                Aumenta tus oportunidades laborales
+                Boost your career opportunities and stand out in the tech
+                industry!
               </h5>
               <p>
-                Aprender Playwright con TypeScript es una habilidad esencial
-                para asegurar un empleo en Australia y Nueva Zelanda.
+                Mastering Playwright with TypeScript is a must-have skill to
+                secure top job opportunities in Australia and New Zealand!
               </p>
             </div>
             <div className="max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(29,53,87,0.8)] active:translate-x-0 active:translate-y-0 active:shadow-none">
               <h5 className="text-lg font-semibold mb-2">
-                Automatización de pruebas eficiente
+                Efficient Test Automation made simple!
               </h5>
               <p>
-                La combinación de Playwright y TypeScript permite una
-                automatización de pruebas eficiente y confiable, una habilidad
-                muy buscada en la industria.
+                The combination of Playwright and TypeScript enables efficient
+                and reliable test automation—a highly sought-after skill in the
+                industry!
               </p>
             </div>
             <div className="max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(42,157,143,0.8)] active:translate-x-0 active:translate-y-0 active:shadow-none">
               <h5 className="text-lg font-semibold mb-2">
-                Estándar de la industria
+                Industry Standard Excellence!
               </h5>
               <p>
-                Las tendencias internacionales y locales muestran que la
-                adopción de esta herramienta se está convirtiendo en el estándar
-                de la industria.
+                Global and local trends reveal that adopting this tool is
+                quickly becoming the industry standard!
               </p>
             </div>
           </div>
@@ -103,7 +102,7 @@ export default function PlaywrightTypeScript() {
       </section>
 
       {/* Sección 3 */}
-      <section className="py-20 bg-white text-black">
+      <section className="py-16 bg-gray-100/50">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-center">
             <Image
@@ -130,7 +129,7 @@ export default function PlaywrightTypeScript() {
       </section>
 
       {/* Sección 4 */}
-      <section className="py-20 bg-gray-800 text-white">
+      <section className="py-16 bg-gray-100">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-center">
             <div className="flex justify-center">
@@ -163,7 +162,7 @@ export default function PlaywrightTypeScript() {
       </section>
 
       {/* Sección 5 */}
-      <section className="py-20 bg-white text-black">
+      <section className="py-16 bg-gray-100/50">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-center">
             <Image
@@ -192,7 +191,7 @@ export default function PlaywrightTypeScript() {
       </section>
 
       {/* Sección 6 */}
-      <section className="py-20 bg-gray-800 text-white">
+      <section className="py-16 bg-gray-100">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-center">
             <div className="flex justify-center">
