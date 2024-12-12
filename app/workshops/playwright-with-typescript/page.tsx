@@ -150,9 +150,11 @@ export default function PlaywrightTypeScript() {
                   </li>
                 </ul>
               </div>
-              <img
+              <Image
                 src="/path_to_your_image.jpg"
                 alt="Teacher's photo"
+                width={256}
+                height={256}
                 className="ml-4 w-64 h-64 max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
               />
             </div>
@@ -218,9 +220,11 @@ export default function PlaywrightTypeScript() {
                   </a>
                 </div>
               </div>
-              <img
+              <Image
                 src="/path_to_your_image.jpg"
                 alt="Teacher's photo"
+                width={256}
+                height={256}
                 className="ml-4 w-64 h-64 max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
               />
             </div>
