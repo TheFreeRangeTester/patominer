@@ -2,7 +2,7 @@
 import type { Configuration } from 'webpack';
 
 const nextConfig = {
-  // Deshabilitar caché de webpack si el problema persiste
+  // Deshabilitar caché de webpack
   webpack: (config: Configuration) => {
     config.cache = false;
     return config;
