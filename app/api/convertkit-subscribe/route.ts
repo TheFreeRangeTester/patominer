@@ -11,28 +11,25 @@ export async function POST(request: Request) {
             formId: FORM_ID,
             apiKeyExists: !!API_KEY,
             email: email,
-            apiUrl: `https://api.convertkit.com/v3/forms/${FORM_ID}/subscribe`
+            apiKeyPreview: API_KEY ? `${API_KEY.substring(0, 4)}...` : 'missing'
         });
 
         if (!FORM_ID || !API_KEY) {
             throw new Error('Missing Convertkit credentials');
         }
 
-        const API_URL = `https://api.convertkit.com/v3/forms/${FORM_ID}/subscribe`;
-
-        const requestBody = {
-            api_secret: API_KEY,
-            email: email
-        };
-
-        console.log('Making request to ConvertKit...');
+        const API_URL = 'https://api.convertkit.com/v3/forms/' + FORM_ID + '/subscribe';
 
         const response = await fetch(API_URL, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
+                'Accept': 'application/json'
             },
-            body: JSON.stringify(requestBody),
+            body: JSON.stringify({
+                api_secret: API_KEY,
+                email: email
+            }),
         });
 
         const data = await response.json();
@@ -41,7 +38,9 @@ export async function POST(request: Request) {
         console.log('ConvertKit Response Body:', data);
 
         if (!response.ok) {
-            throw new Error(`ConvertKit API error: ${data.message || response.statusText}`);
+            const errorMessage = data.error || data.message || response.statusText;
+            console.error('ConvertKit Error Details:', data);
+            throw new Error(`ConvertKit API error: ${errorMessage}`);
         }
 
         return NextResponse.json({
@@ -56,10 +55,14 @@ export async function POST(request: Request) {
             stack: error instanceof Error ? error.stack : undefined
         });
 
+        const userMessage = error instanceof Error && error.message.includes('ConvertKit API error')
+            ? error.message
+            : 'Unable to process subscription. Please try again later.';
+
         return NextResponse.json(
             {
                 success: false,
-                message: error instanceof Error ? error.message : 'Error processing subscription',
+                message: userMessage,
                 details: process.env.NODE_ENV === 'development' ? error : undefined
             },
             { status: 500 }
