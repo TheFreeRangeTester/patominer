@@ -3,7 +3,7 @@ import Newsletter from "./Newsletter"; // Importa el componente Newsletter
 
 export default function Footer() {
   return (
-    <footer className="bg-green-200 text-black py-12">
+    <footer className="bg-purple-200 text-black py-12">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Sección de Sitemap */}
@@ -79,7 +79,7 @@ export default function Footer() {
         </div>
 
         {/* Copyright */}
-        <div className="mt-8 pt-8 border-t border-green-300 text-center text-green-800">
+        <div className="mt-8 pt-8 border-t border-purple-300 text-center text-black-800">
           <p>
             © {new Date().getFullYear()} Patricio Miner. All rights reserved.
           </p>

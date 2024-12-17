@@ -30,10 +30,10 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-green-100`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-purple-100`}
       >
         <div className="min-h-screen flex flex-col">
-          <nav className="bg-white/70 backdrop-blur-sm border-b border-green-100">
+          <nav className="bg-white/70 backdrop-blur-sm border-b border-purple-100">
             <div className="container mx-auto px-4 py-4">
               <div className="flex justify-between items-center">
                 <Link href="/" className="text-xl font-bold text-black">
