@@ -13,16 +13,13 @@ export default function Newsletter() {
     setMessage("");
 
     try {
-      const response = await fetch(
-        "patominer-7rnufkuw6-thefreerangetesters-projects.vercel.app",
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({ email }),
-        }
-      );
+      const response = await fetch("https://patominer.vercel.app", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ email }),
+      });
 
       const data = await response.json();
 
