@@ -13,7 +13,7 @@ export default function Newsletter() {
     setMessage("");
 
     try {
-      const response = await fetch("https://patominer.vercel.app", {
+      const response = await fetch("https://patominer.vercel.app/api/subscribe", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
