@@ -10,24 +10,34 @@ export default function Newsletter() {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsLoading(true);
+    setMessage("");
 
     try {
-      const res = await fetch("/api/convertkit-subscribe", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ email }),
-      });
+      const response = await fetch(
+        "patominer-7rnufkuw6-thefreerangetesters-projects.vercel.app",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ email }),
+        }
+      );
 
-      const data = await res.json();
+      const data = await response.json();
 
-      if (!res.ok) throw new Error(data.message || "Error subscribing");
+      if (!response.ok) {
+        throw new Error(data.message || "Error subscribing to newsletter");
+      }
 
-      setMessage("Thanks for subscribing!");
+      setMessage("¡Thanks for subscribing!");
       setEmail("");
     } catch (error) {
-      setMessage(error instanceof Error ? error.message : "Error subscribing");
+      setMessage(
+        error instanceof Error
+          ? error.message
+          : "Error subscribing to newsletter"
+      );
     } finally {
       setIsLoading(false);
     }
@@ -52,7 +62,7 @@ export default function Newsletter() {
         >
           {isLoading ? "Subscribing..." : "Subscribe"}
           <svg
-            className="w-4 h-4 transition-transform duration-300 transform group-hover:translate-x-1"
+            className="w-4 h-4"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
