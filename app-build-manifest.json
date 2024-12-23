@@ -74,14 +74,6 @@
       "static/chunks/970-30ff41fb97e0fce7.js",
       "static/chunks/app/page-41fa286e9481bf4a.js"
     ],
-    "/tutoring/page": [
-      "static/chunks/webpack-a05f68e3d168c82d.js",
-      "static/chunks/4bd1b696-c2b7f96abb040ef8.js",
-      "static/chunks/517-e2b92003dca3e2dd.js",
-      "static/chunks/main-app-665941dfe1b51ac6.js",
-      "static/chunks/173-c72f956e0e7ca46c.js",
-      "static/chunks/app/tutoring/page-db67494556611f39.js"
-    ],
     "/talks/page": [
       "static/chunks/webpack-a05f68e3d168c82d.js",
       "static/chunks/4bd1b696-c2b7f96abb040ef8.js",
@@ -90,6 +82,14 @@
       "static/chunks/173-c72f956e0e7ca46c.js",
       "static/chunks/970-30ff41fb97e0fce7.js",
       "static/chunks/app/talks/page-dd9ddf6875c53d8b.js"
+    ],
+    "/tutoring/page": [
+      "static/chunks/webpack-a05f68e3d168c82d.js",
+      "static/chunks/4bd1b696-c2b7f96abb040ef8.js",
+      "static/chunks/517-e2b92003dca3e2dd.js",
+      "static/chunks/main-app-665941dfe1b51ac6.js",
+      "static/chunks/173-c72f956e0e7ca46c.js",
+      "static/chunks/app/tutoring/page-db67494556611f39.js"
     ],
     "/workshops/page": [
       "static/chunks/webpack-a05f68e3d168c82d.js",
