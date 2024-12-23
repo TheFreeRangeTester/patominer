@@ -1,8 +1,10 @@
-import type { Metadata } from "next";
+"use client";
+
 import localFont from "next/font/local";
 import "./globals.css";
 import Link from "next/link";
 import Footer from "@/components/Footer";
+import { useState } from "react";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -16,17 +18,13 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
-export const metadata: Metadata = {
-  title: "Helping software projects achieve their quality goals",
-  description:
-    "Consultancy, workshops and tutoring services to help individuals and teams make better software",
-};
-
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   return (
     <html lang="es">
       <body
@@ -35,47 +33,66 @@ export default function RootLayout({
         <div className="min-h-screen flex flex-col">
           <nav className="bg-white/70 backdrop-blur-sm border-b border-purple-100">
             <div className="container mx-auto px-4 py-4">
-              <div className="flex justify-between items-center">
-                <Link href="/" className="text-xl font-bold text-black">
-                  Pato Miner
-                </Link>
-                <div className="space-x-4">
-                  <Link
-                    href="https://discord.gg/placeholder"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="relative px-4 py-2 group"
+              <div className="flex flex-col md:flex-row md:justify-between md:items-center">
+                <div className="flex justify-between items-center">
+                  <Link href="/" className="text-xl font-bold text-black">
+                    Pato Miner
+                  </Link>
+                  <button
+                    onClick={() => setIsMenuOpen(!isMenuOpen)}
+                    className="md:hidden"
+                    aria-label="Toggle menu"
                   >
-                    <span className="relative z-10 font-medium text-lg transition-colors duration-300 ease-in-out group-hover:text-white text-black">
-                      Community
-                    </span>
-                    <span className="absolute inset-0 w-full h-full bg-transparent group-hover:bg-red-300 transition-all duration-300 transform scale-x-0 group-hover:scale-x-100 origin-left rounded-lg"></span>
-                    <span className="absolute inset-0 w-full h-full transition-all duration-500 transform scale-x-0 group-hover:scale-x-100 origin-left bg-red-200/30 blur-lg group-hover:blur-xl rounded-lg"></span>
-                  </Link>
+                    <svg
+                      className="w-6 h-6"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d={
+                          isMenuOpen
+                            ? "M6 18L18 6M6 6l12 12"
+                            : "M4 6h16M4 12h16m-7 6h7"
+                        }
+                      />
+                    </svg>
+                  </button>
+                </div>
 
-                  <Link href="/about" className="relative px-4 py-2 group">
-                    <span className="relative z-10 font-medium text-lg transition-colors duration-300 ease-in-out group-hover:text-white text-black">
-                      About me
-                    </span>
-                    <span className="absolute inset-0 w-full h-full bg-transparent group-hover:bg-red-300 transition-all duration-300 transform scale-x-0 group-hover:scale-x-100 origin-left rounded-lg"></span>
-                    <span className="absolute inset-0 w-full h-full transition-all duration-500 transform scale-x-0 group-hover:scale-x-100 origin-left bg-red-200/30 blur-lg group-hover:blur-xl rounded-lg"></span>
-                  </Link>
+                {/* Desktop Navigation */}
+                <div className="hidden md:flex md:space-x-4">
+                  <NavLink
+                    href="https://discord.gg/placeholder"
+                    text="Community"
+                    external
+                  />
+                  <NavLink href="/about" text="About me" />
+                  <NavLink href="/workshops" text="Workshops" />
+                  <NavLink href="/courses" text="Courses" />
+                </div>
 
-                  <Link href="/workshops" className="relative px-4 py-2 group">
-                    <span className="relative z-10 font-medium text-lg transition-colors duration-300 ease-in-out group-hover:text-white text-black">
-                      Workshops
-                    </span>
-                    <span className="absolute inset-0 w-full h-full bg-transparent group-hover:bg-red-300 transition-all duration-300 transform scale-x-0 group-hover:scale-x-100 origin-left rounded-lg"></span>
-                    <span className="absolute inset-0 w-full h-full transition-all duration-500 transform scale-x-0 group-hover:scale-x-100 origin-left bg-red-200/30 blur-lg group-hover:blur-xl rounded-lg"></span>
-                  </Link>
-
-                  <Link href="/courses" className="relative px-4 py-2 group">
-                    <span className="relative z-10 font-medium text-lg transition-colors duration-300 ease-in-out group-hover:text-white text-black">
-                      Courses
-                    </span>
-                    <span className="absolute inset-0 w-full h-full bg-transparent group-hover:bg-red-300 transition-all duration-300 transform scale-x-0 group-hover:scale-x-100 origin-left rounded-lg"></span>
-                    <span className="absolute inset-0 w-full h-full transition-all duration-500 transform scale-x-0 group-hover:scale-x-100 origin-left bg-red-200/30 blur-lg group-hover:blur-xl rounded-lg"></span>
-                  </Link>
+                {/* Mobile Navigation */}
+                <div
+                  className={`md:hidden transition-all duration-300 ease-in-out ${
+                    isMenuOpen
+                      ? "max-h-96 opacity-100 mt-4"
+                      : "max-h-0 opacity-0 overflow-hidden"
+                  }`}
+                >
+                  <div className="space-y-2">
+                    <MobileNavLink
+                      href="https://discord.gg/placeholder"
+                      text="Community"
+                      external
+                    />
+                    <MobileNavLink href="/about" text="About me" />
+                    <MobileNavLink href="/workshops" text="Workshops" />
+                    <MobileNavLink href="/courses" text="Courses" />
+                  </div>
                 </div>
               </div>
             </div>
@@ -87,5 +104,53 @@ export default function RootLayout({
         </div>
       </body>
     </html>
+  );
+}
+
+// Componente para links de navegación desktop
+function NavLink({
+  href,
+  text,
+  external = false,
+}: {
+  href: string;
+  text: string;
+  external?: boolean;
+}) {
+  return (
+    <Link
+      href={href}
+      target={external ? "_blank" : undefined}
+      rel={external ? "noopener noreferrer" : undefined}
+      className="relative px-4 py-2 group"
+    >
+      <span className="relative z-10 font-medium text-lg transition-colors duration-300 ease-in-out group-hover:text-white text-black">
+        {text}
+      </span>
+      <span className="absolute inset-0 w-full h-full bg-transparent group-hover:bg-red-300 transition-all duration-300 transform scale-x-0 group-hover:scale-x-100 origin-left rounded-lg"></span>
+      <span className="absolute inset-0 w-full h-full transition-all duration-500 transform scale-x-0 group-hover:scale-x-100 origin-left bg-red-200/30 blur-lg group-hover:blur-xl rounded-lg"></span>
+    </Link>
+  );
+}
+
+// Componente para links de navegación mobile
+function MobileNavLink({
+  href,
+  text,
+  external = false,
+}: {
+  href: string;
+  text: string;
+  external?: boolean;
+}) {
+  return (
+    <Link
+      href={href}
+      target={external ? "_blank" : undefined}
+      rel={external ? "noopener noreferrer" : undefined}
+      className="block px-4 py-2 text-black hover:bg-red-300 rounded-lg transition-colors duration-300"
+    >
+      {text}
+    </Link>
   );
 }
