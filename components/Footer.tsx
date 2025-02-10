@@ -5,11 +5,13 @@ export default function Footer() {
   return (
     <footer className="bg-purple-200 text-black py-8 md:py-12">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8">
           {/* Sección de Sitemap */}
-          <div className="text-center sm:text-left">
-            <h3 className="text-lg md:text-xl font-bold mb-4">Sitemap</h3>
-            <ul className="space-y-2">
+          <div className="text-center sm:text-left col-span-1">
+            <h3 className="text-base md:text-xl font-bold mb-3 md:mb-4">
+              Sitemap
+            </h3>
+            <ul className="space-y-1.5 md:space-y-2 text-sm md:text-base">
               <li>
                 <Link
                   href="/about"
@@ -62,9 +64,11 @@ export default function Footer() {
           </div>
 
           {/* Sección de Redes Sociales */}
-          <div className="text-center sm:text-left">
-            <h3 className="text-lg md:text-xl font-bold mb-4">Follow us</h3>
-            <ul className="space-y-2">
+          <div className="text-center sm:text-left col-span-1">
+            <h3 className="text-base md:text-xl font-bold mb-3 md:mb-4">
+              Follow us
+            </h3>
+            <ul className="space-y-1.5 md:space-y-2 text-sm md:text-base">
               <li>
                 <Link
                   href="https://facebook.com"
@@ -132,9 +136,19 @@ export default function Footer() {
             </ul>
           </div>
 
+          {/* Sección de Newsletter */}
+          <div className="text-center sm:text-left col-span-2 md:col-span-1">
+            <h2 className="text-base md:text-xl font-bold mb-3 md:mb-4">
+              Be on the loop!
+            </h2>
+            <Newsletter />
+          </div>
+
           {/* Sección de Contacto */}
-          <div className="text-center sm:text-left">
-            <h3 className="text-lg md:text-xl font-bold mb-4">Contact me</h3>
+          <div className="text-center sm:text-left col-span-2 md:col-span-1 order-last md:order-none">
+            <h3 className="text-base md:text-xl font-bold mb-3 md:mb-4">
+              Contact me
+            </h3>
             <p className="mb-2">
               <Link
                 href="mailto:patominer@gmail.com"
@@ -156,14 +170,6 @@ export default function Footer() {
                 <span>patominer@gmail.com</span>
               </Link>
             </p>
-          </div>
-
-          {/* Sección de Newsletter */}
-          <div className="text-center sm:text-left">
-            <h2 className="text-lg md:text-xl font-bold mb-4">
-              Be on the loop!
-            </h2>
-            <Newsletter />
           </div>
         </div>
 
