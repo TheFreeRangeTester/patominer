@@ -148,7 +148,7 @@ function MobileNavLink({
       href={href}
       target={external ? "_blank" : undefined}
       rel={external ? "noopener noreferrer" : undefined}
-      className="block px-4 py-2 text-black hover:bg-red-300 rounded-lg transition-colors duration-300"
+      className="block px-4 py-2 text-black hover:bg-red-300 rounded-lg transition-colors duration-300 text-right"
     >
       {text}
     </Link>
