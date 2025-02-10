@@ -3,14 +3,14 @@
   "/api/subscribe/route": "app/api/subscribe/route.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
   "/about/page": "app/about/page.js",
-  "/consultations/page": "app/consultations/page.js",
   "/courses/full-stack-test-engineer/page": "app/courses/full-stack-test-engineer/page.js",
+  "/consultations/page": "app/consultations/page.js",
   "/courses/introduction-to-software-testing/page": "app/courses/introduction-to-software-testing/page.js",
   "/courses/page": "app/courses/page.js",
   "/page": "app/page.js",
   "/talks/page": "app/talks/page.js",
-  "/workshops/page": "app/workshops/page.js",
   "/tutoring/page": "app/tutoring/page.js",
+  "/workshops/page": "app/workshops/page.js",
   "/workshops/playwright-with-typescript/page": "app/workshops/playwright-with-typescript/page.js",
   "/workshops/selenium-webdriver-with-cucumber/page": "app/workshops/selenium-webdriver-with-cucumber/page.js"
 }
