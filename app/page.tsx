@@ -35,11 +35,7 @@ export default function Home() {
 
       {/* Secciones comunes - usando un componente reutilizable */}
       {sections.map((section, index) => (
-        <Section
-          key={section.id}
-          {...section}
-          reverse={index % 2 === 0}
-        />
+        <Section key={section.id} {...section} reverse={index % 2 === 0} />
       ))}
     </div>
   );
@@ -64,9 +60,16 @@ function Section({
   reverse: boolean;
 }) {
   return (
-    <section id={id} className={`py-12 md:py-16 ${reverse ? 'bg-gray-100' : 'bg-gray-100/50'}`}>
+    <section
+      id={id}
+      className={`py-12 md:py-16 ${reverse ? "bg-gray-100" : "bg-gray-100/50"}`}
+    >
       <div className="container mx-auto px-4">
-        <div className={`flex flex-col ${reverse ? 'md:flex-row-reverse' : 'md:flex-row'} items-center gap-8 md:gap-12`}>
+        <div
+          className={`flex flex-col ${
+            reverse ? "md:flex-row-reverse" : "md:flex-row"
+          } items-center gap-8 md:gap-12`}
+        >
           <div className="flex-1 text-center md:text-left">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">{title}</h2>
             <p className="text-gray-600 mb-6">{description}</p>
@@ -91,7 +94,13 @@ function Section({
             </Link>
           </div>
           <div className="flex-1 w-full max-w-[500px]">
-            <div className={`aspect-video bg-gray-200 rounded-lg ${reverse ? 'shadow-[8px_8px_0px_0px_rgba(251,146,60,1)]' : 'shadow-[8px_8px_0px_0px_rgba(252,165,165,1)]'}`}>
+            <div
+              className={`aspect-video bg-gray-200 rounded-lg ${
+                reverse
+                  ? "shadow-[8px_8px_0px_0px_rgba(251,146,60,1)]"
+                  : "shadow-[8px_8px_0px_0px_rgba(252,165,165,1)]"
+              }`}
+            >
               {imageSrc ? (
                 <Image
                   src={imageSrc}
@@ -118,25 +127,29 @@ const sections = [
   {
     id: "about",
     title: "About me",
-    description: "Hi! I am Pato, a QA Engineering consultant and coach with more than 16 years of experience working in high profile projects and teaching others how to make good, robust and reliable test enginering.",
+    description:
+      "Hi! I am Pato, a QA Engineering consultant and coach with more than 16 years of experience working in high profile projects and teaching others how to make good, robust and reliable test enginering.",
     linkText: "Know more about me",
     linkHref: "/about",
-    imageSrc: "/images/aboutmeMain.png"
+    imageSrc: "/images/aboutmeMain.png",
   },
   {
     id: "workshops",
     title: "Workshops",
-    description: "Hands-on, practical workshops to get you working with Test Engineering tools professionally!",
+    description:
+      "Hands-on, practical workshops to get you working with Test Engineering tools professionally!",
     linkText: "I want to learn!",
     linkHref: "/workshops",
-    imageSrc: "/images/workshops.png"
+    imageSrc: "/images/workshops.png",
   },
   {
     id: "courses",
     title: "Course",
-    description: "One course to rule them all: The Future Proof Tester will be updated yearly with everything you need to know to be market ready, ever.",
+    description:
+      "One course to rule them all: The Future Proof Tester will be updated yearly with everything you need to know to be market ready, ever.",
     linkText: "What can you learn?",
-    linkHref: "/courses"
+    linkHref: "/courses",
+    imageSrc: "/images/course.png",
   },
   // ... Agrega el resto de las secciones aquí
 ];
