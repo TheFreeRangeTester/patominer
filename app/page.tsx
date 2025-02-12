@@ -50,7 +50,7 @@ function Section({
   linkHref,
   imageSrc,
   reverse,
-}: {
+}: Readonly<{
   id: string;
   title: string;
   description: string;
@@ -58,7 +58,7 @@ function Section({
   linkHref: string;
   imageSrc?: string;
   reverse: boolean;
-}) {
+}>) {
   return (
     <section
       id={id}
@@ -128,7 +128,7 @@ const sections = [
     id: "about",
     title: "About me",
     description:
-      "Hi! I am Pato, a QA Engineering consultant and coach with more than 16 years of experience working in high profile projects and teaching others how to make good, robust and reliable test enginering.",
+      "Hi 👋🏻, I'm Pato Miner, a Test Engineering Consultant and Trainer that made all the way from Argentina to the beautiful city of Wellington, New Zealand. But...there is more to know about me, specially if you want to work with or be trained by me!",
     linkText: "Know more about me",
     linkHref: "/about",
     imageSrc: "/images/aboutmeMain.png",
@@ -137,7 +137,7 @@ const sections = [
     id: "workshops",
     title: "Workshops",
     description:
-      "Hands-on, practical workshops to get you working with Test Engineering tools professionally!",
+      "Hands-on 🧑🏻‍💻, practical workshops to get you working with Test Engineering tools such as Selenium WebDriver, Cypress, Playwright and Jenkins! The best part? We focus on the skills and tools most demanded in the market!",
     linkText: "I want to learn!",
     linkHref: "/workshops",
     imageSrc: "/images/workshops.png",
@@ -146,7 +146,7 @@ const sections = [
     id: "courses",
     title: "Course",
     description:
-      "One course to rule them all: The Future Proof Tester will be updated yearly with everything you need to know to be market ready, ever.",
+      "One course to rule them all: The Future Proof Tester will be updated yearly with everything you need to know to be market ready, ever. From the basics of programming, to how to perform great testing on software, all the way to pipeliens, AI, cloud computing and more!",
     linkText: "What can you learn?",
     linkHref: "/courses",
     imageSrc: "/images/course.png",
