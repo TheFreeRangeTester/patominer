@@ -72,10 +72,10 @@ export default function PlaywrightTypeScript() {
           </h4>
           <p className="text-black">
             TypeScript is a powerful, typed superset of JavaScript that compiles
-            into clean, readable JavaScript. It's the smart way to write safer,
-            more reliable code. Combined with Playwright, it transforms your
-            development experience, making test automation smoother and more
-            efficient than ever!
+            into clean, readable JavaScript. It&apos;s the smart way to write
+            safer, more reliable code. Combined with Playwright, it transforms
+            your development experience, making test automation smoother and
+            more efficient than ever!
             <br />
             <br />
             Maybe I have too much love for types and I like my variables to have
@@ -136,11 +136,11 @@ export default function PlaywrightTypeScript() {
               </h2>
               <ul className="list-disc list-inside mb-4 text-black">
                 <p>
-                  With 16 years of experience as a QA Engineer and Coach, I've
-                  dedicated my career to empowering the Latin and
-                  Spanish-speaking community. Now, based in New Zealand, I'm
-                  thrilled to share my expertise and passion for automated
-                  testing on a global stage.
+                  With 16 years of experience as a QA Engineer and Coach,
+                  I&apos;ve dedicated my career to empowering the Latin and
+                  Spanish-speaking community. Now, based in New Zealand,
+                  I&apos;m thrilled to share my expertise and passion for
+                  automated testing on a global stage.
                 </p>
               </ul>
             </div>
