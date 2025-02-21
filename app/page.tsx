@@ -50,9 +50,9 @@ export default function Home() {
           </div>
           <h2 className="text-3xl md:text-4xl font-bold mb-4">About me</h2>
           <p className="text-gray-600 mb-6">
-            Hi 👋🏻, I'm Pato Miner, a Test Engineering Consultant and Trainer
-            that made all the way from Argentina to the beautiful city of
-            Wellington, New Zealand. But...there is more to know about me,
+            Hi 👋🏻, I&apos;m Pato Miner, a Test Engineering Consultant and
+            Trainer that made all the way from Argentina to the beautiful city
+            of Wellington, New Zealand. But...there is more to know about me,
             specially if you want to work with or be trained by me!
           </p>
           <Link
