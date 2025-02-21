@@ -12,7 +12,7 @@
       "static/chunks/4bd1b696-692f10ba759dfb60.js",
       "static/chunks/517-2685a4f087d222a4.js",
       "static/chunks/main-app-665941dfe1b51ac6.js",
-      "static/css/b67233a68176a84f.css",
+      "static/css/fc3f3d0142b366da.css",
       "static/chunks/173-c72f956e0e7ca46c.js",
       "static/chunks/app/layout-43c9919c920b2721.js"
     ],
@@ -49,15 +49,6 @@
       "static/chunks/970-29a7be5a4e155166.js",
       "static/chunks/app/courses/full-stack-test-engineer/page-0e965acfb2ea1faa.js"
     ],
-    "/courses/page": [
-      "static/chunks/webpack-4e9de2322f19dfe1.js",
-      "static/chunks/4bd1b696-692f10ba759dfb60.js",
-      "static/chunks/517-2685a4f087d222a4.js",
-      "static/chunks/main-app-665941dfe1b51ac6.js",
-      "static/chunks/173-c72f956e0e7ca46c.js",
-      "static/chunks/970-29a7be5a4e155166.js",
-      "static/chunks/app/courses/page-dafef56825331e87.js"
-    ],
     "/courses/introduction-to-software-testing/page": [
       "static/chunks/webpack-4e9de2322f19dfe1.js",
       "static/chunks/4bd1b696-692f10ba759dfb60.js",
@@ -66,6 +57,15 @@
       "static/chunks/173-c72f956e0e7ca46c.js",
       "static/chunks/970-29a7be5a4e155166.js",
       "static/chunks/app/courses/introduction-to-software-testing/page-0f8fb63bb73cad5e.js"
+    ],
+    "/courses/page": [
+      "static/chunks/webpack-4e9de2322f19dfe1.js",
+      "static/chunks/4bd1b696-692f10ba759dfb60.js",
+      "static/chunks/517-2685a4f087d222a4.js",
+      "static/chunks/main-app-665941dfe1b51ac6.js",
+      "static/chunks/173-c72f956e0e7ca46c.js",
+      "static/chunks/970-29a7be5a4e155166.js",
+      "static/chunks/app/courses/page-dafef56825331e87.js"
     ],
     "/page": [
       "static/chunks/webpack-4e9de2322f19dfe1.js",
