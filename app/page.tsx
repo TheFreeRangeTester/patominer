@@ -33,6 +33,50 @@ export default function Home() {
         </div>
       </section>
 
+      {/* About Me Section */}
+      <section id="about" className="py-12 md:py-20 bg-white">
+        <div className="container mx-auto px-4 text-center">
+          <div className="w-full max-w-[600px] mx-auto mb-8">
+            <div className="relative">
+              <div className="absolute inset-0 bg-gray-200 rounded-lg shadow-[8px_8px_0px_0px_rgba(252,165,165,1)]"></div>
+              <Image
+                src="/images/aboutmeMain.png"
+                alt="About me"
+                className="relative w-full h-auto object-cover rounded-lg"
+                width={800}
+                height={600}
+              />
+            </div>
+          </div>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">About me</h2>
+          <p className="text-gray-600 mb-6">
+            Hi 👋🏻, I'm Pato Miner, a Test Engineering Consultant and Trainer
+            that made all the way from Argentina to the beautiful city of
+            Wellington, New Zealand. But...there is more to know about me,
+            specially if you want to work with or be trained by me!
+          </p>
+          <Link
+            href="/about"
+            className="group inline-flex items-center gap-2 border-black border-2 bg-amber-500 px-4 md:px-6 py-2 md:py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[8px_8px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
+          >
+            <span>Know more about me</span>
+            <svg
+              className="w-4 h-4 transition-transform duration-300 transform group-hover:translate-x-1"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M13 7l5 5m0 0l-5 5m5-5H6"
+              />
+            </svg>
+          </Link>
+        </div>
+      </section>
+
       {/* Secciones comunes - usando un componente reutilizable */}
       {sections.map((section, index) => (
         <Section key={section.id} {...section} reverse={index % 2 === 0} />
@@ -125,15 +169,6 @@ function Section({
 // Datos de las secciones
 const sections = [
   {
-    id: "about",
-    title: "About me",
-    description:
-      "Hi 👋🏻, I'm Pato Miner, a Test Engineering Consultant and Trainer that made all the way from Argentina to the beautiful city of Wellington, New Zealand. But...there is more to know about me, specially if you want to work with or be trained by me!",
-    linkText: "Know more about me",
-    linkHref: "/about",
-    imageSrc: "/images/aboutmeMain.png",
-  },
-  {
     id: "workshops",
     title: "Workshops",
     description:
@@ -150,6 +185,33 @@ const sections = [
     linkText: "What can you learn?",
     linkHref: "/courses",
     imageSrc: "/images/course.png",
+  },
+  {
+    id: "consultations",
+    title: "Consultations",
+    description:
+      "One course to rule them all: The Future Proof Tester will be updated yearly with everything you need to know to be market ready, ever. From the basics of programming, to how to perform great testing on software, all the way to pipeliens, AI, cloud computing and more!",
+    linkText: "Test Engineering services",
+    linkHref: "/consultations",
+    imageSrc: "/images/consultations.png",
+  },
+  {
+    id: "tutoring",
+    title: "Tutoring sessions",
+    description:
+      "One course to rule them all: The Future Proof Tester will be updated yearly with everything you need to know to be market ready, ever. From the basics of programming, to how to perform great testing on software, all the way to pipeliens, AI, cloud computing and more!",
+    linkText: "Get a roadmap for your career",
+    linkHref: "/tutoring",
+    imageSrc: "/images/mentoring.png",
+  },
+  {
+    id: "conferences",
+    title: "Conferences & Talks",
+    description:
+      "One course to rule them all: The Future Proof Tester will be updated yearly with everything you need to know to be market ready, ever. From the basics of programming, to how to perform great testing on software, all the way to pipeliens, AI, cloud computing and more!",
+    linkText: "Let's have a chat",
+    linkHref: "/talks",
+    imageSrc: "/images/conferences.png",
   },
   // ... Agrega el resto de las secciones aquí
 ];
