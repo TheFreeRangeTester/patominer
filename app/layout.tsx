@@ -88,10 +88,23 @@ export default function RootLayout({
                       href="https://discord.gg/placeholder"
                       text="Community"
                       external
+                      onClick={() => setIsMenuOpen(false)}
                     />
-                    <MobileNavLink href="/about" text="About me" />
-                    <MobileNavLink href="/workshops" text="Workshops" />
-                    <MobileNavLink href="/courses" text="Courses" />
+                    <MobileNavLink
+                      href="/about"
+                      text="About me"
+                      onClick={() => setIsMenuOpen(false)}
+                    />
+                    <MobileNavLink
+                      href="/workshops"
+                      text="Workshops"
+                      onClick={() => setIsMenuOpen(false)}
+                    />
+                    <MobileNavLink
+                      href="/courses"
+                      text="Courses"
+                      onClick={() => setIsMenuOpen(false)}
+                    />
                   </div>
                 </div>
               </div>
@@ -138,10 +151,12 @@ function MobileNavLink({
   href,
   text,
   external = false,
+  onClick,
 }: {
   href: string;
   text: string;
   external?: boolean;
+  onClick: () => void;
 }) {
   return (
     <Link
@@ -149,6 +164,7 @@ function MobileNavLink({
       target={external ? "_blank" : undefined}
       rel={external ? "noopener noreferrer" : undefined}
       className="block px-4 py-2 text-black hover:bg-red-300 rounded-lg transition-colors duration-300 text-right"
+      onClick={onClick}
     >
       {text}
     </Link>

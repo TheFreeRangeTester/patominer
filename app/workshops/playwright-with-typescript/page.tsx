@@ -7,8 +7,8 @@ export default function PlaywrightTypeScript() {
       {/* Sección 1 */}
       <section className="py-16 bg-gray-100/50">
         <div className="container mx-auto px-4">
-          <div className="flex justify-between items-center">
-            <div>
+          <div className="flex flex-col md:flex-row justify-between items-center">
+            <div className="text-center md:text-left">
               <h2 className="text-5xl font-bold mb-4 text-black">
                 E2E Automation with Playwright and TypeScript
               </h2>
@@ -37,8 +37,7 @@ export default function PlaywrightTypeScript() {
               alt="Curso de Playwright y TypeScript"
               width={500}
               height={300}
-              className="mb-4 rounded-lg shadow-lg max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
-              style={{ width: "50%", height: "auto" }}
+              className="mt-4 md:mt-0 w-full md:w-1/2 h-auto rounded-lg shadow-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
             />
           </div>
         </div>
@@ -122,27 +121,25 @@ export default function PlaywrightTypeScript() {
       {/* Sección 3 */}
       <section className="py-16 bg-gray-100/50">
         <div className="container mx-auto px-4">
-          <div className="flex items-center justify-center">
+          <div className="flex flex-col md:flex-row items-center justify-center">
             <Image
               src="/path_to_your_image.jpg"
               alt="Instructor de Playwright"
               width={256}
               height={256}
-              className="mr-4 w-64 h-64 max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
+              className="mb-4 md:mb-0 md:mr-4 w-full md:w-64 h-auto max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
             />
-            <div>
+            <div className="text-center md:text-left">
               <h2 className="text-3xl font-semibold mb-2 text-black">
                 The teacher
               </h2>
-              <ul className="list-disc list-inside mb-4 text-black">
-                <p>
-                  With 16 years of experience as a QA Engineer and Coach,
-                  I&apos;ve dedicated my career to empowering the Latin and
-                  Spanish-speaking community. Now, based in New Zealand,
-                  I&apos;m thrilled to share my expertise and passion for
-                  automated testing on a global stage.
-                </p>
-              </ul>
+              <p className="text-black">
+                With 16 years of experience as a QA Engineer and Coach,
+                I&apos;ve dedicated my career to empowering the Latin and
+                Spanish-speaking community. Now, based in New Zealand, I&apos;m
+                thrilled to share my expertise and passion for automated testing
+                on a global stage.
+              </p>
             </div>
           </div>
         </div>
@@ -151,32 +148,30 @@ export default function PlaywrightTypeScript() {
       {/* Sección 4 */}
       <section className="py-16 bg-gray-100">
         <div className="container mx-auto px-4">
-          <div className="flex items-center justify-center">
-            <div className="flex justify-center">
-              <div>
-                <h2 className="text-3xl font-semibold mb-2 text-black">
-                  Workshop dynamic
-                </h2>
-                <ul className="list-disc list-inside mb-4 text-black">
-                  <li>
-                    Taught by a seasoned QA Engineer and Coach with 16 years of
-                    experience.
-                  </li>
-                  <li>Focused on the Kiwi and Australian community.</li>
-                  <li>
-                    Delivered from New Zealand, sharing expertise in automated
-                    testing.
-                  </li>
-                </ul>
-              </div>
-              <Image
-                src="/path_to_your_image.jpg"
-                alt="Teacher's photo"
-                width={400}
-                height={400}
-                className="ml-4 w-96 h-96 max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
-              />
+          <div className="flex flex-col md:flex-row items-center justify-center">
+            <div className="text-center md:text-left">
+              <h2 className="text-3xl font-semibold mb-2 text-black">
+                Workshop dynamic
+              </h2>
+              <ul className="list-disc list-inside mb-4 text-black">
+                <li>
+                  Taught by a seasoned QA Engineer and Coach with 16 years of
+                  experience.
+                </li>
+                <li>Focused on the Kiwi and Australian community.</li>
+                <li>
+                  Delivered from New Zealand, sharing expertise in automated
+                  testing.
+                </li>
+              </ul>
             </div>
+            <Image
+              src="/path_to_your_image.jpg"
+              alt="Teacher's photo"
+              width={400}
+              height={400}
+              className="ml-0 md:ml-4 w-full md:w-96 h-auto max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
+            />
           </div>
         </div>
       </section>
@@ -197,9 +192,6 @@ export default function PlaywrightTypeScript() {
                 <li>Error and exception handling</li>
                 <li>Performance testing</li>
                 <li>CI/CD integration</li>
-                <li>Error and exception handling</li>
-                <li>Performance testing</li>
-                <li>CI/CD integration</li>
               </ul>
             </div>
             <div className="mb-4 rounded-lg shadow-lg max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none">
@@ -208,9 +200,6 @@ export default function PlaywrightTypeScript() {
                 <li>Elements and Selectors</li>
                 <li>Page interactions</li>
                 <li>Form handling</li>
-                <li>Error and exception handling</li>
-                <li>Performance testing</li>
-                <li>CI/CD integration</li>
                 <li>Error and exception handling</li>
                 <li>Performance testing</li>
                 <li>CI/CD integration</li>
@@ -225,20 +214,11 @@ export default function PlaywrightTypeScript() {
                 <li>Error and exception handling</li>
                 <li>Performance testing</li>
                 <li>CI/CD integration</li>
-                <li>Error and exception handling</li>
-                <li>Performance testing</li>
-                <li>CI/CD integration</li>
               </ul>
             </div>
             <div className="mb-4 rounded-lg shadow-lg max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none">
               <h3 className="text-xl font-semibold mb-2 text-black">Week 4</h3>
               <ul className="list-disc list-inside text-black">
-                <li>Error and exception handling</li>
-                <li>Performance testing</li>
-                <li>CI/CD integration</li>
-                <li>Error and exception handling</li>
-                <li>Performance testing</li>
-                <li>CI/CD integration</li>
                 <li>Error and exception handling</li>
                 <li>Performance testing</li>
                 <li>CI/CD integration</li>
@@ -258,7 +238,7 @@ export default function PlaywrightTypeScript() {
                 alt="Teacher's photo"
                 width={400}
                 height={400}
-                className="mx-auto w-96 h-96 max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
+                className="mx-auto w-full md:w-96 h-auto max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
               />
               <h2 className="text-3xl font-semibold mb-2 text-black">
                 Join today!
