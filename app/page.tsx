@@ -114,29 +114,6 @@ function Section({
             reverse ? "md:flex-row-reverse" : "md:flex-row"
           } items-center gap-8 md:gap-12`}
         >
-          <div className="flex-1 text-center md:text-left">
-            <h2 className="text-2xl md:text-3xl font-bold mb-4">{title}</h2>
-            <p className="text-gray-600 mb-6">{description}</p>
-            <Link
-              href={linkHref}
-              className="group inline-flex items-center gap-2 border-black border-2 bg-amber-500 px-4 md:px-6 py-2 md:py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[8px_8px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
-            >
-              <span>{linkText}</span>
-              <svg
-                className="w-4 h-4 transition-transform duration-300 transform group-hover:translate-x-1"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M13 7l5 5m0 0l-5 5m5-5H6"
-                />
-              </svg>
-            </Link>
-          </div>
           <div className="flex-1 w-full max-w-[500px]">
             <div
               className={`aspect-video bg-gray-200 rounded-lg ${
@@ -159,6 +136,29 @@ function Section({
                 </div>
               )}
             </div>
+          </div>
+          <div className="flex-1 text-center md:text-left">
+            <h2 className="text-2xl md:text-3xl font-bold mb-4">{title}</h2>
+            <p className="text-gray-600 mb-6">{description}</p>
+            <Link
+              href={linkHref}
+              className="group inline-flex items-center gap-2 border-black border-2 bg-amber-500 px-4 md:px-6 py-2 md:py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[8px_8px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
+            >
+              <span>{linkText}</span>
+              <svg
+                className="w-4 h-4 transition-transform duration-300 transform group-hover:translate-x-1"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M13 7l5 5m0 0l-5 5m5-5H6"
+                />
+              </svg>
+            </Link>
           </div>
         </div>
       </div>
