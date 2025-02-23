@@ -12,9 +12,9 @@
       "static/chunks/4bd1b696-692f10ba759dfb60.js",
       "static/chunks/517-2685a4f087d222a4.js",
       "static/chunks/main-app-665941dfe1b51ac6.js",
-      "static/css/06943917340023de.css",
+      "static/css/e1868a4db833080c.css",
       "static/chunks/173-c72f956e0e7ca46c.js",
-      "static/chunks/app/layout-43c9919c920b2721.js"
+      "static/chunks/app/layout-8bea1e21f70fa8b0.js"
     ],
     "/api/subscribe/route": [
       "static/chunks/webpack-4e9de2322f19dfe1.js",
@@ -22,14 +22,6 @@
       "static/chunks/517-2685a4f087d222a4.js",
       "static/chunks/main-app-665941dfe1b51ac6.js",
       "static/chunks/app/api/subscribe/route-8b1bbd421e104843.js"
-    ],
-    "/consultations/page": [
-      "static/chunks/webpack-4e9de2322f19dfe1.js",
-      "static/chunks/4bd1b696-692f10ba759dfb60.js",
-      "static/chunks/517-2685a4f087d222a4.js",
-      "static/chunks/main-app-665941dfe1b51ac6.js",
-      "static/chunks/173-c72f956e0e7ca46c.js",
-      "static/chunks/app/consultations/page-23bcc1dba660287f.js"
     ],
     "/about/page": [
       "static/chunks/webpack-4e9de2322f19dfe1.js",
@@ -39,6 +31,14 @@
       "static/chunks/173-c72f956e0e7ca46c.js",
       "static/chunks/970-29a7be5a4e155166.js",
       "static/chunks/app/about/page-b85bf39a0a88d05d.js"
+    ],
+    "/consultations/page": [
+      "static/chunks/webpack-4e9de2322f19dfe1.js",
+      "static/chunks/4bd1b696-692f10ba759dfb60.js",
+      "static/chunks/517-2685a4f087d222a4.js",
+      "static/chunks/main-app-665941dfe1b51ac6.js",
+      "static/chunks/173-c72f956e0e7ca46c.js",
+      "static/chunks/app/consultations/page-23bcc1dba660287f.js"
     ],
     "/courses/full-stack-test-engineer/page": [
       "static/chunks/webpack-4e9de2322f19dfe1.js",
