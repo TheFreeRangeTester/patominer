@@ -59,12 +59,12 @@ export default function Tutoring() {
                 goals
               </p>
               <Link
-                href="https://calendly.com/workwithpato"
+                href="https://buy.stripe.com/fZe02H33ugceeJy5km"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors"
+                className="inline-block w-full md:w-auto border-black border-2 bg-white px-8 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
               >
-                Schedule Your Session
+                Secure a slot to talk
               </Link>
             </div>
           </div>

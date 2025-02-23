@@ -179,7 +179,7 @@ const sections = [
   },
   {
     id: "courses",
-    title: "Course",
+    title: "Courses",
     description:
       "One course to rule them all: The Future Proof Tester will be updated yearly with everything you need to know to be market ready, ever. From the basics of programming, to how to perform great testing on software, all the way to pipeliens, AI, cloud computing and more!",
     linkText: "What can you learn?",

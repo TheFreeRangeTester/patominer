@@ -24,13 +24,13 @@ export default function Talks() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="col-span-2">
               <Link
-                href="https://placeholder-link.com"
+                href="https://nerdear.la/en/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <Image
                   src="/images/conferences/Nerdearla.png"
-                  alt="TestingConf 2023"
+                  alt="Nerdearla"
                   className="w-full h-auto rounded-lg shadow-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
                   width={500}
                   height={300}
@@ -39,13 +39,13 @@ export default function Talks() {
             </div>
             <div className="col-span-1">
               <Link
-                href="https://placeholder-link.com"
+                href="https://nztestingconf.nz"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <Image
                   src="/images/conferences/NZTestingConf.png"
-                  alt="QA Summit 2023"
+                  alt="NZ Testing Conf"
                   className="w-full h-auto rounded-lg shadow-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
                   width={500}
                   height={300}
@@ -54,13 +54,13 @@ export default function Talks() {
             </div>
             <div className="col-span-1">
               <Link
-                href="https://placeholder-link.com"
+                href="https://qualitysenseconf.com/en/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <Image
                   src="/images/conferences/QualitySenseConf.png"
-                  alt="QA Summit 2023"
+                  alt="Quality Sense Conf"
                   className="w-full h-auto rounded-lg shadow-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
                   width={500}
                   height={300}
@@ -69,13 +69,13 @@ export default function Talks() {
             </div>
             <div className="col-span-2">
               <Link
-                href="https://placeholder-link.com"
+                href="https://www.testingenchile.cl/testing-day-chile/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <Image
                   src="/images/conferences/TestingDaysChile.png"
-                  alt="QA Summit 2023"
+                  alt="Testing Day Chile"
                   className="w-full h-auto rounded-lg shadow-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
                   width={500}
                   height={300}
@@ -100,7 +100,7 @@ export default function Talks() {
             </ul>
             <div className="flex justify-center mt-6">
               <a
-                href="https://calendly.com/tu-calendly"
+                href="https://calendly.com/workwithpato/30min"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block w-full md:w-auto border-black border-2 bg-white px-8 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none mx-auto"

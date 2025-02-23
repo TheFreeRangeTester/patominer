@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import Map from "../../../components/Map";
 
 export default function SeleniumWebDriverJavaCucumber() {
   return (
@@ -143,14 +144,14 @@ export default function SeleniumWebDriverJavaCucumber() {
       <section className="py-16 bg-gray-100">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center justify-center">
-            <div className="text-center md:text-left">
+            <div className="text-center md:text-left md:mr-8">
               <h2 className="text-3xl font-semibold mb-2 text-black">
                 Workshop dynamic
               </h2>
               <ul className="list-disc list-inside mb-4 text-black">
                 <li>
-                  Taught by a seasoned QA Engineer and Coach with 16 years of
-                  experience.
+                  Taught by a seasoned QA Engineer and Coach with 16 años de
+                  experiencia.
                 </li>
                 <li>Focused on the Kiwi and Australian community.</li>
                 <li>
@@ -159,13 +160,9 @@ export default function SeleniumWebDriverJavaCucumber() {
                 </li>
               </ul>
             </div>
-            <Image
-              src="/path_to_your_image.jpg"
-              alt="Teacher's photo"
-              width={400}
-              height={400}
-              className="ml-0 md:ml-4 w-full md:w-96 h-auto max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
-            />
+            <div className="w-full md:max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none">
+              <Map />
+            </div>
           </div>
         </div>
       </section>
@@ -244,12 +241,12 @@ export default function SeleniumWebDriverJavaCucumber() {
               </ul>
               <div className="flex justify-center mt-6">
                 <a
-                  href="https://your-stripe-payment-link.com"
+                  href="https://buy.stripe.com/bIY2aP5bCaRU8la000"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block w-full md:w-auto border-black border-2 bg-white px-8 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none mx-auto"
                 >
-                  Sign up Now - $299 NZD
+                  Sign up Now - $550 NZD
                 </a>
               </div>
             </div>

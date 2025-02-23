@@ -21,7 +21,7 @@ export default function Workshops() {
       price: "$150",
       duration: "8 hours",
       image: "/images/workshop2.png",
-      buyButtonId: "buy_btn_1QJ8DeGg3IBRIOi3Id5AAtmw",
+      buyButtonId: "buy_btn_1QvlKCGg3IBRIOi3GxebDPeB",
     },
   ];
 

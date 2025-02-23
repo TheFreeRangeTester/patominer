@@ -33,7 +33,7 @@ export default function About() {
                 </div>
               </div>
               <h2 className="text-3xl font-bold mb-8 text-black">
-                Who the heck am I?
+                A little bit about myself
               </h2>
               <p className="text-lg text-black text-center">
                 Hello! I&apos;m <strong>Patricio Miner</strong>, but you can
@@ -83,49 +83,57 @@ export default function About() {
               knowledge and teaching the ways of Test Engineering to anyone who
               wants to join this beautiful discipline in Software!
             </p>
-            <h2 className="text-3xl font-bold my-8 text-black text-center">
-              What I Offer
-            </h2>
-            <ul className="list-none mb-6 space-y-2 text-black text-center">
-              <li className="flex justify-center items-center">
-                <span className="mr-2">•</span> QA Engineering consultancy
-                services
-              </li>
-              <li className="flex justify-center items-center">
-                <span className="mr-2">•</span> Specialised training and
-                workshops
-              </li>
-              <li className="flex justify-center items-center">
-                <span className="mr-2">•</span> Test automation expertise
-              </li>
-              <li className="flex justify-center items-center">
-                <span className="mr-2">•</span> Quality assurance strategy
-                development
-              </li>
-              <li className="flex justify-center items-center">
-                <span className="mr-2">•</span> Individual and group mentoring
-              </li>
-            </ul>
+          </div>
+          <div className="flex flex-col items-center mb-6">
+            <div className="w-full max-w-2xl mb-4">
+              <div className="aspect-video bg-gray-200 rounded-lg shadow-[8px_8px_0px_0px_rgba(251,146,60,1)]">
+                <Image
+                  src="/images/tu-imagen.jpg"
+                  alt="Descripción de la imagen"
+                  className="w-full h-full object-cover rounded-lg"
+                  width={1000}
+                  height={1000}
+                />
+              </div>
+            </div>
           </div>
           <div className="mt-8 text-center">
+            <h2 className="text-3xl font-semibold mb-2 text-black">
+              Connect with Me
+            </h2>
+            <div className="flex justify-center space-x-4 mt-6">
+              <Link
+                href="https://www.notion.so/tu-cv-enlace"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group inline-flex items-center gap-2 border-black border-2 bg-white px-6 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none rounded-full"
+              >
+                📄 CV Online
+              </Link>
+              <Link
+                href="https://www.linkedin.com/in/tu-perfil"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group inline-flex items-center gap-2 border-black border-2 bg-white px-6 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none rounded-full"
+              >
+                💼 LinkedIn
+              </Link>
+              <Link
+                href="https://github.com/tu-usuario"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group inline-flex items-center gap-2 border-black border-2 bg-white px-6 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none rounded-full"
+              >
+                👨‍💻 GitHub
+              </Link>
+            </div>
+          </div>
+          <div className="text-center mt-8">
             <Link
               href="/"
               className="group mt-3 inline-flex items-center gap-2 border-black border-2 bg-white px-6 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
             >
-              <svg
-                className="w-4 h-4 transition-transform duration-300 transform group-hover:translate-x-1"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M11 7l-5 5m0 0l5 5m-5-5h12"
-                />
-              </svg>
-              <span>Back to Home</span>
+              Back to Home
             </Link>
           </div>
         </div>
