@@ -14,7 +14,13 @@ export default function Home() {
               </h1>
               <p className="text-lg md:text-xl">
                 Equipping quality assurance professionals with the skills and
-                knowledge to thrive and excel in their careers
+                knowledge that are relevant in the market.
+              </p>
+              <div className="mb-4" />
+              <p className="text-lg md:text-xl">
+                From the very beginnings (even if you never have done testing in
+                your life) to the more advanced steps in the QA Engineering
+                career, we cover it all!
               </p>
             </div>
             <div className="flex-1 w-full max-w-[500px] mx-auto md:mx-0">
@@ -173,7 +179,7 @@ const sections = [
     title: "Workshops",
     description:
       "Hands-on 🧑🏻‍💻, practical workshops to get you working with Test Engineering tools such as Selenium WebDriver, Cypress, Playwright and Jenkins! The best part? We focus on the skills and tools most demanded in the market!",
-    linkText: "I want to learn!",
+    linkText: "Check our workshops",
     linkHref: "/workshops",
     imageSrc: "/images/workshops.png",
   },
@@ -181,8 +187,8 @@ const sections = [
     id: "courses",
     title: "Courses",
     description:
-      "One course to rule them all: The Future Proof Tester will be updated yearly with everything you need to know to be market ready, ever. From the basics of programming, to how to perform great testing on software, all the way to pipeliens, AI, cloud computing and more!",
-    linkText: "What can you learn?",
+      "Two courses designed to give you the tools, skills and mindset to be a great QA Engineer professional. One for those who want to start in testing, the other one, for those who want the definitive jump in their careers...",
+    linkText: "See courses",
     linkHref: "/courses",
     imageSrc: "/images/course.png",
   },
@@ -190,8 +196,8 @@ const sections = [
     id: "consultations",
     title: "Consultations",
     description:
-      "One course to rule them all: The Future Proof Tester will be updated yearly with everything you need to know to be market ready, ever. From the basics of programming, to how to perform great testing on software, all the way to pipeliens, AI, cloud computing and more!",
-    linkText: "Test Engineering services",
+      "Do you need an experienced Senior QA Engineer to make your SDLC shine? I can help you with that. Let's have a chat about your quality goals",
+    linkText: "Let's talk work!",
     linkHref: "/consultations",
     imageSrc: "/images/consultations.png",
   },
@@ -199,8 +205,8 @@ const sections = [
     id: "tutoring",
     title: "Tutoring sessions",
     description:
-      "One course to rule them all: The Future Proof Tester will be updated yearly with everything you need to know to be market ready, ever. From the basics of programming, to how to perform great testing on software, all the way to pipeliens, AI, cloud computing and more!",
-    linkText: "Get a roadmap for your career",
+      "A long career in the international and local market gave me a lot of insight and advice. Let's have a catchup and talk about your objectives and how can you achieve them.",
+    linkText: "Let's talk about your future",
     linkHref: "/tutoring",
     imageSrc: "/images/mentoring.png",
   },
@@ -208,8 +214,8 @@ const sections = [
     id: "conferences",
     title: "Conferences & Talks",
     description:
-      "One course to rule them all: The Future Proof Tester will be updated yearly with everything you need to know to be market ready, ever. From the basics of programming, to how to perform great testing on software, all the way to pipeliens, AI, cloud computing and more!",
-    linkText: "Let's have a chat",
+      "I love speaking at conferences and other events and exchange knowledge while we all learn. Do you have something upcoming you would like me to participate in? Hit that button below!",
+    linkText: "Let's connect",
     linkHref: "/talks",
     imageSrc: "/images/conferences.png",
   },

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Consultations() {
   return (
@@ -20,6 +21,15 @@ export default function Consultations() {
       {/* Sección 2: CV y Servicios */}
       <section className="py-16 bg-gray-100">
         <div className="container mx-auto px-4">
+          <div className="flex justify-center mb-4">
+            <Image
+              src="/images/home-principal.png"
+              alt="Descripción de la imagen"
+              width={800}
+              height={600}
+              className="max-w-full h-auto rounded-lg shadow-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
+            />
+          </div>
           <div className="text-center mb-8">
             <h3 className="text-3xl font-bold text-black">About Me</h3>
             <p className="text-lg text-gray-800 mt-4">
@@ -71,7 +81,7 @@ export default function Consultations() {
                 📄 CV Online
               </Link>
               <Link
-                href="https://www.linkedin.com/in/tu-perfil"
+                href="https://www.linkedin.com/in/patricio-m-690b3729/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group inline-flex items-center gap-2 border-black border-2 bg-white px-6 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none rounded-full"
@@ -79,7 +89,7 @@ export default function Consultations() {
                 💼 LinkedIn
               </Link>
               <Link
-                href="https://github.com/tu-usuario"
+                href="https://github.com/TheFreeRangeTester"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group inline-flex items-center gap-2 border-black border-2 bg-white px-6 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none rounded-full"

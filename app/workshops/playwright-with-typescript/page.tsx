@@ -34,7 +34,7 @@ export default function PlaywrightTypeScript() {
               </a>
             </div>
             <Image
-              src="/path/to/image.jpg"
+              src="/images/Playwright-Workshop.png"
               alt="Curso de Playwright y TypeScript"
               width={500}
               height={300}

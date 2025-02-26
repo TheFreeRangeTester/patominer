@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Tutoring() {
   return (
@@ -18,6 +19,15 @@ export default function Tutoring() {
       {/* Main Content */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
+          <div className="flex justify-center mb-4">
+            <Image
+              src="/images/home-principal.png"
+              alt="Descripción de la imagen"
+              width={800}
+              height={600}
+              className="max-w-full h-auto rounded-lg shadow-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
+            />
+          </div>
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-8">How Can I Help You?</h2>
 
@@ -64,7 +74,7 @@ export default function Tutoring() {
                 rel="noopener noreferrer"
                 className="inline-block w-full md:w-auto border-black border-2 bg-white px-8 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
               >
-                Secure a slot to talk
+                Book a session
               </Link>
             </div>
           </div>

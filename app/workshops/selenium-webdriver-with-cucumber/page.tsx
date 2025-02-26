@@ -34,7 +34,7 @@ export default function SeleniumWebDriverJavaCucumber() {
               </a>
             </div>
             <Image
-              src="/path/to/image.jpg"
+              src="/images/Selenium-Workshop.png"
               alt="Curso de Selenium WebDriver y Cucumber"
               width={500}
               height={300}

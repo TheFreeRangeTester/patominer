@@ -88,7 +88,7 @@ export default function About() {
             <div className="w-full max-w-2xl mb-4">
               <div className="aspect-video bg-gray-200 rounded-lg shadow-[8px_8px_0px_0px_rgba(251,146,60,1)]">
                 <Image
-                  src="/images/tu-imagen.jpg"
+                  src="/images/ArgentinaNewZealand.png"
                   alt="Descripción de la imagen"
                   className="w-full h-full object-cover rounded-lg"
                   width={1000}
@@ -111,7 +111,7 @@ export default function About() {
                 📄 CV Online
               </Link>
               <Link
-                href="https://www.linkedin.com/in/tu-perfil"
+                href="https://www.linkedin.com/in/patricio-m-690b3729/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group inline-flex items-center gap-2 border-black border-2 bg-white px-6 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none rounded-full"
@@ -119,7 +119,7 @@ export default function About() {
                 💼 LinkedIn
               </Link>
               <Link
-                href="https://github.com/tu-usuario"
+                href="https://github.com/TheFreeRangeTester"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group inline-flex items-center gap-2 border-black border-2 bg-white px-6 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none rounded-full"

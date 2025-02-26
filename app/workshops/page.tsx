@@ -10,7 +10,7 @@ export default function Workshops() {
       location: "Online",
       price: "$100",
       duration: "50 hours",
-      image: "/images/workshop1.png",
+      image: "/images/Selenium-Workshop.png",
       buyButtonId: "buy_btn_1QJ8DeGg3IBRIOi3Id5AAtmv",
     },
     {
@@ -20,7 +20,7 @@ export default function Workshops() {
       location: "In-person at Tech Center",
       price: "$150",
       duration: "8 hours",
-      image: "/images/workshop2.png",
+      image: "/images/Playwright-Workshop.png",
       buyButtonId: "buy_btn_1QvlKCGg3IBRIOi3GxebDPeB",
     },
   ];
