@@ -28,14 +28,14 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-purple-100`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-background`}
       >
         <div className="min-h-screen flex flex-col">
-          <nav className="bg-white/70 backdrop-blur-sm border-b border-purple-100">
+          <nav className="bg-white/70 backdrop-blur-sm border-b border-blue-100">
             <div className="container mx-auto px-4 py-4">
               <div className="flex flex-col md:flex-row md:justify-between md:items-center">
                 <div className="flex justify-between items-center">
-                  <Link href="/" className="text-xl font-bold text-black">
+                  <Link href="/" className="text-xl font-bold text-foreground">
                     Pato Miner
                   </Link>
                   <button
@@ -69,10 +69,23 @@ export default function RootLayout({
                     href="https://discord.gg/placeholder"
                     text="Community"
                     external
+                    className="text-primary"
                   />
-                  <NavLink href="/about" text="About me" />
-                  <NavLink href="/workshops" text="Workshops" />
-                  <NavLink href="/courses" text="Courses" />
+                  <NavLink
+                    href="/about"
+                    text="About me"
+                    className="text-primary"
+                  />
+                  <NavLink
+                    href="/workshops"
+                    text="Workshops"
+                    className="text-primary"
+                  />
+                  <NavLink
+                    href="/courses"
+                    text="Courses"
+                    className="text-primary"
+                  />
                 </div>
 
                 {/* Mobile Navigation */}
@@ -89,21 +102,25 @@ export default function RootLayout({
                       text="Community"
                       external
                       onClick={() => setIsMenuOpen(false)}
+                      className="hover:bg-warning"
                     />
                     <MobileNavLink
                       href="/about"
                       text="About me"
                       onClick={() => setIsMenuOpen(false)}
+                      className="hover:bg-warning"
                     />
                     <MobileNavLink
                       href="/workshops"
                       text="Workshops"
                       onClick={() => setIsMenuOpen(false)}
+                      className="hover:bg-warning"
                     />
                     <MobileNavLink
                       href="/courses"
                       text="Courses"
                       onClick={() => setIsMenuOpen(false)}
+                      className="hover:bg-warning"
                     />
                   </div>
                 </div>
@@ -125,22 +142,24 @@ function NavLink({
   href,
   text,
   external = false,
+  className,
 }: {
   href: string;
   text: string;
   external?: boolean;
+  className?: string;
 }) {
   return (
     <Link
       href={href}
       target={external ? "_blank" : undefined}
       rel={external ? "noopener noreferrer" : undefined}
-      className="relative px-4 py-2 group"
+      className={`relative px-4 py-2 group ${className || ""}`}
     >
       <span className="relative z-10 font-medium text-lg transition-colors duration-300 ease-in-out group-hover:text-white text-black">
         {text}
       </span>
-      <span className="absolute inset-0 w-full h-full bg-transparent group-hover:bg-red-300 transition-all duration-300 transform scale-x-0 group-hover:scale-x-100 origin-left rounded-lg"></span>
+      <span className="absolute inset-0 w-full h-full bg-transparent group-hover:bg-green-300 transition-all duration-300 transform scale-x-0 group-hover:scale-x-100 origin-left rounded-lg"></span>
       <span className="absolute inset-0 w-full h-full transition-all duration-500 transform scale-x-0 group-hover:scale-x-100 origin-left bg-red-200/30 blur-lg group-hover:blur-xl rounded-lg"></span>
     </Link>
   );
@@ -152,18 +171,22 @@ function MobileNavLink({
   text,
   external = false,
   onClick,
+  className,
 }: {
   href: string;
   text: string;
   external?: boolean;
   onClick: () => void;
+  className?: string;
 }) {
   return (
     <Link
       href={href}
       target={external ? "_blank" : undefined}
       rel={external ? "noopener noreferrer" : undefined}
-      className="block px-4 py-2 text-black hover:bg-red-300 rounded-lg transition-colors duration-300 text-right"
+      className={`block px-4 py-2 text-black hover:bg-red-300 rounded-lg transition-colors duration-300 text-right ${
+        className || ""
+      }`}
       onClick={onClick}
     >
       {text}

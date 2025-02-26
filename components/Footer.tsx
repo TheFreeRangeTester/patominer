@@ -3,7 +3,7 @@ import Newsletter from "./Newsletter";
 
 export default function Footer() {
   return (
-    <footer className="bg-purple-200 text-black py-8 md:py-12">
+    <footer className="bg-green-200 text-black py-8 md:py-12">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8">
           {/* Sección de Sitemap */}
@@ -15,7 +15,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/about"
-                  className="hover:text-purple-700 transition-colors"
+                  className="hover:text-blue-500 transition-colors"
                 >
                   About
                 </Link>
@@ -23,7 +23,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/workshops"
-                  className="hover:text-purple-700 transition-colors"
+                  className="hover:text-blue-500 transition-colors"
                 >
                   Workshops
                 </Link>
@@ -31,7 +31,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/courses"
-                  className="hover:text-purple-700 transition-colors"
+                  className="hover:text-blue-500 transition-colors"
                 >
                   Courses
                 </Link>
@@ -39,7 +39,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/consultations"
-                  className="hover:text-purple-700 transition-colors"
+                  className="hover:text-blue-500 transition-colors"
                 >
                   Consultations
                 </Link>
@@ -47,7 +47,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/tutoring"
-                  className="hover:text-purple-700 transition-colors"
+                  className="hover:text-blue-500 transition-colors"
                 >
                   Tutoring
                 </Link>
@@ -55,7 +55,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/talks"
-                  className="hover:text-purple-700 transition-colors"
+                  className="hover:text-blue-500 transition-colors"
                 >
                   Conferences
                 </Link>
@@ -73,7 +73,7 @@ export default function Footer() {
                 <Link
                   href="https://facebook.com"
                   target="_blank"
-                  className="hover:text-purple-700 transition-colors inline-flex items-center gap-2"
+                  className="hover:text-blue-500 transition-colors inline-flex items-center gap-2"
                 >
                   <svg
                     className="w-5 h-5"
@@ -89,7 +89,7 @@ export default function Footer() {
                 <Link
                   href="https://x.com/RangeTester"
                   target="_blank"
-                  className="hover:text-purple-700 transition-colors inline-flex items-center gap-2"
+                  className="hover:text-blue-500 transition-colors inline-flex items-center gap-2"
                 >
                   <svg
                     className="w-5 h-5"
@@ -105,7 +105,7 @@ export default function Footer() {
                 <Link
                   href="https://instagram.com/FreeRangeTesters"
                   target="_blank"
-                  className="hover:text-purple-700 transition-colors inline-flex items-center gap-2"
+                  className="hover:text-blue-500 transition-colors inline-flex items-center gap-2"
                 >
                   <svg
                     className="w-5 h-5"
@@ -121,7 +121,7 @@ export default function Footer() {
                 <Link
                   href="https://www.linkedin.com/in/patricio-m-690b3729/"
                   target="_blank"
-                  className="hover:text-purple-700 transition-colors inline-flex items-center gap-2"
+                  className="hover:text-blue-500 transition-colors inline-flex items-center gap-2"
                 >
                   <svg
                     className="w-5 h-5"

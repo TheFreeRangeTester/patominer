@@ -41,8 +41,10 @@ export default function Newsletter() {
   };
 
   return (
-    <div className="bg-gray-100 p-4 md:p-6 rounded-lg">
-      <h3 className="text-lg md:text-xl font-bold mb-4">Subscribe to our newsletter!</h3>
+    <div className="bg-white p-4 md:p-6 rounded-lg">
+      <h3 className="text-5xl font-bold mb-4 text-black">
+        Subscribe to our newsletter!
+      </h3>
       <form onSubmit={handleSubmit}>
         <input
           type="email"
@@ -50,12 +52,12 @@ export default function Newsletter() {
           onChange={(e) => setEmail(e.target.value)}
           placeholder="Enter your email"
           required
-          className="w-full px-3 md:px-4 py-2 rounded bg-white text-black placeholder-black/60 focus:outline-none focus:ring-2 focus:ring-green-500 text-sm md:text-base"
+          className="w-full px-3 md:px-4 py-2 rounded bg-white text-black placeholder-black/60 focus:outline-none focus:ring-2 focus:ring-blue-600 text-sm md:text-base"
         />
         <button
           type="submit"
           disabled={isLoading}
-          className="w-full md:w-auto mt-3 inline-flex items-center justify-center gap-2 border-black border-2 bg-white px-4 md:px-6 py-2 md:py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[8px_8px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none disabled:opacity-50 disabled:cursor-not-allowed"
+          className="w-full md:w-auto mt-3 inline-flex items-center justify-center gap-2 border-black border-2 bg-blue-600 text-white px-4 md:px-6 py-2 md:py-3 font-bold transition-all duration-300 hover:bg-blue-700 hover:-translate-y-1 hover:-translate-x-1 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none disabled:opacity-50 disabled:cursor-not-allowed"
         >
           {isLoading ? "Subscribing..." : "Subscribe"}
           <svg
