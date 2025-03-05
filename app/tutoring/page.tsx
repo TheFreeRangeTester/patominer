@@ -34,7 +34,7 @@ export default function Tutoring() {
             </p>
             <div className="space-y-4 text-black">
               <p>
-                Whether you're just starting out or looking to advance your
+                Whether you&apos;re just starting out or looking to advance your
                 career in QA, I offer tailored tutoring sessions to help you
                 achieve your goals.
               </p>
