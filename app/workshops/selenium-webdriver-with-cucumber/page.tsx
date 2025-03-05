@@ -54,12 +54,26 @@ export default function SeleniumWebDriverJavaCucumber() {
             Selenium WebDriver is a powerful tool for automating web application
             testing. Combined with Cucumber, it allows for behavior-driven
             development (BDD) testing, making your tests more readable and
-            maintainable.
+            maintainable (only if you have the{" "}
+            <Link
+              href="https://www.agilealliance.org/glossary/three-amigos/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-500 underline"
+            >
+              3 amigos
+            </Link>{" "}
+            conversation happening!). Not only that, but it is a great framework
+            to start learning automation as you will need to set it up by
+            yourself, configure libraries to add reporting, assertions, making
+            it harder than Playwright but better to understand the nuts and
+            bolts.
             <br />
             <br />
             Recent trends show a growing demand for skills in Selenium and
             Cucumber, as they are widely used in the industry for test
-            automation.
+            automation. In New Zealand, this is particularly true in govt
+            agencies.
             <br />
             <br />
           </p>
@@ -74,7 +88,11 @@ export default function SeleniumWebDriverJavaCucumber() {
             <br />
             <br />
             The combination of Java with Selenium WebDriver and Cucumber
-            enhances your ability to create comprehensive test suites.
+            enhances your ability to create comprehensive test suites and opens
+            the door to the old school side of the market, while Playwright
+            gives you the opportunities in the more modern projects.
+            <br />
+            <br />
           </p>
           <h4 className="text-2xl font-semibold mb-1 text-center text-black">
             Other key aspects of Selenium WebDriver and Cucumber...
@@ -87,17 +105,19 @@ export default function SeleniumWebDriverJavaCucumber() {
               </h5>
               <p className="text-black">
                 Mastering Selenium WebDriver with Cucumber is a must-have skill
-                to secure top job opportunities in the tech industry!
+                to secure top job opportunities in the tech industry! It gives
+                the knowledge on tools with a big userbase to complement more
+                modern tools like Cypress and Playwright.
               </p>
             </div>
             <div className="w-full md:max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(29,53,87,0.8)] active:translate-x-0 active:translate-y-0 active:shadow-none">
               <h5 className="text-lg font-semibold mb-2 text-black">
-                Efficient Test Automation made simple!
+                Robust and with decades of development improving it.
               </h5>
               <p className="text-black">
-                The combination of Selenium WebDriver and Cucumber enables
-                efficient and reliable test automation—a highly sought-after
-                skill in the industry!
+                Other tools have become obsolete along the way. Not Selenium.
+                Constant updates and improvements makes it a great tool to
+                perform UI Automation.
               </p>
             </div>
             <div className="w-full md:max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(42,157,143,0.8)] active:translate-x-0 active:translate-y-0 active:shadow-none">
@@ -105,8 +125,10 @@ export default function SeleniumWebDriverJavaCucumber() {
                 Industry Standard Excellence!
               </h5>
               <p className="text-black">
-                Global and local trends reveal that adopting these tools is
-                quickly becoming the industry standard!
+                Global and local trends reveal that adopting these tools is big
+                in industries such as banks and government agencies... which
+                makes it perfect for those living in cities with heaps of these
+                in the market, such as Wellington.
               </p>
             </div>
           </div>
@@ -129,11 +151,19 @@ export default function SeleniumWebDriverJavaCucumber() {
                 The teacher
               </h2>
               <p className="text-black">
-                With 16 years of experience as a QA Engineer and Coach,
+                With 16 years of experience as a QA Engineer and Coaching,
                 I&apos;ve dedicated my career to empowering the Latin and
                 Spanish-speaking community. Now, based in New Zealand, I&apos;m
                 thrilled to share my expertise and passion for automated testing
                 on a global stage.
+                <br />
+                <br />
+                I&apos;ve already taught through asynchronous workshops with
+                DevAcademy to cohorts with people from all New Zealand with
+                great success, and this time it will only get better! 1 day
+                Workshops, online courses and asynchronous programmes to suit
+                the needs of everyone and help you boost your career
+                opportunities.
               </p>
             </div>
           </div>
@@ -150,8 +180,8 @@ export default function SeleniumWebDriverJavaCucumber() {
               </h2>
               <ul className="list-disc list-inside mb-4 text-black">
                 <li>
-                  Taught by a seasoned QA Engineer and Coach with 16 años de
-                  experiencia.
+                  Taught by a seasoned QA Engineer and Coach with 16 years of
+                  experience.
                 </li>
                 <li>Focused on the Kiwi and Australian community.</li>
                 <li>
@@ -171,7 +201,7 @@ export default function SeleniumWebDriverJavaCucumber() {
       <section className="py-16 bg-gray-100/50">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-semibold mb-8 text-center text-black">
-            The journey for this workshop
+            What you will learn
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="mb-4 rounded-lg shadow-lg max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none">

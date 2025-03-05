@@ -5,7 +5,7 @@ export default function Courses() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center">
       {/* Hero Section */}
-      <section className="py-20 text-center">
+      <section className="hidden md:block md:py-20 text-center">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl font-bold text-center text-black">
             QA Engineering Course
@@ -17,7 +17,7 @@ export default function Courses() {
       </section>
 
       {/* Courses Section */}
-      <section className="py-16 bg-gray-50 text-center">
+      <section className="md:py-16 py-4 bg-gray-50 text-center">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8 text-black">Our Courses</h2>
 

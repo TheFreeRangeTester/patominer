@@ -5,7 +5,7 @@ export default function About() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="py-20">
+      <section className="hidden md:block md:py-20">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl font-bold text-center text-black">
             About Me
@@ -17,7 +17,7 @@ export default function About() {
       </section>
 
       {/* Bio Section */}
-      <section className="py-16 bg-gray-50">
+      <section className="md:py-16 py-4 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="prose max-w-none">
             <div className="flex flex-col items-center mb-6">

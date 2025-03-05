@@ -28,7 +28,7 @@ export default function Workshops() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="py-20">
+      <section className="hidden md:block md:py-20">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl font-bold text-center text-black">
             Available and upcoming Workshops
@@ -37,7 +37,7 @@ export default function Workshops() {
       </section>
 
       {/* Workshops Section */}
-      <section className="py-16 bg-gray-50">
+      <section className="md:py-16 py-4 bg-gray-50">
         <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8 justify-center">
           {workshops.map((workshop) => (
             <div
