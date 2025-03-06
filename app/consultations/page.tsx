@@ -33,8 +33,16 @@ export default function Consultations() {
           <div className="text-center mb-8">
             <h3 className="text-3xl font-bold text-black">About Me</h3>
             <p className="text-lg text-gray-800 mt-4">
-              Experienced QA Engineer with a proven track record in improving
-              testing processes and implementing best practices.
+              I&apos;m an experienced QA Engineer with a proven track record in
+              improving testing processes and implementing best practices.
+              I&apos;ve worked with the top government agencies and banks in New
+              Zealand, Australia, Argentina and the US with excellent results.
+              <br />
+              <br />I love challenging the QA Engineering processes and
+              conceptions to follow up with ideas and implementation while
+              teaching the reasoning behind them. Test Engineering is a great
+              tool when you put it in the right hands and my clients can proudly
+              confirm this🤖!
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -46,7 +54,7 @@ export default function Consultations() {
                 <li>Testing Strategy Development</li>
                 <li>Test Automation Implementation</li>
                 <li>Quality Management</li>
-                <li>Performance and Security Testing</li>
+                <li>CI/CD and Test integration</li>
               </ul>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none">
@@ -54,10 +62,10 @@ export default function Consultations() {
                 Professional Experience
               </h3>
               <ul className="list-disc pl-5 space-y-2 text-gray-800">
-                <li>10+ years in QA Engineering</li>
+                <li>16+ years in QA Engineering</li>
                 <li>Worked with top tech companies</li>
                 <li>Expert in Agile methodologies</li>
-                <li>Certified Scrum Master</li>
+                <li>ISTQB FL and DevOps certified</li>
               </ul>
             </div>
           </div>

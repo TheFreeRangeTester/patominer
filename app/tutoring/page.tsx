@@ -16,14 +16,14 @@ export default function Tutoring() {
       {/* Tutoring Section */}
       <section className="md:py-16 py-4 bg-gray-50">
         <div className="container mx-auto px-4">
-          <div className="border rounded-lg p-6 shadow-lg">
-            <div className="aspect-video bg-gray-200 rounded-lg shadow-[8px_8px_0px_0px_rgba(251,146,60,1)] mb-4">
+          <div className="border rounded-lg p-6 shadow-lg text-center">
+            <div className="aspect-video bg-gray-200 rounded-lg shadow-[8px_8px_0px_0px_rgba(251,146,60,1)] mb-4 max-w-2xl mx-auto">
               <Image
                 src="/images/tutoring.png"
                 alt="Private Tutoring"
                 className="w-full h-full object-cover rounded-lg"
-                width={800}
-                height={450}
+                width={600}
+                height={338}
               />
             </div>
             <h2 className="text-2xl font-bold mb-4 text-black">
@@ -33,16 +33,22 @@ export default function Tutoring() {
               Get personalized guidance and support in your QA journey.
             </p>
             <div className="space-y-4 text-black">
-              <p>
+              <p className="text-center">
                 Whether you&apos;re just starting out or looking to advance your
                 career in QA, I offer tailored tutoring sessions to help you
                 achieve your goals.
               </p>
-              <ul className="list-disc pl-6 space-y-2">
+              <ul className="list-disc space-y-2 inline-block text-left">
                 <li>Flexible scheduling to fit your needs</li>
                 <li>Customized learning path</li>
-                <li>Hands-on practical exercises</li>
-                <li>Real-world project guidance</li>
+                <li>
+                  Extensive knowledge of the market, with focus in New Zealand
+                  and Australia.
+                </li>
+                <li>
+                  A safe space to express your doubts about what step to take
+                  next
+                </li>
               </ul>
             </div>
             <div className="mt-8 flex justify-center">
