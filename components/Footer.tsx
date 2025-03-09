@@ -3,7 +3,7 @@ import Newsletter from "./Newsletter";
 
 export default function Footer() {
   return (
-    <footer className="bg-green-200 text-black py-8 md:py-12">
+    <footer className="bg-slate-50 text-black py-8 md:py-12">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8">
           {/* Sección de Sitemap */}
@@ -148,7 +148,8 @@ export default function Footer() {
         {/* Copyright */}
         <div className="mt-8 pt-8 border-t border-purple-300 text-center text-sm md:text-base">
           <p>
-            © {new Date().getFullYear()} Patricio Miner. All rights reserved.
+            © {new Date().getFullYear()} Patricio Miner. Made with ❤️ in 🇳🇿 by
+            an imported 🇦🇷
           </p>
         </div>
       </div>
