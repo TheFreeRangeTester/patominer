@@ -19,7 +19,7 @@ export default function Tutoring() {
           <div className="border rounded-lg p-6 shadow-lg text-center">
             <div className="aspect-video bg-gray-200 rounded-lg shadow-[8px_8px_0px_0px_rgba(251,146,60,1)] mb-4 max-w-2xl mx-auto">
               <Image
-                src="/images/tutoring.png"
+                src="/images/mentorships/tutoring.png"
                 alt="Private Tutoring"
                 className="w-full h-full object-cover rounded-lg"
                 width={600}
@@ -53,7 +53,7 @@ export default function Tutoring() {
             </div>
             <div className="mt-8 flex justify-center">
               <Link
-                href="https://calendly.com/patominer/30min"
+                href="https://calendly.com/workwithpato/30min"
                 target="_blank"
                 className="group mt-3 inline-flex items-center gap-2 border-black border-2 bg-white px-6 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
               >
