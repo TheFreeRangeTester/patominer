@@ -33,7 +33,7 @@ export default function IntroductionToSoftwareTesting() {
               </a>
             </div>
             <Image
-              src="/path/to/image.jpg"
+              src="/images/courses/IntroTesting.png"
               alt="Introduction to Software Testing"
               width={500}
               height={300}
@@ -64,13 +64,8 @@ export default function IntroductionToSoftwareTesting() {
           <p className="text-lg mb-4 text-black text-center">
             Basic understanding of software development concepts.
           </p>
-        </div>
-      </section>
 
-      {/* Sección 3 */}
-      <section className="py-16 bg-gray-100/50">
-        <div className="container mx-auto px-4">
-          <div className="text-center">
+          <div className="text-center mt-8">
             <h2 className="text-3xl font-semibold mb-2 text-black">
               Join today!
             </h2>
@@ -90,7 +85,11 @@ export default function IntroductionToSoftwareTesting() {
             </div>
           </div>
         </div>
-        <div className="text-center mt-8">
+      </section>
+
+      {/* Sección de navegación */}
+      <section className="py-8 bg-gray-100/50">
+        <div className="text-center">
           <Link
             href="/courses"
             className="group mt-3 inline-flex items-center gap-2 border-black border-2 bg-white px-6 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"

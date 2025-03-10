@@ -27,7 +27,7 @@ export default function Courses() {
               <div className="border rounded-lg p-6 shadow-lg text-center mx-auto">
                 <div className="aspect-video bg-gray-200 rounded-lg shadow-[8px_8px_0px_0px_rgba(251,146,60,1)] mb-4">
                   <Image
-                    src="/images/full-stack-test-engineer.png"
+                    src="/images/courses/TestEngineer.png"
                     alt="Full Stack Test Engineer"
                     className="w-full h-full object-cover rounded-lg"
                     width={800}
@@ -58,7 +58,7 @@ export default function Courses() {
               <div className="border rounded-lg p-6 shadow-lg text-center mx-auto">
                 <div className="aspect-video bg-gray-200 rounded-lg shadow-[8px_8px_0px_0px_rgba(251,146,60,1)] mb-4">
                   <Image
-                    src="/images/introduction-to-software-testing.png"
+                    src="/images/courses/IntroTesting.png"
                     alt="Introduction to Software Testing"
                     className="w-full h-full object-cover rounded-lg"
                     width={800}

@@ -140,11 +140,11 @@ export default function SeleniumWebDriverJavaCucumber() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center justify-center">
             <Image
-              src="/path_to_your_image.jpg"
+              src="/images/pato.png"
               alt="Instructor de Selenium WebDriver"
-              width={256}
-              height={256}
-              className="mb-4 md:mb-0 md:mr-4 w-full md:w-64 h-auto max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
+              width={1200}
+              height={1200}
+              className="mb-4 md:mb-0 md:mr-4 w-full md:w-96 h-auto max-w-lg p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
             />
             <div className="text-center md:text-left">
               <h2 className="text-3xl font-semibold mb-2 text-black">
@@ -250,7 +250,7 @@ export default function SeleniumWebDriverJavaCucumber() {
           <div className="flex items-center justify-center">
             <div className="text-center">
               <Image
-                src="/path_to_your_image.jpg"
+                src="/images/jointoday.png"
                 alt="Teacher's photo"
                 width={400}
                 height={400}
