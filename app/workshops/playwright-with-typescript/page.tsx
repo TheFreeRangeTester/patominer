@@ -83,36 +83,47 @@ export default function PlaywrightTypeScript() {
             the extra layer of types makes for better code.
           </p>
           <h4 className="text-2xl font-semibold mb-1 text-center text-black">
-            Other key aspects of Playwright that you should consider...
+            What can you expect from this workshop?
           </h4>
           <div className="flex flex-col md:flex-row justify-center gap-4 mt-8">
             <div className="w-full md:max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none">
               <h5 className="text-lg font-semibold mb-2 text-black">
-                Boost your career opportunities and stand out in the tech
-                industry!
+                🧑🏻‍💻 A packed week!
               </h5>
               <p className="text-black">
-                Mastering Playwright with TypeScript is a must-have skill to
-                secure top job opportunities in Australia and New Zealand!
+                Online lectures and debates, exercises and resources to have an
+                holistic learning experience.
+                <br></br>
+                <br></br>
+                Can&apos;t make it to an online lecture? Don&apos;t worry, these
+                are recorded and uploaded for you to watch later!
               </p>
             </div>
             <div className="w-full md:max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(29,53,87,0.8)] active:translate-x-0 active:translate-y-0 active:shadow-none">
               <h5 className="text-lg font-semibold mb-2 text-black">
-                Efficient Test Automation made simple!
+                💡 A place for everyone to learn at their own pace
               </h5>
               <p className="text-black">
-                The combination of Playwright and TypeScript enables efficient
-                and reliable test automation—a highly sought-after skill in the
-                industry!
+                I understand that you have a busy life, so this workshop is
+                designed to give you the directions to complete the tasks at
+                your own pace.
+                <br></br>
+                <br></br>
+                If you have extra time, you might want to check the extra
+                challenges we prepared for each week!
               </p>
             </div>
             <div className="w-full md:max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(42,157,143,0.8)] active:translate-x-0 active:translate-y-0 active:shadow-none">
               <h5 className="text-lg font-semibold mb-2 text-black">
-                Industry Standard Excellence!
+                🚀 Tangible results ready to be shown
               </h5>
               <p className="text-black">
-                Global and local trends reveal that adopting this tool is
-                quickly becoming the industry standard!
+                By the end of this workshop you will have a robust, well made
+                automation framework following the best practices and running on
+                CI/CD pipelines ready to show off to any recruiter or company.
+                <br></br>
+                <br></br>
+                The best way to add value to your CV and profile in the market!
               </p>
             </div>
           </div>
@@ -156,8 +167,8 @@ export default function PlaywrightTypeScript() {
               </h2>
               <ul className="list-disc list-inside mb-4 text-black">
                 <li>
-                  Taught by a seasoned QA Engineer and Coach with 16 años de
-                  experiencia.
+                  Taught by a seasoned QA Engineer and Coach with 16 years of
+                  experience.
                 </li>
                 <li>Focused on the Kiwi and Australian community.</li>
                 <li>
@@ -186,9 +197,7 @@ export default function PlaywrightTypeScript() {
                 <li>Introduction to Playwright</li>
                 <li>Environment setup</li>
                 <li>First steps with Playwright</li>
-                <li>Error and exception handling</li>
-                <li>Performance testing</li>
-                <li>CI/CD integration</li>
+                <li>Creating our first automated test</li>
               </ul>
             </div>
             <div className="mb-4 rounded-lg shadow-lg max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none">
@@ -196,29 +205,26 @@ export default function PlaywrightTypeScript() {
               <ul className="list-disc list-inside text-black">
                 <li>Elements and Selectors</li>
                 <li>Page interactions</li>
-                <li>Form handling</li>
-                <li>Error and exception handling</li>
-                <li>Performance testing</li>
-                <li>CI/CD integration</li>
+                <li>Validations and assertions</li>
+                <li>Structure of Test Suites</li>
               </ul>
             </div>
             <div className="mb-4 rounded-lg shadow-lg max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none">
               <h3 className="text-xl font-semibold mb-2 text-black">Week 3</h3>
               <ul className="list-disc list-inside text-black">
-                <li>Window and tab management</li>
-                <li>Frames and iframes</li>
-                <li>File downloads</li>
-                <li>Error and exception handling</li>
-                <li>Performance testing</li>
-                <li>CI/CD integration</li>
+                <li>API Testing</li>
+                <li>Interactive runner</li>
+                <li>Extensions</li>
+                <li>Performance Testing</li>
               </ul>
             </div>
             <div className="mb-4 rounded-lg shadow-lg max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none">
               <h3 className="text-xl font-semibold mb-2 text-black">Week 4</h3>
               <ul className="list-disc list-inside text-black">
-                <li>Error and exception handling</li>
-                <li>Performance testing</li>
+                <li>Reports and context</li>
+                <li>Mocking for better testing</li>
                 <li>CI/CD integration</li>
+                <li>Final Project and feedback</li>
               </ul>
             </div>
           </div>
@@ -244,7 +250,7 @@ export default function PlaywrightTypeScript() {
                 <li>
                   Taught by a QA Engineer and Coach with 16 years of experience.
                 </li>
-                <li>Focused on the Latin and Spanish-speaking community.</li>
+                <li>Focused on the Kiwi and Aussie community.</li>
                 <li>
                   Delivered from New Zealand, sharing knowledge in automated
                   testing.
@@ -252,12 +258,12 @@ export default function PlaywrightTypeScript() {
               </ul>
               <div className="flex justify-center mt-6">
                 <a
-                  href="https://buy.stripe.com/dR64iXbA09NQ44U9AB"
+                  href="https://buy.stripe.com/fZecPtgUk7FI58Y147"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block w-full md:w-auto border-black border-2 bg-white px-8 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none mx-auto"
                 >
-                  Sign up Now - $550 NZD
+                  Sign up Now - $1250 NZD
                 </a>
               </div>
             </div>

@@ -159,7 +159,7 @@ function NavLink({
       <span className="relative z-10 font-medium text-lg transition-colors duration-300 ease-in-out group-hover:text-white text-black">
         {text}
       </span>
-      <span className="absolute inset-0 w-full h-full bg-transparent group-hover:bg-green-300 transition-all duration-300 transform scale-x-0 group-hover:scale-x-100 origin-left rounded-lg"></span>
+      <span className="absolute inset-0 w-full h-full bg-transparent group-hover:bg-orange-300 transition-all duration-300 transform scale-x-0 group-hover:scale-x-100 origin-left rounded-lg"></span>
       <span className="absolute inset-0 w-full h-full transition-all duration-500 transform scale-x-0 group-hover:scale-x-100 origin-left bg-red-200/30 blur-lg group-hover:blur-xl rounded-lg"></span>
     </Link>
   );

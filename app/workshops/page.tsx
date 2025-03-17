@@ -7,7 +7,7 @@ export default function Workshops() {
       title: "Selenium WebDriver with Cucumber",
       description:
         "The one workshop to dominate the most demanded tool in the market.",
-      location: "Online",
+      location: "Asynchronous and online",
       price: "$100",
       duration: "50 hours",
       image: "/images/Selenium-Workshop.png",
@@ -17,11 +17,11 @@ export default function Workshops() {
       title: "Playwright with TypeScript",
       description:
         "Keen to learn the tool with the best projection for the upcoming years? This is the workshop for you!",
-      location: "In-person at Tech Center",
-      price: "$150",
-      duration: "8 hours",
+      location: "Asynchronous and online",
+      price: "$1250",
+      duration: "You will need around 10 hours per week",
       image: "/images/Playwright-Workshop.png",
-      buyButtonId: "buy_btn_1QvlKCGg3IBRIOi3GxebDPeB",
+      buyButtonId: "buy_btn_1R21lDGg3IBRIOi3H1zVBYqd",
     },
   ];
 

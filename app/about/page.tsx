@@ -103,7 +103,7 @@ export default function About() {
             </h2>
             <div className="flex justify-center space-x-4 mt-6">
               <Link
-                href="https://www.notion.so/tu-cv-enlace"
+                href="https://peach-freckle-a65.notion.site/Patricio-Miner-1b8aa7cafd638046942de69e65695a24?pvs=4"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group inline-flex items-center gap-2 border-black border-2 bg-white px-6 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none rounded-full"
