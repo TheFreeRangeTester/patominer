@@ -12,9 +12,9 @@
       "static/chunks/4bd1b696-692f10ba759dfb60.js",
       "static/chunks/517-2685a4f087d222a4.js",
       "static/chunks/main-app-665941dfe1b51ac6.js",
-      "static/css/49ce72d767987ef2.css",
+      "static/css/bec3a99e0ccc4e26.css",
       "static/chunks/173-c72f956e0e7ca46c.js",
-      "static/chunks/app/layout-f195320a40e954e0.js"
+      "static/chunks/app/layout-5dfa9ec3c4874623.js"
     ],
     "/api/subscribe/route": [
       "static/chunks/webpack-4e9de2322f19dfe1.js",
@@ -95,15 +95,6 @@
       "static/chunks/970-29a7be5a4e155166.js",
       "static/chunks/app/tutoring/page-a4493db5e53635cd.js"
     ],
-    "/workshops/page": [
-      "static/chunks/webpack-4e9de2322f19dfe1.js",
-      "static/chunks/4bd1b696-692f10ba759dfb60.js",
-      "static/chunks/517-2685a4f087d222a4.js",
-      "static/chunks/main-app-665941dfe1b51ac6.js",
-      "static/chunks/173-c72f956e0e7ca46c.js",
-      "static/chunks/970-29a7be5a4e155166.js",
-      "static/chunks/app/workshops/page-77afb0bf84bcec60.js"
-    ],
     "/workshops/playwright-with-typescript/page": [
       "static/chunks/webpack-4e9de2322f19dfe1.js",
       "static/chunks/4bd1b696-692f10ba759dfb60.js",
@@ -112,6 +103,15 @@
       "static/chunks/173-c72f956e0e7ca46c.js",
       "static/chunks/970-29a7be5a4e155166.js",
       "static/chunks/app/workshops/playwright-with-typescript/page-d81c62e57ef63a10.js"
+    ],
+    "/workshops/page": [
+      "static/chunks/webpack-4e9de2322f19dfe1.js",
+      "static/chunks/4bd1b696-692f10ba759dfb60.js",
+      "static/chunks/517-2685a4f087d222a4.js",
+      "static/chunks/main-app-665941dfe1b51ac6.js",
+      "static/chunks/173-c72f956e0e7ca46c.js",
+      "static/chunks/970-29a7be5a4e155166.js",
+      "static/chunks/app/workshops/page-77afb0bf84bcec60.js"
     ],
     "/workshops/selenium-webdriver-with-cucumber/page": [
       "static/chunks/webpack-4e9de2322f19dfe1.js",
