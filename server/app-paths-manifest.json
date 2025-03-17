@@ -10,7 +10,8 @@
   "/page": "app/page.js",
   "/talks/page": "app/talks/page.js",
   "/tutoring/page": "app/tutoring/page.js",
-  "/workshops/playwright-with-typescript/page": "app/workshops/playwright-with-typescript/page.js",
+  "/welcome/page": "app/welcome/page.js",
   "/workshops/page": "app/workshops/page.js",
+  "/workshops/playwright-with-typescript/page": "app/workshops/playwright-with-typescript/page.js",
   "/workshops/selenium-webdriver-with-cucumber/page": "app/workshops/selenium-webdriver-with-cucumber/page.js"
 }
