@@ -30,7 +30,7 @@
       "static/chunks/main-app-665941dfe1b51ac6.js",
       "static/chunks/173-c72f956e0e7ca46c.js",
       "static/chunks/970-29a7be5a4e155166.js",
-      "static/chunks/app/about/page-9dcdde14535610d8.js"
+      "static/chunks/app/about/page-90985a14119915e1.js"
     ],
     "/consultations/page": [
       "static/chunks/webpack-4e9de2322f19dfe1.js",
@@ -39,25 +39,7 @@
       "static/chunks/main-app-665941dfe1b51ac6.js",
       "static/chunks/173-c72f956e0e7ca46c.js",
       "static/chunks/970-29a7be5a4e155166.js",
-      "static/chunks/app/consultations/page-353723c021befbd1.js"
-    ],
-    "/courses/full-stack-test-engineer/page": [
-      "static/chunks/webpack-4e9de2322f19dfe1.js",
-      "static/chunks/4bd1b696-692f10ba759dfb60.js",
-      "static/chunks/517-2685a4f087d222a4.js",
-      "static/chunks/main-app-665941dfe1b51ac6.js",
-      "static/chunks/173-c72f956e0e7ca46c.js",
-      "static/chunks/970-29a7be5a4e155166.js",
-      "static/chunks/app/courses/full-stack-test-engineer/page-43b5227ab5d43c44.js"
-    ],
-    "/courses/introduction-to-software-testing/page": [
-      "static/chunks/webpack-4e9de2322f19dfe1.js",
-      "static/chunks/4bd1b696-692f10ba759dfb60.js",
-      "static/chunks/517-2685a4f087d222a4.js",
-      "static/chunks/main-app-665941dfe1b51ac6.js",
-      "static/chunks/173-c72f956e0e7ca46c.js",
-      "static/chunks/970-29a7be5a4e155166.js",
-      "static/chunks/app/courses/introduction-to-software-testing/page-d9b1d85f45575356.js"
+      "static/chunks/app/consultations/page-16092dfc650ed8c8.js"
     ],
     "/courses/page": [
       "static/chunks/webpack-4e9de2322f19dfe1.js",
@@ -66,16 +48,7 @@
       "static/chunks/main-app-665941dfe1b51ac6.js",
       "static/chunks/173-c72f956e0e7ca46c.js",
       "static/chunks/970-29a7be5a4e155166.js",
-      "static/chunks/app/courses/page-09611f777fab1682.js"
-    ],
-    "/page": [
-      "static/chunks/webpack-4e9de2322f19dfe1.js",
-      "static/chunks/4bd1b696-692f10ba759dfb60.js",
-      "static/chunks/517-2685a4f087d222a4.js",
-      "static/chunks/main-app-665941dfe1b51ac6.js",
-      "static/chunks/173-c72f956e0e7ca46c.js",
-      "static/chunks/970-29a7be5a4e155166.js",
-      "static/chunks/app/page-16b08f04c1e0202c.js"
+      "static/chunks/app/courses/page-f2544ebc8e6801a3.js"
     ],
     "/talks/page": [
       "static/chunks/webpack-4e9de2322f19dfe1.js",
@@ -84,7 +57,16 @@
       "static/chunks/main-app-665941dfe1b51ac6.js",
       "static/chunks/173-c72f956e0e7ca46c.js",
       "static/chunks/970-29a7be5a4e155166.js",
-      "static/chunks/app/talks/page-7bea56013b2b0ff9.js"
+      "static/chunks/app/talks/page-1674cb6b390ffa7c.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-4e9de2322f19dfe1.js",
+      "static/chunks/4bd1b696-692f10ba759dfb60.js",
+      "static/chunks/517-2685a4f087d222a4.js",
+      "static/chunks/main-app-665941dfe1b51ac6.js",
+      "static/chunks/173-c72f956e0e7ca46c.js",
+      "static/chunks/970-29a7be5a4e155166.js",
+      "static/chunks/app/page-183467bc4ebd886e.js"
     ],
     "/tutoring/page": [
       "static/chunks/webpack-4e9de2322f19dfe1.js",
@@ -93,7 +75,7 @@
       "static/chunks/main-app-665941dfe1b51ac6.js",
       "static/chunks/173-c72f956e0e7ca46c.js",
       "static/chunks/970-29a7be5a4e155166.js",
-      "static/chunks/app/tutoring/page-81d0e314be762075.js"
+      "static/chunks/app/tutoring/page-4e3a8e9ef209df0e.js"
     ],
     "/welcome/page": [
       "static/chunks/webpack-4e9de2322f19dfe1.js",
@@ -102,7 +84,7 @@
       "static/chunks/main-app-665941dfe1b51ac6.js",
       "static/chunks/173-c72f956e0e7ca46c.js",
       "static/chunks/970-29a7be5a4e155166.js",
-      "static/chunks/app/welcome/page-04cb9717cec6d59d.js"
+      "static/chunks/app/welcome/page-dce32a2cea0ec56f.js"
     ],
     "/workshops/page": [
       "static/chunks/webpack-4e9de2322f19dfe1.js",
@@ -111,7 +93,7 @@
       "static/chunks/main-app-665941dfe1b51ac6.js",
       "static/chunks/173-c72f956e0e7ca46c.js",
       "static/chunks/970-29a7be5a4e155166.js",
-      "static/chunks/app/workshops/page-8b08dcd158fa5ac2.js"
+      "static/chunks/app/workshops/page-4608abc6243ccdbc.js"
     ],
     "/workshops/playwright-with-typescript/page": [
       "static/chunks/webpack-4e9de2322f19dfe1.js",
@@ -120,7 +102,7 @@
       "static/chunks/main-app-665941dfe1b51ac6.js",
       "static/chunks/173-c72f956e0e7ca46c.js",
       "static/chunks/970-29a7be5a4e155166.js",
-      "static/chunks/app/workshops/playwright-with-typescript/page-49dad8a565f9565e.js"
+      "static/chunks/app/workshops/playwright-with-typescript/page-9d112312d074abd8.js"
     ],
     "/workshops/selenium-webdriver-with-cucumber/page": [
       "static/chunks/webpack-4e9de2322f19dfe1.js",
@@ -129,7 +111,7 @@
       "static/chunks/main-app-665941dfe1b51ac6.js",
       "static/chunks/173-c72f956e0e7ca46c.js",
       "static/chunks/970-29a7be5a4e155166.js",
-      "static/chunks/app/workshops/selenium-webdriver-with-cucumber/page-849f7032232d9d73.js"
+      "static/chunks/app/workshops/selenium-webdriver-with-cucumber/page-c959fdef70d2c3f4.js"
     ]
   }
 }
