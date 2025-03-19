@@ -184,11 +184,11 @@ const sections = [
     imageSrc: "/images/workshops.png",
   },
   {
-    id: "courses",
-    title: "Courses",
+    id: "course",
+    title: "Course",
     description:
-      "Two courses designed to give you the tools, skills and mindset to be a great QA Engineer professional. One for those who want to start in testing, the other one, for those who want the definitive jump in their careers...",
-    linkText: "See courses",
+      "One course to rule them all. This course is designed to give you all the tools to get yourself in the market, future proof and with the best practices taught by an experienced teacher. It will be updating yearly adding the hottest trends in the QA Space so you don't have to worry about which course to take next.",
+    linkText: "See The Course 😱",
     linkHref: "/courses",
     imageSrc: "/images/course.png",
   },
