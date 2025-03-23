@@ -184,12 +184,14 @@ function MobileNavLink({
       href={href}
       target={external ? "_blank" : undefined}
       rel={external ? "noopener noreferrer" : undefined}
-      className={`block px-4 py-2 text-black hover:bg-red-300 rounded-lg transition-colors duration-300 text-right ${
+      className={`block px-4 py-3 text-black hover:bg-red-300 rounded-lg transition-all duration-300 text-right ${
         className || ""
       }`}
       onClick={onClick}
     >
-      {text}
+      <span className="font-geist-sans text-2xl font-semibold tracking-tight hover:tracking-wide transition-all duration-300">
+        {text}
+      </span>
     </Link>
   );
 }
