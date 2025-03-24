@@ -118,7 +118,7 @@ export default function RootLayout({
                     />
                     <MobileNavLink
                       href="/courses"
-                      text="Courses"
+                      text="Course"
                       onClick={() => setIsMenuOpen(false)}
                       className="hover:bg-warning"
                     />
