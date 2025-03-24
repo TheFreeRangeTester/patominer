@@ -35,8 +35,16 @@ export default function RootLayout({
             <div className="container mx-auto px-4 py-4">
               <div className="flex flex-col md:flex-row md:justify-between md:items-center">
                 <div className="flex justify-between items-center">
-                  <Link href="/" className="text-xl font-bold text-slate-900">
-                    Pato Miner
+                  <Link
+                    href="/"
+                    className="text-xl font-bold text-slate-900 flex items-center gap-2"
+                  >
+                    <img
+                      src="/images/logo.png"
+                      alt="Pato Miner Logo"
+                      className="h-12 w-auto"
+                    />
+                    <span>Pato Miner</span>
                   </Link>
                   <button
                     onClick={() => setIsMenuOpen(!isMenuOpen)}
