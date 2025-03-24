@@ -5,7 +5,7 @@ export default function About() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="hidden md:block md:py-20">
+      <section className="hidden md:block md:py-20 bg-white">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl font-bold text-center text-black">
             About Me

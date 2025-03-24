@@ -8,27 +8,27 @@ export default function Workshops() {
       description:
         "The one workshop to dominate the most demanded tool in the market.",
       location: "Asynchronous and online",
-      price: "$100",
-      duration: "50 hours",
+      price: "$999",
+      duration: "You will need around 10 hours per week",
       image: "/images/Selenium-Workshop.png",
-      buyButtonId: "buy_btn_1QJ8DeGg3IBRIOi3Id5AAtmv",
+      buyButtonId: "buy_btn_1R63m9Gg3IBRIOi3UQkbyw3t",
     },
     {
       title: "Playwright with TypeScript",
       description:
         "Keen to learn the tool with the best projection for the upcoming years? This is the workshop for you!",
       location: "Asynchronous and online",
-      price: "$1250",
+      price: "$999",
       duration: "You will need around 10 hours per week",
       image: "/images/Playwright-Workshop.png",
-      buyButtonId: "buy_btn_1R21lDGg3IBRIOi3H1zVBYqd",
+      buyButtonId: "buy_btn_1R63ekGg3IBRIOi3mgHS0sXL",
     },
   ];
 
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="hidden md:block md:py-20">
+      <section className="hidden md:block md:py-20 bg-white">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl font-bold text-center text-black">
             Available and upcoming Workshops

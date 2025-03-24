@@ -258,12 +258,12 @@ export default function PlaywrightTypeScript() {
               </ul>
               <div className="flex justify-center mt-6">
                 <a
-                  href="https://buy.stripe.com/fZecPtgUk7FI58Y147"
+                  href="https://buy.stripe.com/aEU7v98nO8JM44U28c"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block w-full md:w-auto border-black border-2 bg-white px-8 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none mx-auto"
                 >
-                  Sign up Now - $1250 NZD
+                  Sign up Now - $999 NZD
                 </a>
               </div>
             </div>

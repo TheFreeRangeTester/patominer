@@ -31,11 +31,11 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-background`}
       >
         <div className="min-h-screen flex flex-col">
-          <nav className="bg-white/70 backdrop-blur-sm border-b border-blue-100">
+          <nav className="bg-gradient-to-r from-white to-slate-50 backdrop-blur-sm border-b border-slate-200 shadow-sm">
             <div className="container mx-auto px-4 py-4">
               <div className="flex flex-col md:flex-row md:justify-between md:items-center">
                 <div className="flex justify-between items-center">
-                  <Link href="/" className="text-xl font-bold text-foreground">
+                  <Link href="/" className="text-xl font-bold text-slate-900">
                     Pato Miner
                   </Link>
                   <button
@@ -156,7 +156,7 @@ function NavLink({
       rel={external ? "noopener noreferrer" : undefined}
       className={`relative px-4 py-2 group ${className || ""}`}
     >
-      <span className="relative z-10 font-medium text-lg transition-colors duration-300 ease-in-out group-hover:text-white text-black">
+      <span className="relative z-10 font-medium text-lg transition-colors duration-300 ease-in-out group-hover:text-white text-slate-800">
         {text}
       </span>
       <span className="absolute inset-0 w-full h-full bg-transparent group-hover:bg-orange-300 transition-all duration-300 transform scale-x-0 group-hover:scale-x-100 origin-left rounded-lg"></span>
@@ -184,7 +184,7 @@ function MobileNavLink({
       href={href}
       target={external ? "_blank" : undefined}
       rel={external ? "noopener noreferrer" : undefined}
-      className={`block px-4 py-3 text-black hover:bg-red-300 rounded-lg transition-all duration-300 text-right ${
+      className={`block px-4 py-3 text-slate-800 hover:bg-slate-100 rounded-lg transition-all duration-300 text-right ${
         className || ""
       }`}
       onClick={onClick}
