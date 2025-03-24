@@ -83,7 +83,7 @@ export default function RootLayout({
                   />
                   <NavLink
                     href="/courses"
-                    text="Courses"
+                    text="Course"
                     className="text-primary"
                   />
                 </div>
