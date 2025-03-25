@@ -52,7 +52,7 @@ export default function RootLayout({
                     aria-label="Toggle menu"
                   >
                     <svg
-                      className="w-6 h-6"
+                      className="w-6 h-6 text-slate-900"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -74,7 +74,7 @@ export default function RootLayout({
                 {/* Desktop Navigation */}
                 <div className="hidden md:flex md:space-x-4">
                   <NavLink
-                    href="https://discord.gg/placeholder"
+                    href="https://discord.gg/Gz6ARafD"
                     text="Community"
                     external
                     className="text-primary"
@@ -106,7 +106,7 @@ export default function RootLayout({
                 >
                   <div className="space-y-2">
                     <MobileNavLink
-                      href="https://discord.gg/placeholder"
+                      href="https://discord.gg/Gz6ARafD"
                       text="Community"
                       external
                       onClick={() => setIsMenuOpen(false)}

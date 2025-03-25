@@ -4,9 +4,9 @@ import Image from "next/image";
 export default function Workshops() {
   const workshops = [
     {
-      title: "Selenium WebDriver with Cucumber",
+      title: "From Manual to Automation Testing",
       description:
-        "The one workshop to dominate the most demanded tool in the market.",
+        "The one workshop to make the jump into the world of Test Engineering",
       location: "Asynchronous and online",
       price: "$999",
       duration: "You will need around 10 hours per week",
@@ -14,9 +14,9 @@ export default function Workshops() {
       buyButtonId: "buy_btn_1R63m9Gg3IBRIOi3UQkbyw3t",
     },
     {
-      title: "Playwright with TypeScript",
+      title: "Advanced Test Engineering",
       description:
-        "Keen to learn the tool with the best projection for the upcoming years? This is the workshop for you!",
+        "You know the basics of automation, now is time to master the big guns of your test engineer skillset",
       location: "Asynchronous and online",
       price: "$999",
       duration: "You will need around 10 hours per week",

@@ -66,25 +66,9 @@ export default function Footer() {
           {/* Sección de Redes Sociales */}
           <div className="text-center sm:text-left col-span-1">
             <h3 className="text-base md:text-xl font-bold mb-3 md:mb-4">
-              Follow us
+              Follow me
             </h3>
             <ul className="space-y-1.5 md:space-y-2 text-sm md:text-base">
-              <li>
-                <Link
-                  href="https://facebook.com"
-                  target="_blank"
-                  className="hover:text-blue-500 transition-colors inline-flex items-center gap-2"
-                >
-                  <svg
-                    className="w-5 h-5"
-                    fill="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
-                  </svg>
-                  <span>Facebook</span>
-                </Link>
-              </li>
               <li>
                 <Link
                   href="https://x.com/RangeTester"
