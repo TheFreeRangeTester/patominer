@@ -8,6 +8,7 @@ export default function Workshops() {
       description:
         "The one workshop to make the jump into the world of Test Engineering",
       location: "Asynchronous and online",
+      starting_date: "May 15th, 2025",
       price: "$999",
       duration: "You will need around 10 hours per week",
       image: "/images/Selenium-Workshop.png",
@@ -18,6 +19,7 @@ export default function Workshops() {
       description:
         "You know the basics of automation, now is time to master the big guns of your test engineer skillset",
       location: "Asynchronous and online",
+      starting_date: "May 15th, 2025",
       price: "$999",
       duration: "You will need around 10 hours per week",
       image: "/images/Playwright-Workshop.png",
@@ -59,6 +61,9 @@ export default function Workshops() {
               <p className="text-lg mb-4 text-black">{workshop.description}</p>
               <p className="text-md mb-2 text-gray-700">
                 Location: {workshop.location}
+              </p>
+              <p className="text-md mb-2 text-gray-700">
+                Starting Date: {workshop.starting_date}
               </p>
               <p className="text-md mb-2 text-gray-700">
                 Price: {workshop.price}

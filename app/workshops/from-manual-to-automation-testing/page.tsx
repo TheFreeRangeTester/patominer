@@ -11,7 +11,7 @@ export default function SeleniumWebDriverJavaCucumber() {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-center md:text-left">
               <h2 className="text-5xl font-bold mb-4 text-black">
-                E2E Automation with Selenium WebDriver and Cucumber
+                Upskilling from Manual to Automation Testing in a month
               </h2>
               <ul className="list-disc list-inside mb-4 text-black">
                 <li>4 week online, part-time course for software engineers.</li>
@@ -21,7 +21,7 @@ export default function SeleniumWebDriverJavaCucumber() {
                     Tuesday and Thursdays
                   </span>
                   <br />
-                  March 1st to March 28th, 2025
+                  May 15th to August 15th, 2025
                 </span>
               </ul>
               <a
@@ -48,87 +48,104 @@ export default function SeleniumWebDriverJavaCucumber() {
       <section className="py-16 bg-gray-100">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-semibold mb-2 text-center text-black">
-            Why do you need to learn Selenium WebDriver and Cucumber NOW?
+            Why do you need to learn Automation Testing NOW?
           </h2>
           <p className="text-left text-black">
-            Selenium WebDriver is a powerful tool for automating web application
-            testing. Combined with Cucumber, it allows for behavior-driven
-            development (BDD) testing, making your tests more readable and
-            maintainable (only if you have the{" "}
+            The transition from manual to automated testing is crucial for any
+            tester&apos;s professional development. According to current market
+            trends, companies are increasingly seeking professionals who can
+            combine testing analysis skills with automation capabilities. As a{" "}
             <Link
-              href="https://www.agilealliance.org/glossary/three-amigos/"
+              href="https://www.seek.co.nz/career-advice/role/testing-analyst"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-500 underline"
             >
-              3 amigos
+              Testing Analyst
             </Link>{" "}
-            conversation happening!). Not only that, but it is a great framework
-            to start learning automation as you will need to set it up by
-            yourself, configure libraries to add reporting, assertions, making
-            it harder than Playwright but better to understand the nuts and
-            bolts.
+            and{" "}
+            <Link
+              href="https://www.seek.co.nz/career-advice/role/testing-engineer"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-500 underline"
+            >
+              Testing Engineer
+            </Link>
+            , automation enables you to design and implement more efficient
+            tests, reduce execution time, and increase test coverage. Moreover,
+            automation allows you to focus on more strategic tasks such as test
+            design and results analysis, rather than repetitive manual execution
+            tasks.
             <br />
             <br />
-            Recent trends show a growing demand for skills in Selenium and
-            Cucumber, as they are widely used in the industry for test
-            automation. In New Zealand, this is particularly true in govt
-            agencies.
+            Recent trends show a growing demand for skills in test automation,
+            both E2E and API, as they are widely used in the industry for test
+            automation. Even in entry positions, automation is starting to be a
+            mandatory skill.
             <br />
             <br />
           </p>
           <h4 className="text-2xl font-semibold mb-1 text-center text-black">
-            Why Java for Selenium WebDriver?
+            What about the skills?
           </h4>
           <p className="text-black">
-            Java is one of the most popular programming languages for Selenium
-            WebDriver due to its robustness and extensive community support. It
-            provides a strong foundation for writing reliable and efficient
+            To become proficient in test automation, you need to master three
+            fundamental skills: programming, testing principles, and version
+            control. A solid understanding of programming concepts and best
+            practices is essential for writing maintainable and efficient
             automated tests.
             <br />
             <br />
-            The combination of Java with Selenium WebDriver and Cucumber
-            enhances your ability to create comprehensive test suites and opens
-            the door to the old school side of the market, while Playwright
-            gives you the opportunities in the more modern projects.
+            Strong testing fundamentals, including test design techniques and
+            quality assurance principles, will help you create more effective
+            test cases. Additionally, being comfortable with Git and version
+            control systems is crucial for collaborating with development teams
+            and managing your test automation framework effectively. Once
+            you&apos;ve mastered these core skills, learning specific automation
+            tools becomes much easier.
             <br />
             <br />
           </p>
           <h4 className="text-2xl font-semibold mb-1 text-center text-black">
-            Other key aspects of Selenium WebDriver and Cucumber...
+            Other key aspects of making the jump from manual to automation...
           </h4>
           <div className="flex flex-col md:flex-row justify-center gap-4 mt-8">
             <div className="w-full md:max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none">
               <h5 className="text-lg font-semibold mb-2 text-black">
-                Boost your career opportunities and stand out in the tech
-                industry!
+                It is not a nice to have anymore...it is mandatory
               </h5>
               <p className="text-black">
-                Mastering Selenium WebDriver with Cucumber is a must-have skill
-                to secure top job opportunities in the tech industry! It gives
-                the knowledge on tools with a big userbase to complement more
-                modern tools like Cypress and Playwright.
+                More and more job ads for QA are demanding automation skills as
+                a mandatory item. Not only that, making the jump while being at
+                a position of Test Analyst can become a challenge due the lack
+                of training from the companies, relying on learning on the fly
+                and most of the times with not so good practices.
               </p>
             </div>
             <div className="w-full md:max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(29,53,87,0.8)] active:translate-x-0 active:translate-y-0 active:shadow-none">
               <h5 className="text-lg font-semibold mb-2 text-black">
-                Robust and with decades of development improving it.
+                Better positions and a cross-functional profile as QA
               </h5>
               <p className="text-black">
-                Other tools have become obsolete along the way. Not Selenium.
-                Constant updates and improvements makes it a great tool to
-                perform UI Automation.
+                When you can talk at the same technical level as a Developer,
+                doors are open for you. It is key as a testing professional to
+                generate confidence and avoid the second citizen status that
+                usually gets assigned to the testing roles. Own the quality
+                excellence of your teams, be proactive and enable them achieve
+                it!
               </p>
             </div>
             <div className="w-full md:max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(42,157,143,0.8)] active:translate-x-0 active:translate-y-0 active:shadow-none">
               <h5 className="text-lg font-semibold mb-2 text-black">
-                Industry Standard Excellence!
+                Never get bored again as a tester
               </h5>
               <p className="text-black">
-                Global and local trends reveal that adopting these tools is big
-                in industries such as banks and government agencies... which
-                makes it perfect for those living in cities with heaps of these
-                in the market, such as Wellington.
+                Test Automation is a never ending journey of learning new tools,
+                processes and best practices. If happiness comes from being able
+                to choose which problems you enjoy solving, enable better QA
+                through technical skills on top of a tester mindset is one way
+                of keeping things fresh. I speak from experience!
               </p>
             </div>
           </div>
@@ -141,7 +158,7 @@ export default function SeleniumWebDriverJavaCucumber() {
           <div className="flex flex-col md:flex-row items-center justify-center">
             <Image
               src="/images/pato.png"
-              alt="Instructor de Selenium WebDriver"
+              alt="Teacher Pato"
               width={1200}
               height={1200}
               className="mb-4 md:mb-0 md:mr-4 w-full md:w-96 h-auto max-w-lg p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
@@ -207,37 +224,39 @@ export default function SeleniumWebDriverJavaCucumber() {
             <div className="mb-4 rounded-lg shadow-lg max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none">
               <h3 className="text-xl font-semibold mb-2 text-black">Week 1</h3>
               <ul className="list-disc list-inside text-black">
-                <li>Introduction to Selenium WebDriver</li>
-                <li>Setting up the development environment</li>
-                <li>Java fundamentals for automated testing</li>
-                <li>Using Cucumber for BDD testing</li>
-                <li>Writing automated tests with Selenium</li>
-                <li>Integrating Cucumber with Selenium</li>
+                <li>Introduction to Object Oriented Programming</li>
+                <li>
+                  SOLID principles and clean code applied to test automation
+                </li>
+                <li>The basics of programming</li>
+                <li>The most demanded languages and their differences</li>
               </ul>
             </div>
             <div className="mb-4 rounded-lg shadow-lg max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none">
               <h3 className="text-xl font-semibold mb-2 text-black">Week 2</h3>
               <ul className="list-disc list-inside text-black">
-                <li>Advanced Selenium WebDriver techniques</li>
-                <li>Data-driven testing with Cucumber</li>
-                <li>Handling dynamic web elements</li>
-                <li>Best practices in test automation</li>
+                <li>Basic of Git</li>
+                <li>Branching and Pull Requests</li>
+                <li>Working and collaborating with Git</li>
+                <li>Conflict resolution and best practices</li>
               </ul>
             </div>
             <div className="mb-4 rounded-lg shadow-lg max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none">
               <h3 className="text-xl font-semibold mb-2 text-black">Week 3</h3>
               <ul className="list-disc list-inside text-black">
-                <li>Integrating Selenium with CI/CD pipelines</li>
-                <li>Debugging and troubleshooting tests</li>
-                <li>Performance testing with Selenium</li>
+                <li>Basics of Automation Testing</li>
+                <li>
+                  The most demanded tools in the market and their differences
+                </li>
+                <li>Creating automation tests from scratch</li>
               </ul>
             </div>
             <div className="mb-4 rounded-lg shadow-lg max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none">
               <h3 className="text-xl font-semibold mb-2 text-black">Week 4</h3>
               <ul className="list-disc list-inside text-black">
-                <li>Practical exercises and final projects</li>
-                <li>Review and feedback sessions</li>
-                <li>Certification and next steps</li>
+                <li>CICD: What is it?</li>
+                <li>Integrating our tests with CICD pipelines</li>
+                <li>Final Project, feedback and certificate</li>
               </ul>
             </div>
           </div>

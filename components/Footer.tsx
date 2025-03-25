@@ -121,7 +121,7 @@ export default function Footer() {
           </div>
 
           {/* Sección de Newsletter */}
-          <div className="text-center sm:text-left col-span-2 md:col-span-1 md:col-span-2 md:max-w-md mx-auto">
+          <div className="text-center sm:text-left col-span-2 md:col-span-2">
             <h2 className="text-base md:text-xl font-bold mb-3 md:mb-4">
               Be on the loop!
             </h2>
