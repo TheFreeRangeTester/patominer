@@ -1,8 +1,8 @@
-// File: /home/runner/work/patominer/patominer/app/workshops/selenium-webdriver-with-cucumber/page.tsx
-import * as entry from '../../../../../app/workshops/selenium-webdriver-with-cucumber/page.js'
+// File: /home/runner/work/patominer/patominer/app/workshops/from-manual-to-automation-testing/page.tsx
+import * as entry from '../../../../../app/workshops/from-manual-to-automation-testing/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
-type TEntry = typeof import('../../../../../app/workshops/selenium-webdriver-with-cucumber/page.js')
+type TEntry = typeof import('../../../../../app/workshops/from-manual-to-automation-testing/page.js')
 
 type SegmentParams<T extends Object = any> = T extends Record<string, any>
   ? { [K in keyof T]: T[K] extends string ? string | string[] | undefined : never }

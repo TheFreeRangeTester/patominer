@@ -3,13 +3,13 @@
   "/api/subscribe/route": "app/api/subscribe/route.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
   "/about/page": "app/about/page.js",
-  "/consultations/page": "app/consultations/page.js",
   "/courses/page": "app/courses/page.js",
+  "/consultations/page": "app/consultations/page.js",
   "/page": "app/page.js",
   "/talks/page": "app/talks/page.js",
   "/tutoring/page": "app/tutoring/page.js",
   "/welcome/page": "app/welcome/page.js",
-  "/workshops/page": "app/workshops/page.js",
-  "/workshops/playwright-with-typescript/page": "app/workshops/playwright-with-typescript/page.js",
-  "/workshops/selenium-webdriver-with-cucumber/page": "app/workshops/selenium-webdriver-with-cucumber/page.js"
+  "/workshops/advanced-test-engineering/page": "app/workshops/advanced-test-engineering/page.js",
+  "/workshops/from-manual-to-automation-testing/page": "app/workshops/from-manual-to-automation-testing/page.js",
+  "/workshops/page": "app/workshops/page.js"
 }

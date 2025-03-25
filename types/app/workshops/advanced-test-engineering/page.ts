@@ -1,8 +1,8 @@
-// File: /home/runner/work/patominer/patominer/app/workshops/playwright-with-typescript/page.tsx
-import * as entry from '../../../../../app/workshops/playwright-with-typescript/page.js'
+// File: /home/runner/work/patominer/patominer/app/workshops/advanced-test-engineering/page.tsx
+import * as entry from '../../../../../app/workshops/advanced-test-engineering/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
-type TEntry = typeof import('../../../../../app/workshops/playwright-with-typescript/page.js')
+type TEntry = typeof import('../../../../../app/workshops/advanced-test-engineering/page.js')
 
 type SegmentParams<T extends Object = any> = T extends Record<string, any>
   ? { [K in keyof T]: T[K] extends string ? string | string[] | undefined : never }
