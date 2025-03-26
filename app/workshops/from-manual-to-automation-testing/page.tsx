@@ -111,7 +111,7 @@ export default function ManualToAutomation() {
             What can you expect from this workshop?
           </h4>
           <div className="flex flex-col md:flex-row justify-center gap-4 mt-8">
-            <div className="w-full md:max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none">
+            <div className="w-full md:max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(34,197,94,0.8)] active:translate-x-0 active:translate-y-0 active:shadow-none">
               <h5 className="text-lg font-semibold mb-2 text-black">
                 🧑🏻‍💻 A packed week!
               </h5>
@@ -124,7 +124,7 @@ export default function ManualToAutomation() {
                 are recorded and uploaded for you to watch later!
               </p>
             </div>
-            <div className="w-full md:max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(29,53,87,0.8)] active:translate-x-0 active:translate-y-0 active:shadow-none">
+            <div className="w-full md:max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(59,130,246,0.8)] active:translate-x-0 active:translate-y-0 active:shadow-none">
               <h5 className="text-lg font-semibold mb-2 text-black">
                 💡 A place for everyone to learn at their own pace
               </h5>
@@ -138,7 +138,7 @@ export default function ManualToAutomation() {
                 challenges we prepared for each week!
               </p>
             </div>
-            <div className="w-full md:max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(42,157,143,0.8)] active:translate-x-0 active:translate-y-0 active:shadow-none">
+            <div className="w-full md:max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(249,168,37,0.8)] active:translate-x-0 active:translate-y-0 active:shadow-none">
               <h5 className="text-lg font-semibold mb-2 text-black">
                 🚀 Tangible results ready to be shown
               </h5>
@@ -224,7 +224,7 @@ export default function ManualToAutomation() {
             What you will learn
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div className="mb-4 rounded-lg shadow-lg max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none">
+            <div className="mb-4 rounded-lg shadow-lg max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(34,197,94,0.8)] active:translate-x-0 active:translate-y-0 active:shadow-none">
               <h3 className="text-xl font-semibold mb-2 text-black">Week 1</h3>
               <ul className="list-disc list-inside text-black">
                 <li>Introduction to Object Oriented Programming</li>
@@ -235,7 +235,7 @@ export default function ManualToAutomation() {
                 <li>The most demanded languages and their differences</li>
               </ul>
             </div>
-            <div className="mb-4 rounded-lg shadow-lg max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none">
+            <div className="mb-4 rounded-lg shadow-lg max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(59,130,246,0.8)] active:translate-x-0 active:translate-y-0 active:shadow-none">
               <h3 className="text-xl font-semibold mb-2 text-black">Week 2</h3>
               <ul className="list-disc list-inside text-black">
                 <li>Basics of Git</li>
@@ -244,7 +244,7 @@ export default function ManualToAutomation() {
                 <li>Conflict resolution and best practices</li>
               </ul>
             </div>
-            <div className="mb-4 rounded-lg shadow-lg max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none">
+            <div className="mb-4 rounded-lg shadow-lg max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(249,168,37,0.8)] active:translate-x-0 active:translate-y-0 active:shadow-none">
               <h3 className="text-xl font-semibold mb-2 text-black">Week 3</h3>
               <ul className="list-disc list-inside text-black">
                 <li>Basics of Automation Testing</li>
@@ -254,7 +254,7 @@ export default function ManualToAutomation() {
                 <li>Creating automation tests from scratch</li>
               </ul>
             </div>
-            <div className="mb-4 rounded-lg shadow-lg max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none">
+            <div className="mb-4 rounded-lg shadow-lg max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(156,163,175,0.8)] active:translate-x-0 active:translate-y-0 active:shadow-none">
               <h3 className="text-xl font-semibold mb-2 text-black">Week 4</h3>
               <ul className="list-disc list-inside text-black">
                 <li>CICD: What is it?</li>

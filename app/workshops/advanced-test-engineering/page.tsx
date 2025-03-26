@@ -38,7 +38,7 @@ export default function AdvancedTestEngineering() {
               alt="Curso de Playwright y TypeScript"
               width={500}
               height={300}
-              className="mt-4 md:mt-0 w-full md:w-1/2 h-auto rounded-lg shadow-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
+              className="mt-4 md:mt-0 w-full md:w-1/2 h-auto rounded-lg shadow-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(59,130,246,0.8)] active:translate-x-0 active:translate-y-0 active:shadow-none"
             />
           </div>
         </div>
@@ -89,7 +89,7 @@ export default function AdvancedTestEngineering() {
             What can you expect from this workshop?
           </h4>
           <div className="flex flex-col md:flex-row justify-center gap-4 mt-8">
-            <div className="w-full md:max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none">
+            <div className="w-full md:max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(59,130,246,0.8)] active:translate-x-0 active:translate-y-0 active:shadow-none">
               <h5 className="text-lg font-semibold mb-2 text-black">
                 🧑🏻‍💻 A packed week!
               </h5>
@@ -102,7 +102,7 @@ export default function AdvancedTestEngineering() {
                 are recorded and uploaded for you to watch later!
               </p>
             </div>
-            <div className="w-full md:max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(29,53,87,0.8)] active:translate-x-0 active:translate-y-0 active:shadow-none">
+            <div className="w-full md:max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(16,185,129,0.8)] active:translate-x-0 active:translate-y-0 active:shadow-none">
               <h5 className="text-lg font-semibold mb-2 text-black">
                 💡 A place for everyone to learn at their own pace
               </h5>
@@ -116,7 +116,7 @@ export default function AdvancedTestEngineering() {
                 challenges we prepared for each week!
               </p>
             </div>
-            <div className="w-full md:max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(42,157,143,0.8)] active:translate-x-0 active:translate-y-0 active:shadow-none">
+            <div className="w-full md:max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(245,158,11,0.8)] active:translate-x-0 active:translate-y-0 active:shadow-none">
               <h5 className="text-lg font-semibold mb-2 text-black">
                 🚀 Tangible results ready to be shown
               </h5>
@@ -142,7 +142,7 @@ export default function AdvancedTestEngineering() {
               alt="Instructor de Playwright"
               width={1200}
               height={1200}
-              className="mb-4 md:mb-0 md:mr-4 w-full md:w-96 h-auto max-w-lg p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
+              className="mb-4 md:mb-0 md:mr-4 w-full md:w-96 h-auto max-w-lg p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(239,68,68,0.8)] active:translate-x-0 active:translate-y-0 active:shadow-none"
             />
             <div className="text-center md:text-left">
               <h2 className="text-3xl font-semibold mb-2 text-black">
@@ -180,7 +180,7 @@ export default function AdvancedTestEngineering() {
                 </li>
               </ul>
             </div>
-            <div className="w-full md:max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none">
+            <div className="w-full md:max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(139,92,246,0.8)] active:translate-x-0 active:translate-y-0 active:shadow-none">
               <Map />
             </div>
           </div>
@@ -194,7 +194,7 @@ export default function AdvancedTestEngineering() {
             The journey for this workshop
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div className="mb-4 rounded-lg shadow-lg max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none">
+            <div className="mb-4 rounded-lg shadow-lg max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(239,68,68,0.8)] active:translate-x-0 active:translate-y-0 active:shadow-none">
               <h3 className="text-xl font-semibold mb-2 text-black">Week 1</h3>
               <ul className="list-disc list-inside text-black">
                 <li>Introduction to API Testing</li>
@@ -203,7 +203,7 @@ export default function AdvancedTestEngineering() {
                 <li>API Automation and the best practices</li>
               </ul>
             </div>
-            <div className="mb-4 rounded-lg shadow-lg max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none">
+            <div className="mb-4 rounded-lg shadow-lg max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(245,158,11,0.8)] active:translate-x-0 active:translate-y-0 active:shadow-none">
               <h3 className="text-xl font-semibold mb-2 text-black">Week 2</h3>
               <ul className="list-disc list-inside text-black">
                 <li>Basics of Performance Testing</li>
@@ -212,7 +212,7 @@ export default function AdvancedTestEngineering() {
                 <li>How to plan and report Performance Testing?</li>
               </ul>
             </div>
-            <div className="mb-4 rounded-lg shadow-lg max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none">
+            <div className="mb-4 rounded-lg shadow-lg max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(16,185,129,0.8)] active:translate-x-0 active:translate-y-0 active:shadow-none">
               <h3 className="text-xl font-semibold mb-2 text-black">Week 3</h3>
               <ul className="list-disc list-inside text-black">
                 <li>Introduction to Security Testing: OWASP</li>
@@ -221,7 +221,7 @@ export default function AdvancedTestEngineering() {
                 <li>DevTools</li>
               </ul>
             </div>
-            <div className="mb-4 rounded-lg shadow-lg max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none">
+            <div className="mb-4 rounded-lg shadow-lg max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(59,130,246,0.8)] active:translate-x-0 active:translate-y-0 active:shadow-none">
               <h3 className="text-xl font-semibold mb-2 text-black">Week 4</h3>
               <ul className="list-disc list-inside text-black">
                 <li>Introduction to AWS Testing</li>
@@ -244,7 +244,7 @@ export default function AdvancedTestEngineering() {
                 alt="Join Today!"
                 width={400}
                 height={400}
-                className="mx-auto w-full md:w-96 h-auto max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
+                className="mx-auto w-full md:w-96 h-auto max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(139,92,246,0.8)] active:translate-x-0 active:translate-y-0 active:shadow-none"
               />
               <h2 className="text-3xl font-semibold mb-2 text-black">
                 Join today!
@@ -264,7 +264,7 @@ export default function AdvancedTestEngineering() {
                   href="https://buy.stripe.com/aEU7v98nO8JM44U28c"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block w-full md:w-auto border-black border-2 bg-white px-8 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none mx-auto"
+                  className="inline-block w-full md:w-auto border-black border-2 bg-white px-8 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(139,92,246,0.8)] active:translate-x-0 active:translate-y-0 active:shadow-none mx-auto"
                 >
                   Sign up Now - $999 NZD
                 </a>
@@ -275,7 +275,7 @@ export default function AdvancedTestEngineering() {
         <div className="text-center mt-8">
           <Link
             href="/workshops"
-            className="group mt-3 inline-flex items-center gap-2 border-black border-2 bg-white px-6 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
+            className="group mt-3 inline-flex items-center gap-2 border-black border-2 bg-white px-6 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(139,92,246,0.8)] active:translate-x-0 active:translate-y-0 active:shadow-none"
           >
             Back to Workshops
           </Link>
