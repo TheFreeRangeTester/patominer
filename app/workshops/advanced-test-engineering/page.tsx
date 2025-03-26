@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Map from "../../../components/Map";
 
-export default function PlaywrightTypeScript() {
+export default function AdvancedTestEngineering() {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Sección 1 */}
@@ -11,7 +11,7 @@ export default function PlaywrightTypeScript() {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-center md:text-left">
               <h2 className="text-5xl font-bold mb-4 text-black">
-                E2E Automation with Playwright and TypeScript
+                Advanced Test Engineering
               </h2>
               <ul className="list-disc list-inside mb-4 text-black">
                 <li>4 week online, part-time course for software engineers.</li>
@@ -48,39 +48,42 @@ export default function PlaywrightTypeScript() {
       <section className="py-16 bg-gray-100">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-semibold mb-2 text-center text-black">
-            Why do you need to learn Playwright for E2E Testing NOW?
+            Wondering what your next step should be as an automation tester?
           </h2>
           <p className="text-left text-black">
-            Playwright is an end-to-end testing automation tool for modern web
-            applications. It is compatible with all major browsers and provides
-            a high-level API for interacting with them.
+            Advanced Test Engineering is a comprehensive program designed to
+            elevate your testing expertise across multiple domains. From API
+            testing to cloud-based testing, this course covers the essential
+            skills needed in modern software testing.
             <br />
-            It also provides, out of the box, all the tools you will need as a
-            Test Engineer to start automating test cases for your systems. From
-            API, to mocking features, from reporting to robust locator handling!
+            Each week focuses on a different aspect of testing, providing you
+            with hands-on experience and theoretical knowledge. You&apos;ll
+            learn about industry-standard tools, best practices, and real-world
+            applications that will make you a more valuable testing
+            professional.
             <br />
             <br />
-            Recent trends and polls have situated Playwright as the go-to tool
-            to use when starting an automation project. No only that, lots of
-            projects have been migrated from other frameworks such as Selenium
-            WebDriver, to Playwright.
+            The course is structured to give you a deep understanding of four
+            key areas: API Testing, Performance Testing, Security Testing, and
+            AWS Testing. These are the most in-demand skills in today&apos;s
+            testing landscape.
             <br />
             <br />
           </p>
           <h4 className="text-2xl font-semibold mb-1 text-center text-black">
-            Why TypeScript and not just plain JavaScript?
+            Why Advanced Test Engineering?
           </h4>
           <p className="text-black">
-            TypeScript is a powerful, typed superset of JavaScript that compiles
-            into clean, readable JavaScript. It&apos;s the smart way to write
-            safer, more reliable code. Combined with Playwright, it transforms
-            your development experience, making test automation smoother and
-            more efficient than ever!
+            With the trends we are currently seeing and the market in the state
+            it is, testers need to be versatile and knowledgeable across
+            multiple testing domains. This course is designed to give you that
+            edge, combining practical skills with theoretical knowledge.
             <br />
             <br />
-            Maybe I have too much love for types and I like my variables to have
-            a purpose from the very beginning, who knows! But the truth is that
-            the extra layer of types makes for better code.
+            Whether you&apos;re looking to specialize in a particular area or
+            want to become a well-rounded testing professional, this course
+            provides the perfect foundation for your career growth in software
+            testing.
           </p>
           <h4 className="text-2xl font-semibold mb-1 text-center text-black">
             What can you expect from this workshop?
@@ -194,37 +197,37 @@ export default function PlaywrightTypeScript() {
             <div className="mb-4 rounded-lg shadow-lg max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none">
               <h3 className="text-xl font-semibold mb-2 text-black">Week 1</h3>
               <ul className="list-disc list-inside text-black">
-                <li>Introduction to Playwright</li>
-                <li>Environment setup</li>
-                <li>First steps with Playwright</li>
-                <li>Creating our first automated test</li>
+                <li>Introduction to API Testing</li>
+                <li>How to design tests for API?</li>
+                <li>Rest Clients and tools</li>
+                <li>API Automation and the best practices</li>
               </ul>
             </div>
             <div className="mb-4 rounded-lg shadow-lg max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none">
               <h3 className="text-xl font-semibold mb-2 text-black">Week 2</h3>
               <ul className="list-disc list-inside text-black">
-                <li>Elements and Selectors</li>
-                <li>Page interactions</li>
-                <li>Validations and assertions</li>
-                <li>Structure of Test Suites</li>
+                <li>Basics of Performance Testing</li>
+                <li>Performance Testing tools</li>
+                <li>Performance Test creation</li>
+                <li>How to plan and report Performance Testing?</li>
               </ul>
             </div>
             <div className="mb-4 rounded-lg shadow-lg max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none">
               <h3 className="text-xl font-semibold mb-2 text-black">Week 3</h3>
               <ul className="list-disc list-inside text-black">
-                <li>API Testing</li>
-                <li>Interactive runner</li>
-                <li>Extensions</li>
-                <li>Performance Testing</li>
+                <li>Introduction to Security Testing: OWASP</li>
+                <li>Techniques for Penetration Testing</li>
+                <li>Security Testing: Automation tools</li>
+                <li>DevTools</li>
               </ul>
             </div>
             <div className="mb-4 rounded-lg shadow-lg max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none">
               <h3 className="text-xl font-semibold mb-2 text-black">Week 4</h3>
               <ul className="list-disc list-inside text-black">
-                <li>Reports and context</li>
-                <li>Mocking for better testing</li>
-                <li>CI/CD integration</li>
-                <li>Final Project and feedback</li>
+                <li>Introduction to AWS Testing</li>
+                <li>How is it different from E2E, API testing?</li>
+                <li>Lambdas, Dynamo, SQS and Cloudwatch</li>
+                <li>Automating AWS Tests</li>
               </ul>
             </div>
           </div>

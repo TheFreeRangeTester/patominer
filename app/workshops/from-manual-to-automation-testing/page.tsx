@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Map from "../../../components/Map";
 
-export default function SeleniumWebDriverJavaCucumber() {
+export default function ManualToAutomation() {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Sección 1 */}
@@ -108,44 +108,47 @@ export default function SeleniumWebDriverJavaCucumber() {
             <br />
           </p>
           <h4 className="text-2xl font-semibold mb-1 text-center text-black">
-            Other key aspects of making the jump from manual to automation...
+            What can you expect from this workshop?
           </h4>
           <div className="flex flex-col md:flex-row justify-center gap-4 mt-8">
             <div className="w-full md:max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none">
               <h5 className="text-lg font-semibold mb-2 text-black">
-                It is not a nice to have anymore...it is mandatory
+                🧑🏻‍💻 A packed week!
               </h5>
               <p className="text-black">
-                More and more job ads for QA are demanding automation skills as
-                a mandatory item. Not only that, making the jump while being at
-                a position of Test Analyst can become a challenge due the lack
-                of training from the companies, relying on learning on the fly
-                and most of the times with not so good practices.
+                Online lectures and debates, exercises and resources to have an
+                holistic learning experience.
+                <br></br>
+                <br></br>
+                Can&apos;t make it to an online lecture? Don&apos;t worry, these
+                are recorded and uploaded for you to watch later!
               </p>
             </div>
             <div className="w-full md:max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(29,53,87,0.8)] active:translate-x-0 active:translate-y-0 active:shadow-none">
               <h5 className="text-lg font-semibold mb-2 text-black">
-                Better positions and a cross-functional profile as QA
+                💡 A place for everyone to learn at their own pace
               </h5>
               <p className="text-black">
-                When you can talk at the same technical level as a Developer,
-                doors are open for you. It is key as a testing professional to
-                generate confidence and avoid the second citizen status that
-                usually gets assigned to the testing roles. Own the quality
-                excellence of your teams, be proactive and enable them achieve
-                it!
+                I understand that you have a busy life, so this workshop is
+                designed to give you the directions to complete the tasks at
+                your own pace.
+                <br></br>
+                <br></br>
+                If you have extra time, you might want to check the extra
+                challenges we prepared for each week!
               </p>
             </div>
             <div className="w-full md:max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(42,157,143,0.8)] active:translate-x-0 active:translate-y-0 active:shadow-none">
               <h5 className="text-lg font-semibold mb-2 text-black">
-                Never get bored again as a tester
+                🚀 Tangible results ready to be shown
               </h5>
               <p className="text-black">
-                Test Automation is a never ending journey of learning new tools,
-                processes and best practices. If happiness comes from being able
-                to choose which problems you enjoy solving, enable better QA
-                through technical skills on top of a tester mindset is one way
-                of keeping things fresh. I speak from experience!
+                By the end of this workshop you will have a robust, well made
+                automation framework following the best practices and running on
+                CI/CD pipelines ready to show off to any recruiter or company.
+                <br></br>
+                <br></br>
+                The best way to add value to your CV and profile in the market!
               </p>
             </div>
           </div>
@@ -235,7 +238,7 @@ export default function SeleniumWebDriverJavaCucumber() {
             <div className="mb-4 rounded-lg shadow-lg max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none">
               <h3 className="text-xl font-semibold mb-2 text-black">Week 2</h3>
               <ul className="list-disc list-inside text-black">
-                <li>Basic of Git</li>
+                <li>Basics of Git</li>
                 <li>Branching and Pull Requests</li>
                 <li>Working and collaborating with Git</li>
                 <li>Conflict resolution and best practices</li>

@@ -5,26 +5,26 @@ export default function Welcome() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="hidden md:block md:py-20">
+      <section className="hidden md:block md:py-8">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl font-bold text-center text-black">
             Welcome to the Community!
           </h1>
-          <p className="text-xl text-center mt-4 text-gray-800">
-            Thank you for joining our mailing list
+          <p className="text-xl text-center mt-2 text-gray-800">
+            Thank you for joining my mailing list
           </p>
         </div>
       </section>
 
       {/* Content Section */}
-      <section className="md:py-16 py-4 bg-gray-50">
+      <section className="md:py-4 py-2 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="prose max-w-none">
-            <div className="flex flex-col items-center mb-6">
+            <div className="flex flex-col items-center mb-4">
               <div className="w-full max-w-2xl mb-4">
                 <div className="aspect-video bg-gray-200 rounded-lg shadow-[8px_8px_0px_0px_rgba(251,146,60,1)]">
                   <Image
-                    src="/images/PumasAllBlacks.jpeg"
+                    src="/images/welcome/welcome.png"
                     alt="Celebration"
                     className="w-full h-full object-cover rounded-lg"
                     width={1000}
