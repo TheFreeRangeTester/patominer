@@ -24,14 +24,6 @@ export default function ManualToAutomation() {
                   May 15th to August 15th, 2025
                 </span>
               </ul>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-700 transition duration-300"
-                href=""
-              >
-                Apply now
-              </a>
             </div>
             <Image
               src="/images/Selenium-Workshop.png"
