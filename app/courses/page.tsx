@@ -22,13 +22,6 @@ export default function FullStackTestEngineer() {
                   </span>
                 </span>
               </ul>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                className="inline-block border-black border-2 bg-white px-8 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(59,130,246,0.8)] active:translate-x-0 active:translate-y-0 active:shadow-none cursor-not-allowed opacity-75"
-              >
-                Coming soon...
-              </a>
             </div>
             <Image
               src="/images/courses/TestEngineer.png"
