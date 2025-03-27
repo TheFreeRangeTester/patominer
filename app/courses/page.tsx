@@ -80,7 +80,7 @@ export default function FullStackTestEngineer() {
                 🚀 Guaranteed Results
               </h5>
               <ul className="list-disc list-inside text-black">
-                <li>Preparation for today's market</li>
+                <li>Preparation for today&apos;s market</li>
                 <li>Real projects for your portfolio</li>
                 <li>Completion certificate</li>
                 <li>Always updated content</li>
@@ -107,7 +107,7 @@ export default function FullStackTestEngineer() {
               <li>Udemy account to access the course</li>
             </ul>
             <p className="text-black mt-4">
-              Once enrolled, you'll have lifetime access to the content and all
+              Once enrolled, you&apos;ll have lifetime access to the content and all
               future updates.
             </p>
           </div>
