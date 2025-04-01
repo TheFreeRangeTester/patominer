@@ -16,8 +16,7 @@ export default function Workshops() {
     },
     {
       title: "Advanced Test Engineering",
-      description:
-        "You know the basics of automation, now is time to master the big guns of your test engineer skillset",
+      description: "Time to master the big guns of your test engineer skillset",
       location: "Asynchronous and online",
       starting_date: "October 20th, 2025",
       price: "$999",

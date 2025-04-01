@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import Map from "../../../components/Map";
+import WorkshopInfo from "../../../components/WorkshopInfo";
 
 export default function AdvancedTestEngineering() {
   return (
@@ -153,31 +153,7 @@ export default function AdvancedTestEngineering() {
       </section>
 
       {/* Sección 4 */}
-      <section className="py-16 bg-gray-100">
-        <div className="container mx-auto px-4">
-          <div className="flex flex-col md:flex-row items-center justify-center">
-            <div className="text-center md:text-left md:mr-8">
-              <h2 className="text-3xl font-semibold mb-2 text-black">
-                Workshop dynamic
-              </h2>
-              <ul className="list-disc list-inside mb-4 text-black">
-                <li>
-                  Taught by a seasoned QA Engineer and Coach with 16 years of
-                  experience.
-                </li>
-                <li>Focused on the Kiwi and Australian community.</li>
-                <li>
-                  Delivered from New Zealand, sharing expertise in automated
-                  testing.
-                </li>
-              </ul>
-            </div>
-            <div className="w-full md:max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(139,92,246,0.8)] active:translate-x-0 active:translate-y-0 active:shadow-none">
-              <Map />
-            </div>
-          </div>
-        </div>
-      </section>
+      <WorkshopInfo isOnline={true} title="Workshop dynamic" />
 
       {/* Sección 5 */}
       <section className="py-16 bg-gray-100/50">
