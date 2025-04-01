@@ -95,15 +95,6 @@
       "static/chunks/970-29a7be5a4e155166.js",
       "static/chunks/app/workshops/advanced-test-engineering/page-766f6bdbed075413.js"
     ],
-    "/workshops/from-manual-to-automation-testing/page": [
-      "static/chunks/webpack-4e9de2322f19dfe1.js",
-      "static/chunks/4bd1b696-692f10ba759dfb60.js",
-      "static/chunks/517-2685a4f087d222a4.js",
-      "static/chunks/main-app-665941dfe1b51ac6.js",
-      "static/chunks/173-c72f956e0e7ca46c.js",
-      "static/chunks/970-29a7be5a4e155166.js",
-      "static/chunks/app/workshops/from-manual-to-automation-testing/page-1de6dd9fdbd396c4.js"
-    ],
     "/workshops/page": [
       "static/chunks/webpack-4e9de2322f19dfe1.js",
       "static/chunks/4bd1b696-692f10ba759dfb60.js",
@@ -112,6 +103,15 @@
       "static/chunks/173-c72f956e0e7ca46c.js",
       "static/chunks/970-29a7be5a4e155166.js",
       "static/chunks/app/workshops/page-625bbdefa7460626.js"
+    ],
+    "/workshops/from-manual-to-automation-testing/page": [
+      "static/chunks/webpack-4e9de2322f19dfe1.js",
+      "static/chunks/4bd1b696-692f10ba759dfb60.js",
+      "static/chunks/517-2685a4f087d222a4.js",
+      "static/chunks/main-app-665941dfe1b51ac6.js",
+      "static/chunks/173-c72f956e0e7ca46c.js",
+      "static/chunks/970-29a7be5a4e155166.js",
+      "static/chunks/app/workshops/from-manual-to-automation-testing/page-1de6dd9fdbd396c4.js"
     ]
   }
 }
