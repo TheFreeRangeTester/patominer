@@ -21,7 +21,7 @@ export default function AdvancedTestEngineering() {
                     Tuesday and Thursdays
                   </span>
                   <br />
-                  February 24th to March 21st, 2025
+                  October 20th to November 14th, 2024
                 </span>
               </ul>
             </div>
@@ -83,42 +83,42 @@ export default function AdvancedTestEngineering() {
           <div className="flex flex-col md:flex-row justify-center gap-4 mt-8">
             <div className="w-full md:max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(59,130,246,0.8)] active:translate-x-0 active:translate-y-0 active:shadow-none">
               <h5 className="text-lg font-semibold mb-2 text-black">
-                🧑🏻‍💻 A packed week!
+                🛠️ A hands-on workshop experience
               </h5>
               <p className="text-black">
-                Online lectures and debates, exercises and resources to have an
-                holistic learning experience.
+                Learn by doing with practical exercises and real-world cases.
+                Each session is designed so you can immediately apply what you
+                learn to your work.
                 <br></br>
                 <br></br>
-                Can&apos;t make it to an online lecture? Don&apos;t worry, these
-                are recorded and uploaded for you to watch later!
+                Recordings are available for you to review and practice at any
+                time.
               </p>
             </div>
             <div className="w-full md:max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(16,185,129,0.8)] active:translate-x-0 active:translate-y-0 active:shadow-none">
               <h5 className="text-lg font-semibold mb-2 text-black">
-                💡 A place for everyone to learn at their own pace
+                🎯 Enhance your most relevant technical skills
               </h5>
               <p className="text-black">
-                I understand that you have a busy life, so this workshop is
-                designed to give you the directions to complete the tasks at
-                your own pace.
+                Focused on the most in-demand skills in today&apos;s market: API
+                Testing, Performance Testing, Security Testing, and AWS Testing.
                 <br></br>
                 <br></br>
-                If you have extra time, you might want to check the extra
-                challenges we prepared for each week!
+                Each module is designed to help you excel in technical
+                interviews and your daily work.
               </p>
             </div>
             <div className="w-full md:max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(245,158,11,0.8)] active:translate-x-0 active:translate-y-0 active:shadow-none">
               <h5 className="text-lg font-semibold mb-2 text-black">
-                🚀 Tangible results ready to be shown
+                🐢 Learn at your own pace
               </h5>
               <p className="text-black">
-                By the end of this workshop you will have a robust, well made
-                automation framework following the best practices and running on
-                CI/CD pipelines ready to show off to any recruiter or company.
+                I understand you have a busy life, which is why the workshop is
+                designed to let you progress according to your availability.
                 <br></br>
                 <br></br>
-                The best way to add value to your CV and profile in the market!
+                Materials and resources available 24/7, personalised mentoring,
+                and a safe space to ask questions and learn.
               </p>
             </div>
           </div>

@@ -21,7 +21,7 @@ export default function ManualToAutomation() {
                     Tuesday and Thursdays
                   </span>
                   <br />
-                  May 15th to August 15th, 2025
+                  July 21st to August 18th, 2025
                 </span>
               </ul>
             </div>
