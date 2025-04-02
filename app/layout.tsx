@@ -42,7 +42,7 @@ export default function RootLayout({
                     <img
                       src="/images/logo.png"
                       alt="Pato Miner Logo"
-                      className="h-12 w-auto"
+                      className="h-16 w-auto"
                     />
                     <span>Pato Miner</span>
                   </Link>
