@@ -60,16 +60,16 @@ export default function Workshops() {
               </h2>
               <p className="text-lg mb-4 text-black">{workshop.description}</p>
               <p className="text-md mb-2 text-gray-700">
-                Location: {workshop.location}
+                📍 Location: {workshop.location}
               </p>
               <p className="text-md mb-2 text-gray-700">
-                Starting Date: {workshop.starting_date}
+                📅 Starting Date: {workshop.starting_date}
               </p>
               <p className="text-md mb-2 text-gray-700">
-                Price: {workshop.price}
+                💰 Price: {workshop.price}
               </p>
               <p className="text-md mb-4 text-gray-700">
-                Duration: {workshop.duration}
+                ⏱️ Duration: {workshop.duration}
               </p>
               <div className="flex flex-col items-center">
                 <Link
