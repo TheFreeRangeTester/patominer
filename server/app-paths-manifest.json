@@ -2,14 +2,14 @@
   "/_not-found/page": "app/_not-found/page.js",
   "/api/subscribe/route": "app/api/subscribe/route.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/about/page": "app/about/page.js",
-  "/consultations/page": "app/consultations/page.js",
   "/courses/page": "app/courses/page.js",
-  "/page": "app/page.js",
   "/talks/page": "app/talks/page.js",
+  "/page": "app/page.js",
   "/tutoring/page": "app/tutoring/page.js",
   "/welcome/page": "app/welcome/page.js",
   "/workshops/advanced-test-engineering/page": "app/workshops/advanced-test-engineering/page.js",
+  "/about/page": "app/about/page.js",
   "/workshops/from-manual-to-automation-testing/page": "app/workshops/from-manual-to-automation-testing/page.js",
-  "/workshops/page": "app/workshops/page.js"
+  "/workshops/page": "app/workshops/page.js",
+  "/consultations/page": "app/consultations/page.js"
 }
