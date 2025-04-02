@@ -60,16 +60,19 @@ export default function Workshops() {
               </h2>
               <p className="text-lg mb-4 text-black">{workshop.description}</p>
               <p className="text-md mb-2 text-gray-700">
-                📍 Location: {workshop.location}
+                <span className="font-bold">📍 Location:</span>{" "}
+                {workshop.location}
               </p>
               <p className="text-md mb-2 text-gray-700">
-                📅 Starting Date: {workshop.starting_date}
+                <span className="font-bold">📅 Starting Date:</span>{" "}
+                {workshop.starting_date}
               </p>
               <p className="text-md mb-2 text-gray-700">
-                💰 Price: {workshop.price}
+                <span className="font-bold">💰 Price:</span> {workshop.price}
               </p>
               <p className="text-md mb-4 text-gray-700">
-                ⏱️ Duration: {workshop.duration}
+                <span className="font-bold">⏱️ Duration:</span>{" "}
+                {workshop.duration}
               </p>
               <div className="flex flex-col items-center">
                 <Link
