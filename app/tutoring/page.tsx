@@ -4,15 +4,6 @@ import Image from "next/image";
 export default function Tutoring() {
   return (
     <div className="min-h-screen">
-      {/* Hero Section */}
-      <section className="hidden md:block md:py-20 bg-white">
-        <div className="container mx-auto px-4">
-          <h1 className="text-4xl font-bold text-center text-black">
-            Private Tutoring
-          </h1>
-        </div>
-      </section>
-
       {/* Tutoring Section */}
       <section className="md:py-16 py-4 bg-gray-50">
         <div className="container mx-auto px-4">
@@ -20,14 +11,14 @@ export default function Tutoring() {
             <div className="aspect-video bg-gray-200 rounded-lg shadow-[8px_8px_0px_0px_rgba(251,146,60,1)] mb-4 max-w-2xl mx-auto">
               <Image
                 src="/images/mentorships/tutoring.png"
-                alt="Private Tutoring"
+                alt="Coffee Catchup"
                 className="w-full h-full object-cover rounded-lg"
                 width={600}
                 height={338}
               />
             </div>
             <h2 className="text-2xl font-bold mb-4 text-black">
-              One-on-One Tutoring Sessions
+              Coffee fueled catchup
             </h2>
             <p className="text-lg mb-4 text-black">
               Get personalized guidance and support in your QA journey.
@@ -35,12 +26,9 @@ export default function Tutoring() {
             <div className="space-y-4 text-black">
               <p className="text-center">
                 Whether you&apos;re just starting out or looking to advance your
-                career in QA, I offer tailored tutoring sessions to help you
-                achieve your goals.
+                career in QA, I can help you achieve your goals.
               </p>
               <ul className="list-disc space-y-2 inline-block text-left">
-                <li>Flexible scheduling to fit your needs</li>
-                <li>Customized learning path</li>
                 <li>
                   Extensive knowledge of the market, with focus in New Zealand
                   and Australia.

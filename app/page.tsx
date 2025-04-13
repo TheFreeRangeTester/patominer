@@ -203,7 +203,7 @@ const sections = [
   },
   {
     id: "tutoring",
-    title: "Tutoring sessions",
+    title: "Coffee catchup",
     description:
       "A long career in the international and local market gave me a lot of insight and advice. Let's have a catchup and talk about your objectives and how can you achieve them.",
     linkText: "Let's talk about your future",

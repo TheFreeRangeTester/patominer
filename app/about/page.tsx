@@ -4,18 +4,6 @@ import Image from "next/image";
 export default function About() {
   return (
     <div className="min-h-screen">
-      {/* Hero Section */}
-      <section className="hidden md:block md:py-20 bg-white">
-        <div className="container mx-auto px-4">
-          <h1 className="text-4xl font-bold text-center text-black">
-            About Me
-          </h1>
-          <p className="text-xl text-center mt-4 text-gray-800">
-            QA Engineering Consultant &amp; Trainer
-          </p>
-        </div>
-      </section>
-
       {/* Bio Section */}
       <section className="md:py-16 py-4 bg-gray-50">
         <div className="container mx-auto px-4">
