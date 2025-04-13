@@ -58,9 +58,6 @@ export default function Workshops() {
                 <span className="font-bold">📅 Starting Date:</span>{" "}
                 {workshop.starting_date}
               </p>
-              <p className="text-md mb-2 text-gray-700">
-                <span className="font-bold">💰 Price:</span> {workshop.price}
-              </p>
               <p className="text-md mb-4 text-gray-700">
                 <span className="font-bold">⏱️ Duration:</span>{" "}
                 {workshop.duration}
