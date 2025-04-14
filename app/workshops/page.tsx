@@ -12,7 +12,7 @@ export default function Workshops() {
       price: "$999",
       duration: "You will need around 10 hours per week",
       image: "/images/Selenium-Workshop.png",
-      buyButtonId: "buy_btn_1R63m9Gg3IBRIOi3UQkbyw3t",
+      buyButtonId: "buy_btn_1RDaMbGg3IBRIOi3pnOT0fsS",
     },
     {
       title: "Advanced Test Engineering",
@@ -23,7 +23,7 @@ export default function Workshops() {
       price: "$999",
       duration: "You will need around 10 hours per week",
       image: "/images/Playwright-Workshop.png",
-      buyButtonId: "buy_btn_1R63ekGg3IBRIOi3mgHS0sXL",
+      buyButtonId: "buy_btn_1RDaS2Gg3IBRIOi3oM10OVkM",
     },
   ];
 

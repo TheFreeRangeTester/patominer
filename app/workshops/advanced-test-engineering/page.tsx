@@ -229,12 +229,12 @@ export default function AdvancedTestEngineering() {
               </ul>
               <div className="flex justify-center mt-6">
                 <a
-                  href="https://buy.stripe.com/aEU7v98nO8JM44U28c"
+                  href="https://buy.stripe.com/7sIdTx1Zqe46dFu5kr"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block w-full md:w-auto border-black border-2 bg-white px-8 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(139,92,246,0.8)] active:translate-x-0 active:translate-y-0 active:shadow-none mx-auto"
                 >
-                  Sign up Now - $999 NZD
+                  Sign up Now
                 </a>
               </div>
             </div>
