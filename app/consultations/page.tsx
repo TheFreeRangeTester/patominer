@@ -8,10 +8,10 @@ export default function Consultations() {
       <section className="py-16 bg-gray-100/50">
         <div className="container mx-auto px-4">
           <div className="text-center">
-            <h2 className="text-5xl font-bold mb-4 text-black">
+            <h2 className="text-5xl font-bold mb-4 text-black dark:text-white">
               QA Engineering Consultancy
             </h2>
-            <p className="text-xl mb-4 text-black">
+            <p className="text-xl mb-4 text-black dark:text-gray-100">
               Specialised services to optimise your testing processes
             </p>
           </div>
@@ -47,10 +47,10 @@ export default function Consultations() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-md transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none">
-              <h3 className="text-xl font-bold mb-4 text-black">
+              <h3 className="text-xl font-bold mb-4 text-black dark:text-white">
                 Services Offered
               </h3>
-              <ul className="list-disc pl-5 space-y-2 text-gray-800">
+              <ul className="list-disc pl-5 space-y-2 text-gray-800 dark:text-gray-100">
                 <li>Testing Strategy Development</li>
                 <li>Test Automation Implementation</li>
                 <li>Quality Management</li>
@@ -58,10 +58,10 @@ export default function Consultations() {
               </ul>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none">
-              <h3 className="text-xl font-bold mb-4 text-black">
+              <h3 className="text-xl font-bold mb-4 text-black dark:text-white">
                 Professional Experience
               </h3>
-              <ul className="list-disc pl-5 space-y-2 text-gray-800">
+              <ul className="list-disc pl-5 space-y-2 text-gray-800 dark:text-gray-100">
                 <li>16+ years in QA Engineering</li>
                 <li>Worked with top tech companies</li>
                 <li>Expert in Agile methodologies</li>
@@ -76,7 +76,7 @@ export default function Consultations() {
       <section className="py-16 bg-gray-100/50">
         <div className="container mx-auto px-4">
           <div className="text-center">
-            <h2 className="text-3xl font-semibold mb-2 text-black">
+            <h2 className="text-3xl font-semibold mb-2 text-black dark:text-white">
               Connect with Me
             </h2>
             <div className="flex justify-center space-x-4 mt-6">
@@ -84,7 +84,7 @@ export default function Consultations() {
                 href="https://peach-freckle-a65.notion.site/Patricio-Miner-1b8aa7cafd638046942de69e65695a24?pvs=4"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group inline-flex items-center gap-2 border-black border-2 bg-white px-6 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none rounded-full"
+                className="group inline-flex items-center gap-2 border-black border-2 bg-white px-6 py-3 font-bold text-black dark:text-white transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none rounded-full"
               >
                 📄 CV Online
               </Link>
@@ -92,7 +92,7 @@ export default function Consultations() {
                 href="https://www.linkedin.com/in/patricio-m-690b3729/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group inline-flex items-center gap-2 border-black border-2 bg-white px-6 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none rounded-full"
+                className="group inline-flex items-center gap-2 border-black border-2 bg-white px-6 py-3 font-bold text-black dark:text-white transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none rounded-full"
               >
                 💼 LinkedIn
               </Link>
@@ -100,7 +100,7 @@ export default function Consultations() {
                 href="https://github.com/TheFreeRangeTester"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group inline-flex items-center gap-2 border-black border-2 bg-white px-6 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none rounded-full"
+                className="group inline-flex items-center gap-2 border-black border-2 bg-white px-6 py-3 font-bold text-black dark:text-white transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none rounded-full"
               >
                 👨‍💻 GitHub
               </Link>

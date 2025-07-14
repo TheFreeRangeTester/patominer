@@ -17,13 +17,13 @@ export default function Tutoring() {
                 height={338}
               />
             </div>
-            <h2 className="text-2xl font-bold mb-4 text-black">
+            <h2 className="text-2xl font-bold mb-4 text-black dark:text-white">
               Coffee fueled catchup
             </h2>
-            <p className="text-lg mb-4 text-black">
+            <p className="text-lg mb-4 text-black dark:text-gray-100">
               Get personalized guidance and support in your QA journey.
             </p>
-            <div className="space-y-4 text-black">
+            <div className="space-y-4 text-black dark:text-gray-100">
               <p className="text-center">
                 Whether you&apos;re just starting out or looking to advance your
                 career in QA, I can help you achieve your goals.

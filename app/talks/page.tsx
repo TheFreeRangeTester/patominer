@@ -8,10 +8,10 @@ export default function Talks() {
       <section className="py-16 bg-gray-100/50">
         <div className="container mx-auto px-4">
           <div className="text-center">
-            <h2 className="text-5xl font-bold mb-4 text-black">
+            <h2 className="text-5xl font-bold mb-4 text-black dark:text-white">
               Conferences and Talks
             </h2>
-            <p className="text-xl mb-4 text-black">
+            <p className="text-xl mb-4 text-black dark:text-gray-100">
               Sharing knowledge and experiences with the testing community
             </p>
           </div>
@@ -91,8 +91,8 @@ export default function Talks() {
       <section className="py-16 bg-gray-100/50">
         <div className="container mx-auto px-4">
           <div className="text-center">
-            <h2 className="text-3xl font-semibold mb-2 text-black">
-              Do you want me to talk at your conference?
+            <h2 className="text-3xl font-semibold mb-2 text-black dark:text-white">
+              Connect with Me
             </h2>
             <ul className="list-disc list-inside mb-4 text-black">
               <li>Available for talks in English and Spanish.</li>

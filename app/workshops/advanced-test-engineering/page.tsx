@@ -10,13 +10,13 @@ export default function AdvancedTestEngineering() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-center md:text-left">
-              <h2 className="text-5xl font-bold mb-4 text-black">
+              <h2 className="text-5xl font-bold mb-4 text-black dark:text-white">
                 Advanced Test Engineering
               </h2>
-              <ul className="list-disc list-inside mb-4 text-black">
+              <ul className="list-disc list-inside mb-4 text-black dark:text-gray-100">
                 <li>4 week online, part-time course for software engineers.</li>
                 <li>6-10 hours per week, designed to fit around your job</li>
-                <span className="font-mono font-bold text-base text-black">
+                <span className="font-mono font-bold text-base text-black dark:text-gray-100">
                   <span className="font-mono font-normal text-base text-green-500">
                     Tuesday and Thursdays
                   </span>
@@ -163,18 +163,22 @@ export default function AdvancedTestEngineering() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="mb-4 rounded-lg shadow-lg max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(239,68,68,0.8)] active:translate-x-0 active:translate-y-0 active:shadow-none">
-              <h3 className="text-xl font-semibold mb-2 text-black">Week 1</h3>
-              <ul className="list-disc list-inside text-black">
-                <li>Introduction to API Testing</li>
+              <h3 className="text-xl font-semibold mb-2 text-black dark:text-white">
+                Week 1
+              </h3>
+              <ul className="list-disc list-inside text-black dark:text-gray-100">
+                <li>Introduction to Object Oriented Programming</li>
                 <li>How to design tests for API?</li>
                 <li>Rest Clients and tools</li>
                 <li>API Automation and the best practices</li>
               </ul>
             </div>
             <div className="mb-4 rounded-lg shadow-lg max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(245,158,11,0.8)] active:translate-x-0 active:translate-y-0 active:shadow-none">
-              <h3 className="text-xl font-semibold mb-2 text-black">Week 2</h3>
-              <ul className="list-disc list-inside text-black">
-                <li>Basics of Performance Testing</li>
+              <h3 className="text-xl font-semibold mb-2 text-black dark:text-white">
+                Week 2
+              </h3>
+              <ul className="list-disc list-inside text-black dark:text-gray-100">
+                <li>Basics of Git</li>
                 <li>Performance Testing tools</li>
                 <li>Performance Test creation</li>
                 <li>How to plan and report Performance Testing?</li>

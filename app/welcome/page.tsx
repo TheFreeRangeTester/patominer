@@ -7,10 +7,10 @@ export default function Welcome() {
       {/* Hero Section */}
       <section className="hidden md:block md:py-8">
         <div className="container mx-auto px-4">
-          <h1 className="text-4xl font-bold text-center text-black">
+          <h1 className="text-4xl font-bold text-center text-black dark:text-white">
             Welcome to the Community!
           </h1>
-          <p className="text-xl text-center mt-2 text-gray-800">
+          <p className="text-xl text-center mt-2 text-gray-800 dark:text-gray-100">
             Thank you for joining my mailing list
           </p>
         </div>
@@ -32,10 +32,10 @@ export default function Welcome() {
                   />
                 </div>
               </div>
-              <h2 className="text-3xl font-bold mb-8 text-black">
+              <h2 className="text-3xl font-bold mb-8 text-black dark:text-white">
                 Your subscription has been confirmed!
               </h2>
-              <p className="text-lg text-black text-center">
+              <p className="text-lg text-black dark:text-gray-100 text-center">
                 I&apos;m thrilled to have you join our testing community.
                 You&apos;ll soon receive exclusive content about QA Engineering,
                 automation, and the latest trends in software testing.

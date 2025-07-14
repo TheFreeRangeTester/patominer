@@ -41,8 +41,8 @@ export default function Newsletter() {
   };
 
   return (
-    <div className="bg-white p-4 md:p-6 rounded-lg">
-      <h3 className="text-5xl font-bold mb-4 text-black">
+    <div className="bg-white dark:bg-dark-surface p-4 md:p-6 rounded-lg border border-gray-200 dark:border-dark-border">
+      <h3 className="text-5xl font-bold mb-4 text-black dark:text-dark-text">
         Subscribe to our newsletter!
       </h3>
       <form onSubmit={handleSubmit}>
@@ -52,12 +52,12 @@ export default function Newsletter() {
           onChange={(e) => setEmail(e.target.value)}
           placeholder="Enter your email"
           required
-          className="w-full px-3 md:px-4 py-2 rounded bg-white text-black placeholder-black/60 focus:outline-none focus:ring-2 focus:ring-blue-600 text-sm md:text-base"
+          className="w-full px-3 md:px-4 py-2 rounded bg-white dark:bg-dark-surfaceHover text-black dark:text-dark-text placeholder-black/60 dark:placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-blue-600 dark:focus:ring-blue-400 text-sm md:text-base border border-gray-300 dark:border-dark-border"
         />
         <button
           type="submit"
           disabled={isLoading}
-          className="w-full md:w-auto mt-3 inline-flex items-center justify-center gap-2 border-black border-2 bg-blue-600 text-white px-4 md:px-6 py-2 md:py-3 font-bold transition-all duration-300 hover:bg-blue-700 hover:-translate-y-1 hover:-translate-x-1 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none disabled:opacity-50 disabled:cursor-not-allowed"
+          className="w-full md:w-auto mt-3 inline-flex items-center justify-center gap-2 border-black dark:border-white border-2 bg-blue-600 dark:bg-blue-700 text-white px-4 md:px-6 py-2 md:py-3 font-bold transition-all duration-300 hover:bg-blue-700 dark:hover:bg-blue-600 hover:-translate-y-1 hover:-translate-x-1 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] dark:hover:shadow-[4px_4px_0px_0px_rgba(239,68,68,1)] active:translate-x-0 active:translate-y-0 active:shadow-none disabled:opacity-50 disabled:cursor-not-allowed"
         >
           {isLoading ? "Subscribing..." : "Subscribe"}
           <svg
@@ -74,7 +74,11 @@ export default function Newsletter() {
             />
           </svg>
         </button>
-        {message && <p className="mt-3 text-sm text-gray-700">{message}</p>}
+        {message && (
+          <p className="mt-3 text-sm text-gray-700 dark:text-dark-textSecondary">
+            {message}
+          </p>
+        )}
       </form>
     </div>
   );

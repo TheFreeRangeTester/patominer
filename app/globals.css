@@ -5,17 +5,73 @@
 :root {
   --background: #F9FAFB;
   --foreground: #1F2937;
+  --surface: #ffffff;
+  --surface-hover: #f3f4f6;
+  --border: #e5e7eb;
+  --text-secondary: #6b7280;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.dark {
+  --background: #0f0f0f;
+  --foreground: #e5e5e5;
+  --surface: #1a1a1a;
+  --surface-hover: #2a2a2a;
+  --border: #333333;
+  --text-secondary: #a0a0a0;
+}
+
+* {
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilos para elementos específicos en modo oscuro */
+.dark .bg-gray-50 {
+  background-color: var(--surface);
+}
+
+.dark .bg-gray-100 {
+  background-color: var(--surface-hover);
+}
+
+.dark .bg-white {
+  background-color: var(--surface);
+}
+
+.dark .text-gray-900 {
+  color: var(--foreground);
+}
+
+.dark .text-gray-600 {
+  color: var(--text-secondary);
+}
+
+.dark .border-slate-200 {
+  border-color: var(--border);
+}
+
+.dark .text-slate-900 {
+  color: var(--foreground);
+}
+
+.dark .text-slate-800 {
+  color: var(--foreground);
+}
+
+.dark .hover\:bg-slate-100:hover {
+  background-color: var(--surface-hover);
+}
+
+.dark .bg-gray-200 {
+  background-color: var(--surface-hover);
+}
+
+/* Transiciones suaves para cambios de tema */
+.dark * {
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
 }

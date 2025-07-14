@@ -3,7 +3,7 @@ import Newsletter from "./Newsletter";
 
 export default function Footer() {
   return (
-    <footer className="bg-slate-50 text-black py-8 md:py-12">
+    <footer className="bg-slate-50 dark:bg-dark-surface text-black dark:text-dark-text py-8 md:py-12">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8">
           {/* Sección de Sitemap */}
@@ -15,7 +15,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/about"
-                  className="hover:text-blue-500 transition-colors"
+                  className="hover:text-blue-500 dark:hover:text-blue-400 transition-colors"
                 >
                   About
                 </Link>
@@ -23,7 +23,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/workshops"
-                  className="hover:text-blue-500 transition-colors"
+                  className="hover:text-blue-500 dark:hover:text-blue-400 transition-colors"
                 >
                   Workshops
                 </Link>
@@ -31,7 +31,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/courses"
-                  className="hover:text-blue-500 transition-colors"
+                  className="hover:text-blue-500 dark:hover:text-blue-400 transition-colors"
                 >
                   Courses
                 </Link>
@@ -39,7 +39,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/consultations"
-                  className="hover:text-blue-500 transition-colors"
+                  className="hover:text-blue-500 dark:hover:text-blue-400 transition-colors"
                 >
                   Consultations
                 </Link>
@@ -47,7 +47,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/tutoring"
-                  className="hover:text-blue-500 transition-colors"
+                  className="hover:text-blue-500 dark:hover:text-blue-400 transition-colors"
                 >
                   Tutoring
                 </Link>
@@ -55,7 +55,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/talks"
-                  className="hover:text-blue-500 transition-colors"
+                  className="hover:text-blue-500 dark:hover:text-blue-400 transition-colors"
                 >
                   Conferences
                 </Link>
@@ -73,7 +73,7 @@ export default function Footer() {
                 <Link
                   href="https://x.com/RangeTester"
                   target="_blank"
-                  className="hover:text-blue-500 transition-colors inline-flex items-center gap-2"
+                  className="hover:text-blue-500 dark:hover:text-blue-400 transition-colors inline-flex items-center gap-2"
                 >
                   <svg
                     className="w-5 h-5"
@@ -89,7 +89,7 @@ export default function Footer() {
                 <Link
                   href="https://instagram.com/FreeRangeTesters"
                   target="_blank"
-                  className="hover:text-blue-500 transition-colors inline-flex items-center gap-2"
+                  className="hover:text-blue-500 dark:hover:text-blue-400 transition-colors inline-flex items-center gap-2"
                 >
                   <svg
                     className="w-5 h-5"
@@ -105,7 +105,7 @@ export default function Footer() {
                 <Link
                   href="https://www.linkedin.com/in/patricio-m-690b3729/"
                   target="_blank"
-                  className="hover:text-blue-500 transition-colors inline-flex items-center gap-2"
+                  className="hover:text-blue-500 dark:hover:text-blue-400 transition-colors inline-flex items-center gap-2"
                 >
                   <svg
                     className="w-5 h-5"
@@ -130,7 +130,7 @@ export default function Footer() {
         </div>
 
         {/* Copyright */}
-        <div className="mt-8 pt-8 border-t border-purple-300 text-center text-sm md:text-base">
+        <div className="mt-8 pt-8 border-t border-purple-300 dark:border-purple-600 text-center text-sm md:text-base">
           <p>
             © {new Date().getFullYear()} Patricio Miner. Made with ❤️ in 🇳🇿 by
             an imported 🇦🇷

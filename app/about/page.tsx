@@ -20,10 +20,10 @@ export default function About() {
                   />
                 </div>
               </div>
-              <h2 className="text-3xl font-bold mb-8 text-black">
+              <h2 className="text-3xl font-bold mb-8 text-black dark:text-white">
                 A little bit about myself
               </h2>
-              <p className="text-lg text-black text-center">
+              <p className="text-lg text-black dark:text-gray-100 text-center">
                 Hello! I&apos;m <strong>Patricio Miner</strong>, but you can
                 call me <strong>Pato</strong>. I&apos;m a QA Engineering
                 consultant and trainer based in{" "}
@@ -38,7 +38,7 @@ export default function About() {
               </p>
             </div>
             <div className="flex flex-col items-center mb-6">
-              <p className="text-lg text-black text-center">
+              <p className="text-lg text-black dark:text-gray-100 text-center">
                 With a passion for quality assurance and software testing,
                 I&apos;ve dedicated my career to helping organisations{" "}
                 <strong>build better, more reliable software</strong>. My
