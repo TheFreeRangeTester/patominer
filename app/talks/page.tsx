@@ -3,9 +3,9 @@ import Image from "next/image";
 
 export default function Talks() {
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
       {/* Sección 1: Introducción */}
-      <section className="py-16 bg-gray-100/50">
+      <section className="py-16 bg-gray-100/50 dark:bg-gray-800/50">
         <div className="container mx-auto px-4">
           <div className="text-center">
             <h2 className="text-5xl font-bold mb-4 text-black dark:text-white">
@@ -19,7 +19,7 @@ export default function Talks() {
       </section>
 
       {/* Sección 2: Galería de Imágenes */}
-      <section className="py-16 bg-gray-100">
+      <section className="py-16 bg-gray-100 dark:bg-gray-800">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="col-span-2">
@@ -88,13 +88,13 @@ export default function Talks() {
       </section>
 
       {/* Sección 3: Invitación a Colaborar */}
-      <section className="py-16 bg-gray-100/50">
+      <section className="py-16 bg-gray-100/50 dark:bg-gray-800/50">
         <div className="container mx-auto px-4">
           <div className="text-center">
             <h2 className="text-3xl font-semibold mb-2 text-black dark:text-white">
               Connect with Me
             </h2>
-            <ul className="list-disc list-inside mb-4 text-black">
+            <ul className="list-disc list-inside mb-4 text-black dark:text-gray-100">
               <li>Available for talks in English and Spanish.</li>
               <li>In-person events in New Zealand and Australia.</li>
             </ul>
@@ -103,7 +103,7 @@ export default function Talks() {
                 href="https://calendly.com/workwithpato/30min"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block w-full md:w-auto border-black border-2 bg-white px-8 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none mx-auto"
+                className="inline-block w-full md:w-auto border-black border-2 bg-white dark:bg-gray-700 px-8 py-3 font-bold text-black dark:text-white transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none mx-auto"
               >
                 Contact for Events
               </a>
@@ -113,7 +113,7 @@ export default function Talks() {
         <div className="text-center mt-8">
           <Link
             href="/"
-            className="group mt-3 inline-flex items-center gap-2 border-black border-2 bg-white px-6 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
+            className="group mt-3 inline-flex items-center gap-2 border-black border-2 bg-white dark:bg-gray-700 px-6 py-3 font-bold text-black dark:text-white transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
           >
             Back to Home
           </Link>

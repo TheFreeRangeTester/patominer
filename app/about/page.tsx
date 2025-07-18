@@ -86,15 +86,15 @@ export default function About() {
             </div>
           </div>
           <div className="mt-8 text-center">
-            <h2 className="text-3xl font-semibold mb-2 text-black">
-              Connect with Me
+            <h2 className="text-3xl font-semibold mb-2 text-black dark:text-white">
+              Connect with me
             </h2>
             <div className="flex justify-center space-x-4 mt-6">
               <Link
                 href="https://peach-freckle-a65.notion.site/Patricio-Miner-1b8aa7cafd638046942de69e65695a24?pvs=4"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group inline-flex items-center gap-2 border-black border-2 bg-white px-6 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none rounded-full"
+                className="group inline-flex items-center gap-2 border-black border-2 bg-white dark:bg-gray-800 text-black dark:text-white px-6 py-3 font-bold transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none rounded-full"
               >
                 📄 CV Online
               </Link>
@@ -102,7 +102,7 @@ export default function About() {
                 href="https://www.linkedin.com/in/patricio-m-690b3729/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group inline-flex items-center gap-2 border-black border-2 bg-white px-6 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none rounded-full"
+                className="group inline-flex items-center gap-2 border-black border-2 bg-white dark:bg-gray-800 text-black dark:text-white px-6 py-3 font-bold transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none rounded-full"
               >
                 💼 LinkedIn
               </Link>
@@ -110,7 +110,7 @@ export default function About() {
                 href="https://github.com/TheFreeRangeTester"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group inline-flex items-center gap-2 border-black border-2 bg-white px-6 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none rounded-full"
+                className="group inline-flex items-center gap-2 border-black border-2 bg-white dark:bg-gray-800 text-black dark:text-white px-6 py-3 font-bold transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none rounded-full"
               >
                 👨‍💻 GitHub
               </Link>
@@ -119,7 +119,7 @@ export default function About() {
           <div className="text-center mt-8">
             <Link
               href="/"
-              className="group mt-3 inline-flex items-center gap-2 border-black border-2 bg-white px-6 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
+              className="group mt-3 inline-flex items-center gap-2 border-black border-2 bg-white dark:bg-gray-800 text-black dark:text-white px-6 py-3 font-bold transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
             >
               Back to Home
             </Link>

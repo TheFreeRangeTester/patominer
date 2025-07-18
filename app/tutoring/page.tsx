@@ -3,11 +3,11 @@ import Image from "next/image";
 
 export default function Tutoring() {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
       {/* Tutoring Section */}
-      <section className="md:py-16 py-4 bg-gray-50">
+      <section className="md:py-16 py-4 bg-gray-50 dark:bg-gray-900">
         <div className="container mx-auto px-4">
-          <div className="border rounded-lg p-6 shadow-lg text-center">
+          <div className="border rounded-lg p-6 shadow-lg text-center bg-white dark:bg-gray-800">
             <div className="aspect-video bg-gray-200 rounded-lg shadow-[8px_8px_0px_0px_rgba(251,146,60,1)] mb-4 max-w-2xl mx-auto">
               <Image
                 src="/images/mentorships/tutoring.png"
@@ -43,7 +43,7 @@ export default function Tutoring() {
               <Link
                 href="https://calendly.com/workwithpato/30min"
                 target="_blank"
-                className="group mt-3 inline-flex items-center gap-2 border-black border-2 bg-white px-6 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
+                className="group mt-3 inline-flex items-center gap-2 border-black border-2 bg-white dark:bg-gray-700 px-6 py-3 font-bold text-black dark:text-white transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
               >
                 Schedule a Session
               </Link>
@@ -54,7 +54,7 @@ export default function Tutoring() {
           <div className="mt-8 text-center">
             <Link
               href="/"
-              className="group mt-3 inline-flex items-center gap-2 border-black border-2 bg-white px-6 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
+              className="group mt-3 inline-flex items-center gap-2 border-black border-2 bg-white dark:bg-gray-700 px-6 py-3 font-bold text-black dark:text-white transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
             >
               <svg
                 className="w-4 h-4 transition-transform duration-300 transform group-hover:translate-x-1"

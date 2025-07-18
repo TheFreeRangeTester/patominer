@@ -24,6 +24,9 @@ export default function Home() {
     ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
     gsap.killTweensOf("*");
 
+    // Verificar que estamos en el cliente
+    if (typeof window === "undefined") return;
+
     // Configurar el estado inicial de todos los elementos, incluyendo la barra de navegación
     const elements = [
       navRef.current,
@@ -42,47 +45,49 @@ export default function Home() {
     });
 
     // Asegurarnos de que las fuentes estén cargadas antes de aplicar las animaciones
-    document.fonts.ready.then(() => {
-      // Split text animations
-      if (titleRef.current) {
-        const splitTitle = SplitText.create(titleRef.current, {
-          type: "words",
-          aria: "hidden",
-        });
-        gsap.from(splitTitle.words, {
-          opacity: 0,
-          duration: 2,
-          ease: "sine.out",
-          stagger: 0.1,
-        });
-      }
+    if (document.fonts) {
+      document.fonts.ready.then(() => {
+        // Split text animations
+        if (titleRef.current) {
+          const splitTitle = SplitText.create(titleRef.current, {
+            type: "words",
+            aria: "hidden",
+          });
+          gsap.from(splitTitle.words, {
+            opacity: 0,
+            duration: 2,
+            ease: "sine.out",
+            stagger: 0.1,
+          });
+        }
 
-      if (descriptionRef.current) {
-        const splitDescription = SplitText.create(descriptionRef.current, {
-          type: "words",
-          aria: "hidden",
-        });
-        gsap.from(splitDescription.words, {
-          opacity: 0,
-          duration: 2,
-          ease: "sine.out",
-          stagger: 0.1,
-        });
-      }
+        if (descriptionRef.current) {
+          const splitDescription = SplitText.create(descriptionRef.current, {
+            type: "words",
+            aria: "hidden",
+          });
+          gsap.from(splitDescription.words, {
+            opacity: 0,
+            duration: 2,
+            ease: "sine.out",
+            stagger: 0.1,
+          });
+        }
 
-      if (additionalTextRef.current) {
-        const splitAdditionalText = SplitText.create(
-          additionalTextRef.current,
-          { type: "words", aria: "hidden" }
-        );
-        gsap.from(splitAdditionalText.words, {
-          opacity: 0,
-          duration: 2,
-          ease: "sine.out",
-          stagger: 0.1,
-        });
-      }
-    });
+        if (additionalTextRef.current) {
+          const splitAdditionalText = SplitText.create(
+            additionalTextRef.current,
+            { type: "words", aria: "hidden" }
+          );
+          gsap.from(splitAdditionalText.words, {
+            opacity: 0,
+            duration: 2,
+            ease: "sine.out",
+            stagger: 0.1,
+          });
+        }
+      });
+    }
 
     // Animación del Hero con efectos más sutiles
     const heroTl = gsap.timeline({
@@ -179,6 +184,9 @@ export default function Home() {
 
   // Asegurarnos de que los elementos sean visibles inicialmente
   useEffect(() => {
+    // Verificar que estamos en el cliente
+    if (typeof window === "undefined") return;
+
     // Pequeño retraso para asegurar que el DOM esté listo
     const timer = setTimeout(() => {
       gsap.set(

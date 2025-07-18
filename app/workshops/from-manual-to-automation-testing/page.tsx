@@ -4,9 +4,9 @@ import WorkshopInfo from "../../../components/WorkshopInfo";
 
 export default function ManualToAutomation() {
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-50 dark:bg-dark-bg">
       {/* Sección 1 */}
-      <section className="py-16 bg-gray-100/50">
+      <section className="py-16 bg-gray-100/50 dark:bg-dark-surfaceHover">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-center md:text-left">
@@ -37,12 +37,12 @@ export default function ManualToAutomation() {
       </section>
 
       {/* Sección 2 */}
-      <section className="py-16 bg-gray-100">
+      <section className="py-16 bg-gray-100 dark:bg-dark-surface">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-semibold mb-2 text-center text-black">
+          <h2 className="text-4xl font-semibold mb-2 text-center text-black dark:text-white">
             Why do you need to learn Automation Testing NOW?
           </h2>
-          <p className="text-left text-black">
+          <p className="text-left text-black dark:text-gray-100">
             The transition from manual to automated testing is crucial for any
             tester&apos;s professional development. According to current market
             trends, companies are increasingly seeking professionals who can
@@ -51,7 +51,7 @@ export default function ManualToAutomation() {
               href="https://www.seek.co.nz/career-advice/role/testing-analyst"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-500 underline"
+              className="text-blue-500 dark:text-blue-400 underline"
             >
               Testing Analyst
             </Link>{" "}
@@ -60,7 +60,7 @@ export default function ManualToAutomation() {
               href="https://www.seek.co.nz/career-advice/role/testing-engineer"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-500 underline"
+              className="text-blue-500 dark:text-blue-400 underline"
             >
               Testing Engineer
             </Link>
@@ -78,10 +78,10 @@ export default function ManualToAutomation() {
             <br />
             <br />
           </p>
-          <h4 className="text-2xl font-semibold mb-1 text-center text-black">
+          <h4 className="text-2xl font-semibold mb-1 text-center text-black dark:text-white">
             What about the skills?
           </h4>
-          <p className="text-black">
+          <p className="text-black dark:text-gray-100">
             To become proficient in test automation, you need to master three
             fundamental skills: programming, testing principles, and version
             control. A solid understanding of programming concepts and best
@@ -99,15 +99,15 @@ export default function ManualToAutomation() {
             <br />
             <br />
           </p>
-          <h4 className="text-2xl font-semibold mb-1 text-center text-black">
+          <h4 className="text-2xl font-semibold mb-1 text-center text-black dark:text-white">
             What can you expect from this workshop?
           </h4>
           <div className="flex flex-col md:flex-row justify-center gap-4 mt-8">
-            <div className="w-full md:max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(34,197,94,0.8)] active:translate-x-0 active:translate-y-0 active:shadow-none">
-              <h5 className="text-lg font-semibold mb-2 text-black">
+            <div className="w-full md:max-w-sm p-4 bg-white dark:bg-dark-surface shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(34,197,94,0.8)] active:translate-x-0 active:translate-y-0 active:shadow-none">
+              <h5 className="text-lg font-semibold mb-2 text-black dark:text-white">
                 🧑🏻‍💻 A packed week!
               </h5>
-              <p className="text-black">
+              <p className="text-black dark:text-gray-100">
                 Online lectures and debates, exercises and resources to have an
                 holistic learning experience.
                 <br></br>
@@ -116,11 +116,11 @@ export default function ManualToAutomation() {
                 are recorded and uploaded for you to watch later!
               </p>
             </div>
-            <div className="w-full md:max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(59,130,246,0.8)] active:translate-x-0 active:translate-y-0 active:shadow-none">
-              <h5 className="text-lg font-semibold mb-2 text-black">
+            <div className="w-full md:max-w-sm p-4 bg-white dark:bg-dark-surface shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(59,130,246,0.8)] active:translate-x-0 active:translate-y-0 active:shadow-none">
+              <h5 className="text-lg font-semibold mb-2 text-black dark:text-white">
                 💡 A place for everyone to learn at their own pace
               </h5>
-              <p className="text-black">
+              <p className="text-black dark:text-gray-100">
                 I understand that you have a busy life, so this workshop is
                 designed to give you the directions to complete the tasks at
                 your own pace.
@@ -130,11 +130,11 @@ export default function ManualToAutomation() {
                 challenges we prepared for each week!
               </p>
             </div>
-            <div className="w-full md:max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(249,168,37,0.8)] active:translate-x-0 active:translate-y-0 active:shadow-none">
-              <h5 className="text-lg font-semibold mb-2 text-black">
+            <div className="w-full md:max-w-sm p-4 bg-white dark:bg-dark-surface shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(249,168,37,0.8)] active:translate-x-0 active:translate-y-0 active:shadow-none">
+              <h5 className="text-lg font-semibold mb-2 text-black dark:text-white">
                 🚀 Tangible results ready to be shown
               </h5>
-              <p className="text-black">
+              <p className="text-black dark:text-gray-100">
                 By the end of this workshop you will have a robust, well made
                 automation framework following the best practices and running on
                 CI/CD pipelines ready to show off to any recruiter or company.
@@ -148,7 +148,7 @@ export default function ManualToAutomation() {
       </section>
 
       {/* Sección 3 */}
-      <section className="py-16 bg-gray-100/50">
+      <section className="py-16 bg-gray-100/50 dark:bg-dark-surfaceHover">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center justify-center">
             <Image
@@ -156,13 +156,13 @@ export default function ManualToAutomation() {
               alt="Teacher Pato"
               width={1200}
               height={1200}
-              className="mb-4 md:mb-0 md:mr-4 w-full md:w-96 h-auto max-w-lg p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
+              className="mb-4 md:mb-0 md:mr-4 w-full md:w-96 h-auto max-w-lg p-4 bg-white dark:bg-dark-surface shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
             />
             <div className="text-center md:text-left">
-              <h2 className="text-3xl font-semibold mb-2 text-black">
+              <h2 className="text-3xl font-semibold mb-2 text-black dark:text-white">
                 The teacher
               </h2>
-              <p className="text-black">
+              <p className="text-black dark:text-gray-100">
                 With 16 years of experience as a QA Engineer and Coaching,
                 I&apos;ve dedicated my career to empowering the Latin and
                 Spanish-speaking community. Now, based in New Zealand, I&apos;m
@@ -186,13 +186,13 @@ export default function ManualToAutomation() {
       <WorkshopInfo isOnline={true} title="Workshop dynamic" />
 
       {/* Sección 5 */}
-      <section className="py-16 bg-gray-100/50">
+      <section className="py-16 bg-gray-100/50 dark:bg-dark-surfaceHover">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-semibold mb-8 text-center text-black">
+          <h2 className="text-3xl font-semibold mb-8 text-center text-black dark:text-white">
             What you will learn
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div className="mb-4 rounded-lg shadow-lg max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(34,197,94,0.8)] active:translate-x-0 active:translate-y-0 active:shadow-none">
+            <div className="mb-4 rounded-lg shadow-lg max-w-sm p-4 bg-white dark:bg-dark-surface shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(34,197,94,0.8)] active:translate-x-0 active:translate-y-0 active:shadow-none">
               <h3 className="text-xl font-semibold mb-2 text-black dark:text-white">
                 Week 1
               </h3>
@@ -205,7 +205,7 @@ export default function ManualToAutomation() {
                 <li>The most demanded languages and their differences</li>
               </ul>
             </div>
-            <div className="mb-4 rounded-lg shadow-lg max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(59,130,246,0.8)] active:translate-x-0 active:translate-y-0 active:shadow-none">
+            <div className="mb-4 rounded-lg shadow-lg max-w-sm p-4 bg-white dark:bg-dark-surface shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(59,130,246,0.8)] active:translate-x-0 active:translate-y-0 active:shadow-none">
               <h3 className="text-xl font-semibold mb-2 text-black dark:text-white">
                 Week 2
               </h3>
@@ -216,9 +216,11 @@ export default function ManualToAutomation() {
                 <li>Conflict resolution and best practices</li>
               </ul>
             </div>
-            <div className="mb-4 rounded-lg shadow-lg max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(249,168,37,0.8)] active:translate-x-0 active:translate-y-0 active:shadow-none">
-              <h3 className="text-xl font-semibold mb-2 text-black">Week 3</h3>
-              <ul className="list-disc list-inside text-black">
+            <div className="mb-4 rounded-lg shadow-lg max-w-sm p-4 bg-white dark:bg-dark-surface shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(249,168,37,0.8)] active:translate-x-0 active:translate-y-0 active:shadow-none">
+              <h3 className="text-xl font-semibold mb-2 text-black dark:text-white">
+                Week 3
+              </h3>
+              <ul className="list-disc list-inside text-black dark:text-gray-100">
                 <li>Basics of Automation Testing</li>
                 <li>
                   The most demanded tools in the market and their differences
@@ -226,9 +228,11 @@ export default function ManualToAutomation() {
                 <li>Creating automation tests from scratch</li>
               </ul>
             </div>
-            <div className="mb-4 rounded-lg shadow-lg max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(156,163,175,0.8)] active:translate-x-0 active:translate-y-0 active:shadow-none">
-              <h3 className="text-xl font-semibold mb-2 text-black">Week 4</h3>
-              <ul className="list-disc list-inside text-black">
+            <div className="mb-4 rounded-lg shadow-lg max-w-sm p-4 bg-white dark:bg-dark-surface shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(156,163,175,0.8)] active:translate-x-0 active:translate-y-0 active:shadow-none">
+              <h3 className="text-xl font-semibold mb-2 text-black dark:text-white">
+                Week 4
+              </h3>
+              <ul className="list-disc list-inside text-black dark:text-gray-100">
                 <li>CICD: What is it?</li>
                 <li>Integrating our tests with CICD pipelines</li>
                 <li>Final Project, feedback and certificate</li>
@@ -239,7 +243,7 @@ export default function ManualToAutomation() {
       </section>
 
       {/* Sección 6 */}
-      <section className="py-16 bg-gray-100">
+      <section className="py-16 bg-gray-100 dark:bg-dark-surface">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-center">
             <div className="text-center">
@@ -248,12 +252,12 @@ export default function ManualToAutomation() {
                 alt="Teacher's photo"
                 width={400}
                 height={400}
-                className="mx-auto w-full md:w-96 h-auto max-w-sm p-4 bg-white shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
+                className="mx-auto w-full md:w-96 h-auto max-w-sm p-4 bg-white dark:bg-dark-surface shadow rounded-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
               />
-              <h2 className="text-3xl font-semibold mb-2 text-black">
+              <h2 className="text-3xl font-semibold mb-2 text-black dark:text-white">
                 Join today!
               </h2>
-              <ul className="list-disc list-inside mb-4 text-black">
+              <ul className="list-disc list-inside mb-4 text-black dark:text-gray-100">
                 <li>
                   Taught by a QA Engineer and Coach with 16 years of experience.
                 </li>
@@ -268,7 +272,7 @@ export default function ManualToAutomation() {
                   href="https://buy.stripe.com/4gw3eTgUkf8aeJy4gm"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block w-full md:w-auto border-black border-2 bg-white px-8 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none mx-auto"
+                  className="inline-block w-full md:w-auto border-black border-2 bg-white dark:bg-gray-800 px-8 py-3 font-bold text-black dark:text-white transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none mx-auto"
                 >
                   Sign up Now
                 </a>
@@ -279,7 +283,7 @@ export default function ManualToAutomation() {
         <div className="text-center mt-8">
           <Link
             href="/workshops"
-            className="group mt-3 inline-flex items-center gap-2 border-black border-2 bg-white px-6 py-3 font-bold text-black transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
+            className="group mt-3 inline-flex items-center gap-2 border-black border-2 bg-white dark:bg-gray-800 px-6 py-3 font-bold text-black dark:text-white transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
           >
             Back to Workshops
           </Link>
