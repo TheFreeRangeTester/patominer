@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.patominer.com"),
   title: "Full Stack Test Engineer Course - Pato Miner",
   description:
     "Complete course exclusively available on Udemy. Learn everything needed to work in modern testing with content updated annually based on market trends.",

@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.patominer.com"),
   title: "QA Engineering Consultancy - Pato Miner",
   description:
     "Specialised services to optimise your testing processes. 16+ years experience working with top government agencies and banks in New Zealand, Australia, Argentina and the US.",

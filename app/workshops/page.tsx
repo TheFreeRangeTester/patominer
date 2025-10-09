@@ -95,6 +95,8 @@ export default function Workshops() {
                   className="w-full h-full object-cover rounded-lg transform hover:scale-105 transition-transform duration-500"
                   width={800}
                   height={450}
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  loading="lazy"
                 />
               </div>
               <h2 className="text-2xl font-bold mb-4 text-black dark:text-white">

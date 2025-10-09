@@ -6,6 +6,7 @@ import { getWorkshopById } from "../workshops-data";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.patominer.com"),
   title: "Advanced Test Engineering - Pato Miner",
   description:
     "Time to master the big guns of your test engineer skillset and level up your game",

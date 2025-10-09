@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.patominer.com"),
   title: "Conferences and Talks - Pato Miner",
   description:
     "Sharing knowledge and experiences with the testing community. Available for talks in English and Spanish. In-person events in New Zealand and Australia.",
