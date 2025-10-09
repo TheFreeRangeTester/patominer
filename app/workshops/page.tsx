@@ -68,7 +68,7 @@ export default function Workshops() {
       description:
         "The one workshop to make the jump into the world of Test Engineering",
       location: "Asynchronous and online",
-      starting_date: "July 21st, 2025",
+      starting_date: "March 1st, 2026",
       price: "$999",
       duration: "You will need around 10 hours per week",
       image: "/images/Selenium-Workshop.png",
@@ -79,7 +79,7 @@ export default function Workshops() {
       description:
         "Time to master the big guns of your test engineer skillset and level up your game",
       location: "Asynchronous and online",
-      starting_date: "October 20th, 2025",
+      starting_date: "April 15th, 2026",
       price: "$999",
       duration: "You will need around 10 hours per week",
       image: "/images/Playwright-Workshop.png",
