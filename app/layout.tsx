@@ -104,9 +104,12 @@ function Navigation({
           <div
             className={`md:hidden transition-all duration-300 ease-in-out ${
               isMenuOpen
-                ? "max-h-96 opacity-100 mt-4"
-                : "max-h-0 opacity-0 overflow-hidden"
+                ? "max-h-screen opacity-100 mt-4 visible"
+                : "max-h-0 opacity-0 overflow-hidden invisible"
             }`}
+            aria-hidden={!isMenuOpen}
+            role="navigation"
+            aria-label="Mobile navigation"
           >
             <div className="space-y-2">
               <MobileNavLink

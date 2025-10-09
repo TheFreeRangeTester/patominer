@@ -42,7 +42,7 @@ export default function Newsletter() {
 
   return (
     <div className="bg-white dark:bg-dark-surface p-4 md:p-6 rounded-lg border border-gray-200 dark:border-dark-border">
-      <h3 className="text-5xl font-bold mb-4 text-black dark:text-dark-text">
+      <h3 className="text-2xl md:text-3xl font-bold mb-4 text-black dark:text-dark-text">
         Subscribe to our newsletter!
       </h3>
       <form onSubmit={handleSubmit}>

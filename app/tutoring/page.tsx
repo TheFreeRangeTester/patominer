@@ -1,5 +1,18 @@
 import Link from "next/link";
 import Image from "next/image";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  metadataBase: new URL("https://www.patominer.com"),
+  title: "Coffee Catchup - Pato Miner",
+  description:
+    "Get personalized guidance and support in your QA journey. Extensive knowledge of the market, with focus in New Zealand and Australia.",
+  openGraph: {
+    title: "Coffee Catchup - Pato Miner",
+    description: "Personalized guidance and support in your QA journey",
+    images: ["/images/mentoring.png"],
+  },
+};
 
 export default function Tutoring() {
   return (

@@ -271,6 +271,8 @@ export default function Home() {
                 className="about-image relative w-full h-auto object-cover rounded-lg"
                 width={800}
                 height={600}
+                sizes="(max-width: 768px) 100vw, 600px"
+                loading="lazy"
               />
             </div>
           </div>
@@ -367,6 +369,8 @@ function Section({
                   className="w-full h-full object-cover rounded-lg"
                   width={800}
                   height={450}
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  loading="lazy"
                 />
               ) : (
                 <div className="w-full h-full flex items-center justify-center text-gray-400 dark:text-dark-textSecondary">
