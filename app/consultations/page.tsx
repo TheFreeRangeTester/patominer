@@ -1,5 +1,17 @@
 import Link from "next/link";
 import Image from "next/image";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "QA Engineering Consultancy - Pato Miner",
+  description:
+    "Specialised services to optimise your testing processes. 16+ years experience working with top government agencies and banks in New Zealand, Australia, Argentina and the US.",
+  openGraph: {
+    title: "QA Engineering Consultancy - Pato Miner",
+    description: "Specialised services to optimise your testing processes",
+    images: ["/images/consultations.png"],
+  },
+};
 
 export default function Consultations() {
   return (

@@ -5,11 +5,24 @@ import Image from "next/image";
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { workshopsData } from "./workshops-data";
 
+// Note: metadata can't be exported from client components
+// Consider moving this to a layout.tsx or creating a server component wrapper
 export default function Workshops() {
   const cardsRef = useRef<(HTMLDivElement | null)[]>([]);
 
   useEffect(() => {
+    // Detectar si el usuario prefiere movimiento reducido
+    const prefersReducedMotion = window.matchMedia(
+      "(prefers-reduced-motion: reduce)"
+    ).matches;
+
+    if (prefersReducedMotion) {
+      // Si el usuario prefiere movimiento reducido, no hacer animaciones
+      return;
+    }
+
     // Registrar el plugin de GSAP
     gsap.registerPlugin(ScrollTrigger);
 
@@ -62,37 +75,12 @@ export default function Workshops() {
     };
   }, []);
 
-  const workshops = [
-    {
-      title: "From Manual to Automation Testing",
-      description:
-        "The one workshop to make the jump into the world of Test Engineering",
-      location: "Asynchronous and online",
-      starting_date: "March 1st, 2026",
-      price: "$999",
-      duration: "You will need around 10 hours per week",
-      image: "/images/Selenium-Workshop.png",
-      buyButtonId: "buy_btn_1RDaMbGg3IBRIOi3pnOT0fsS",
-    },
-    {
-      title: "Advanced Test Engineering",
-      description:
-        "Time to master the big guns of your test engineer skillset and level up your game",
-      location: "Asynchronous and online",
-      starting_date: "April 15th, 2026",
-      price: "$999",
-      duration: "You will need around 10 hours per week",
-      image: "/images/Playwright-Workshop.png",
-      buyButtonId: "buy_btn_1RDaS2Gg3IBRIOi3oM10OVkM",
-    },
-  ];
-
   return (
     <div className="min-h-screen">
       {/* Workshops Section */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-gray-50 dark:bg-gray-900">
         <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8 justify-center">
-          {workshops.map((workshop, index) => (
+          {workshopsData.map((workshop, index) => (
             <div
               key={workshop.buyButtonId}
               ref={(el) => {
@@ -129,10 +117,8 @@ export default function Workshops() {
               </p>
               <div className="flex flex-col items-center">
                 <Link
-                  href={`/workshops/${workshop.title
-                    .toLowerCase()
-                    .replace(/ /g, "-")}`}
-                  className="group mt-3 inline-flex items-center gap-2 border-black border-2 bg-white px-6 py-3 font-bold text-black dark:text-white transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none mb-2"
+                  href={`/workshops/${workshop.slug}`}
+                  className="group mt-3 inline-flex items-center gap-2 border-black border-2 bg-white dark:bg-gray-800 px-6 py-3 font-bold text-black dark:text-white transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none mb-2"
                 >
                   View more details
                 </Link>

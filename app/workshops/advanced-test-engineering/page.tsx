@@ -1,27 +1,55 @@
 import Link from "next/link";
 import Image from "next/image";
 import WorkshopInfo from "../../../components/WorkshopInfo";
+import Breadcrumbs from "../../../components/Breadcrumbs";
+import { getWorkshopById } from "../workshops-data";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Advanced Test Engineering - Pato Miner",
+  description:
+    "Time to master the big guns of your test engineer skillset and level up your game",
+  openGraph: {
+    title: "Advanced Test Engineering - Pato Miner",
+    description:
+      "Time to master the big guns of your test engineer skillset and level up your game",
+    images: ["/images/Playwright-Workshop.png"],
+  },
+};
 
 export default function AdvancedTestEngineering() {
+  const workshop = getWorkshopById("advanced-test-engineering");
+
+  if (!workshop) {
+    return <div>Workshop not found</div>;
+  }
+
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
+      <Breadcrumbs
+        items={[
+          { label: "Home", href: "/" },
+          { label: "Workshops", href: "/workshops" },
+          { label: workshop.title },
+        ]}
+      />
       {/* Sección 1 */}
       <section className="py-16 bg-gray-100/50 dark:bg-gray-800/50">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-center md:text-left">
-              <h2 className="text-5xl font-bold mb-4 text-black dark:text-white">
-                Advanced Test Engineering
-              </h2>
+              <h1 className="text-5xl font-bold mb-4 text-black dark:text-white">
+                {workshop.title}
+              </h1>
               <ul className="list-disc list-inside mb-4 text-black dark:text-gray-100">
                 <li>4 week online, part-time course for software engineers.</li>
                 <li>6-10 hours per week, designed to fit around your job</li>
                 <span className="font-mono font-bold text-base text-black dark:text-gray-100">
                   <span className="font-mono font-normal text-base text-green-500">
-                    Tuesday and Thursdays
+                    {workshop.schedule}
                   </span>
                   <br />
-                  October 20th to November 14th, 2024
+                  {workshop.starting_date} to {workshop.end_date}
                 </span>
               </ul>
             </div>

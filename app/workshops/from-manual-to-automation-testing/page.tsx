@@ -1,27 +1,55 @@
 import Link from "next/link";
 import Image from "next/image";
 import WorkshopInfo from "../../../components/WorkshopInfo";
+import Breadcrumbs from "../../../components/Breadcrumbs";
+import { getWorkshopById } from "../workshops-data";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "From Manual to Automation Testing - Pato Miner",
+  description:
+    "The one workshop to make the jump into the world of Test Engineering",
+  openGraph: {
+    title: "From Manual to Automation Testing - Pato Miner",
+    description:
+      "The one workshop to make the jump into the world of Test Engineering",
+    images: ["/images/Selenium-Workshop.png"],
+  },
+};
 
 export default function ManualToAutomation() {
+  const workshop = getWorkshopById("from-manual-to-automation");
+
+  if (!workshop) {
+    return <div>Workshop not found</div>;
+  }
+
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-dark-bg">
+      <Breadcrumbs
+        items={[
+          { label: "Home", href: "/" },
+          { label: "Workshops", href: "/workshops" },
+          { label: workshop.title },
+        ]}
+      />
       {/* Sección 1 */}
       <section className="py-16 bg-gray-100/50 dark:bg-dark-surfaceHover">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-center md:text-left">
-              <h2 className="text-5xl font-bold mb-4 text-black dark:text-white">
+              <h1 className="text-5xl font-bold mb-4 text-black dark:text-white">
                 Upskilling from Manual to Automation Testing in a month
-              </h2>
+              </h1>
               <ul className="list-disc list-inside mb-4 text-black dark:text-gray-100">
                 <li>4 week online, part-time course for software engineers.</li>
                 <li>6-10 hours per week, designed to fit around your job</li>
                 <span className="font-mono font-bold text-base text-black dark:text-gray-100">
                   <span className="font-mono font-normal text-base text-green-500">
-                    Tuesday and Thursdays
+                    {workshop.schedule}
                   </span>
                   <br />
-                  July 21st to August 18th, 2025
+                  {workshop.starting_date} to {workshop.end_date}
                 </span>
               </ul>
             </div>

@@ -1,5 +1,18 @@
 import Link from "next/link";
 import Image from "next/image";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About - Pato Miner",
+  description:
+    "Learn more about Patricio Miner, a QA Engineering consultant and trainer based in Wellington, New Zealand, with 16 years of experience in software testing.",
+  openGraph: {
+    title: "About Pato Miner",
+    description:
+      "QA Engineering consultant and trainer with 16 years of experience",
+    images: ["/images/aboutPage.png"],
+  },
+};
 
 export default function About() {
   return (

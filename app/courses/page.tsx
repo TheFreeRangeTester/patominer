@@ -1,5 +1,18 @@
 import Link from "next/link";
 import Image from "next/image";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Full Stack Test Engineer Course - Pato Miner",
+  description:
+    "Complete course exclusively available on Udemy. Learn everything needed to work in modern testing with content updated annually based on market trends.",
+  openGraph: {
+    title: "Full Stack Test Engineer Course - Pato Miner",
+    description:
+      "Learn everything needed to work in modern testing - updated annually",
+    images: ["/images/course.png"],
+  },
+};
 
 export default function FullStackTestEngineer() {
   return (
