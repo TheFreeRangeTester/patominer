@@ -1,121 +1,137 @@
 {
   "pages": {
     "/_not-found/page": [
-      "static/chunks/webpack-4e9de2322f19dfe1.js",
-      "static/chunks/4bd1b696-c1cabda77a14d49b.js",
-      "static/chunks/517-298748aca57c4d55.js",
-      "static/chunks/main-app-665941dfe1b51ac6.js",
-      "static/chunks/app/_not-found/page-d4e25755e30b1b28.js"
+      "static/chunks/webpack-4000ed14406b0931.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-4efeec91c7871d79.js",
+      "static/chunks/main-app-b8edc9ba031ade48.js",
+      "static/chunks/app/_not-found/page-b2e5698c0117307d.js"
+    ],
+    "/not-found": [
+      "static/chunks/webpack-4000ed14406b0931.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-4efeec91c7871d79.js",
+      "static/chunks/main-app-b8edc9ba031ade48.js",
+      "static/chunks/619-ba102abea3e3d0e4.js",
+      "static/chunks/356-f53269e63c687b55.js",
+      "static/chunks/app/not-found-19599a5917ccda85.js"
     ],
     "/layout": [
-      "static/chunks/webpack-4e9de2322f19dfe1.js",
-      "static/chunks/4bd1b696-c1cabda77a14d49b.js",
-      "static/chunks/517-298748aca57c4d55.js",
-      "static/chunks/main-app-665941dfe1b51ac6.js",
-      "static/css/217a94bf384306dd.css",
-      "static/chunks/173-a349455a63681e26.js",
-      "static/chunks/app/layout-01b913d849af9212.js"
+      "static/chunks/webpack-4000ed14406b0931.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-4efeec91c7871d79.js",
+      "static/chunks/main-app-b8edc9ba031ade48.js",
+      "static/css/911f2a1164e54bec.css",
+      "static/chunks/619-ba102abea3e3d0e4.js",
+      "static/chunks/app/layout-87fe9cfd43dcb9bf.js"
     ],
     "/api/subscribe/route": [
-      "static/chunks/webpack-4e9de2322f19dfe1.js",
-      "static/chunks/4bd1b696-c1cabda77a14d49b.js",
-      "static/chunks/517-298748aca57c4d55.js",
-      "static/chunks/main-app-665941dfe1b51ac6.js",
-      "static/chunks/app/api/subscribe/route-8b1bbd421e104843.js"
-    ],
-    "/about/page": [
-      "static/chunks/webpack-4e9de2322f19dfe1.js",
-      "static/chunks/4bd1b696-c1cabda77a14d49b.js",
-      "static/chunks/517-298748aca57c4d55.js",
-      "static/chunks/main-app-665941dfe1b51ac6.js",
-      "static/chunks/173-a349455a63681e26.js",
-      "static/chunks/970-f11cdfc047435d7d.js",
-      "static/chunks/app/about/page-de9d5de3088b7dcd.js"
-    ],
-    "/consultations/page": [
-      "static/chunks/webpack-4e9de2322f19dfe1.js",
-      "static/chunks/4bd1b696-c1cabda77a14d49b.js",
-      "static/chunks/517-298748aca57c4d55.js",
-      "static/chunks/main-app-665941dfe1b51ac6.js",
-      "static/chunks/173-a349455a63681e26.js",
-      "static/chunks/970-f11cdfc047435d7d.js",
-      "static/chunks/app/consultations/page-21f391c30419d888.js"
-    ],
-    "/courses/page": [
-      "static/chunks/webpack-4e9de2322f19dfe1.js",
-      "static/chunks/4bd1b696-c1cabda77a14d49b.js",
-      "static/chunks/517-298748aca57c4d55.js",
-      "static/chunks/main-app-665941dfe1b51ac6.js",
-      "static/chunks/173-a349455a63681e26.js",
-      "static/chunks/970-f11cdfc047435d7d.js",
-      "static/chunks/app/courses/page-937b861cc8af279f.js"
+      "static/chunks/webpack-4000ed14406b0931.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-4efeec91c7871d79.js",
+      "static/chunks/main-app-b8edc9ba031ade48.js",
+      "static/chunks/app/api/subscribe/route-b2e5698c0117307d.js"
     ],
     "/page": [
-      "static/chunks/webpack-4e9de2322f19dfe1.js",
-      "static/chunks/4bd1b696-c1cabda77a14d49b.js",
-      "static/chunks/517-298748aca57c4d55.js",
-      "static/chunks/main-app-665941dfe1b51ac6.js",
-      "static/chunks/c15bf2b0-ab03a155d0d7e7fd.js",
-      "static/chunks/173-a349455a63681e26.js",
-      "static/chunks/970-f11cdfc047435d7d.js",
-      "static/chunks/854-a087a0557014615d.js",
-      "static/chunks/app/page-6280a4f49ea99dca.js"
-    ],
-    "/talks/page": [
-      "static/chunks/webpack-4e9de2322f19dfe1.js",
-      "static/chunks/4bd1b696-c1cabda77a14d49b.js",
-      "static/chunks/517-298748aca57c4d55.js",
-      "static/chunks/main-app-665941dfe1b51ac6.js",
-      "static/chunks/173-a349455a63681e26.js",
-      "static/chunks/970-f11cdfc047435d7d.js",
-      "static/chunks/app/talks/page-a84ef5f23c4fb354.js"
-    ],
-    "/tutoring/page": [
-      "static/chunks/webpack-4e9de2322f19dfe1.js",
-      "static/chunks/4bd1b696-c1cabda77a14d49b.js",
-      "static/chunks/517-298748aca57c4d55.js",
-      "static/chunks/main-app-665941dfe1b51ac6.js",
-      "static/chunks/173-a349455a63681e26.js",
-      "static/chunks/970-f11cdfc047435d7d.js",
-      "static/chunks/app/tutoring/page-39b55a99762097bc.js"
+      "static/chunks/webpack-4000ed14406b0931.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-4efeec91c7871d79.js",
+      "static/chunks/main-app-b8edc9ba031ade48.js",
+      "static/chunks/c15bf2b0-2ece6baba74be594.js",
+      "static/chunks/619-ba102abea3e3d0e4.js",
+      "static/chunks/356-f53269e63c687b55.js",
+      "static/chunks/122-325872bfa66bbb34.js",
+      "static/chunks/app/page-946278f2d2912b82.js"
     ],
     "/welcome/page": [
-      "static/chunks/webpack-4e9de2322f19dfe1.js",
-      "static/chunks/4bd1b696-c1cabda77a14d49b.js",
-      "static/chunks/517-298748aca57c4d55.js",
-      "static/chunks/main-app-665941dfe1b51ac6.js",
-      "static/chunks/173-a349455a63681e26.js",
-      "static/chunks/970-f11cdfc047435d7d.js",
-      "static/chunks/app/welcome/page-1dfeb67bb26d212c.js"
+      "static/chunks/webpack-4000ed14406b0931.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-4efeec91c7871d79.js",
+      "static/chunks/main-app-b8edc9ba031ade48.js",
+      "static/chunks/619-ba102abea3e3d0e4.js",
+      "static/chunks/356-f53269e63c687b55.js",
+      "static/chunks/app/welcome/page-19599a5917ccda85.js"
     ],
-    "/workshops/advanced-test-engineering/page": [
-      "static/chunks/webpack-4e9de2322f19dfe1.js",
-      "static/chunks/4bd1b696-c1cabda77a14d49b.js",
-      "static/chunks/517-298748aca57c4d55.js",
-      "static/chunks/main-app-665941dfe1b51ac6.js",
-      "static/chunks/173-a349455a63681e26.js",
-      "static/chunks/970-f11cdfc047435d7d.js",
-      "static/chunks/app/workshops/advanced-test-engineering/page-86838b084714fbee.js"
+    "/about/page": [
+      "static/chunks/webpack-4000ed14406b0931.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-4efeec91c7871d79.js",
+      "static/chunks/main-app-b8edc9ba031ade48.js",
+      "static/chunks/619-ba102abea3e3d0e4.js",
+      "static/chunks/356-f53269e63c687b55.js",
+      "static/chunks/app/about/page-19599a5917ccda85.js"
     ],
-    "/workshops/from-manual-to-automation-testing/page": [
-      "static/chunks/webpack-4e9de2322f19dfe1.js",
-      "static/chunks/4bd1b696-c1cabda77a14d49b.js",
-      "static/chunks/517-298748aca57c4d55.js",
-      "static/chunks/main-app-665941dfe1b51ac6.js",
-      "static/chunks/173-a349455a63681e26.js",
-      "static/chunks/970-f11cdfc047435d7d.js",
-      "static/chunks/app/workshops/from-manual-to-automation-testing/page-5fac4a42d228b053.js"
+    "/consultations/page": [
+      "static/chunks/webpack-4000ed14406b0931.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-4efeec91c7871d79.js",
+      "static/chunks/main-app-b8edc9ba031ade48.js",
+      "static/chunks/619-ba102abea3e3d0e4.js",
+      "static/chunks/356-f53269e63c687b55.js",
+      "static/chunks/app/consultations/page-19599a5917ccda85.js"
+    ],
+    "/talks/page": [
+      "static/chunks/webpack-4000ed14406b0931.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-4efeec91c7871d79.js",
+      "static/chunks/main-app-b8edc9ba031ade48.js",
+      "static/chunks/619-ba102abea3e3d0e4.js",
+      "static/chunks/356-f53269e63c687b55.js",
+      "static/chunks/app/talks/page-19599a5917ccda85.js"
+    ],
+    "/tutoring/page": [
+      "static/chunks/webpack-4000ed14406b0931.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-4efeec91c7871d79.js",
+      "static/chunks/main-app-b8edc9ba031ade48.js",
+      "static/chunks/619-ba102abea3e3d0e4.js",
+      "static/chunks/356-f53269e63c687b55.js",
+      "static/chunks/app/tutoring/page-19599a5917ccda85.js"
+    ],
+    "/courses/page": [
+      "static/chunks/webpack-4000ed14406b0931.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-4efeec91c7871d79.js",
+      "static/chunks/main-app-b8edc9ba031ade48.js",
+      "static/chunks/619-ba102abea3e3d0e4.js",
+      "static/chunks/356-f53269e63c687b55.js",
+      "static/chunks/app/courses/page-19599a5917ccda85.js"
+    ],
+    "/workshops/layout": [
+      "static/chunks/webpack-4000ed14406b0931.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-4efeec91c7871d79.js",
+      "static/chunks/main-app-b8edc9ba031ade48.js",
+      "static/chunks/app/workshops/layout-b2e5698c0117307d.js"
     ],
     "/workshops/page": [
-      "static/chunks/webpack-4e9de2322f19dfe1.js",
-      "static/chunks/4bd1b696-c1cabda77a14d49b.js",
-      "static/chunks/517-298748aca57c4d55.js",
-      "static/chunks/main-app-665941dfe1b51ac6.js",
-      "static/chunks/c15bf2b0-ab03a155d0d7e7fd.js",
-      "static/chunks/173-a349455a63681e26.js",
-      "static/chunks/970-f11cdfc047435d7d.js",
-      "static/chunks/854-a087a0557014615d.js",
-      "static/chunks/app/workshops/page-7d598d3ffe5f5b0a.js"
+      "static/chunks/webpack-4000ed14406b0931.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-4efeec91c7871d79.js",
+      "static/chunks/main-app-b8edc9ba031ade48.js",
+      "static/chunks/c15bf2b0-2ece6baba74be594.js",
+      "static/chunks/619-ba102abea3e3d0e4.js",
+      "static/chunks/356-f53269e63c687b55.js",
+      "static/chunks/122-325872bfa66bbb34.js",
+      "static/chunks/app/workshops/page-9545a7917ffcbda6.js"
+    ],
+    "/workshops/advanced-test-engineering/page": [
+      "static/chunks/webpack-4000ed14406b0931.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-4efeec91c7871d79.js",
+      "static/chunks/main-app-b8edc9ba031ade48.js",
+      "static/chunks/619-ba102abea3e3d0e4.js",
+      "static/chunks/356-f53269e63c687b55.js",
+      "static/chunks/app/workshops/advanced-test-engineering/page-1afac412149db8bd.js"
+    ],
+    "/workshops/from-manual-to-automation-testing/page": [
+      "static/chunks/webpack-4000ed14406b0931.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-4efeec91c7871d79.js",
+      "static/chunks/main-app-b8edc9ba031ade48.js",
+      "static/chunks/619-ba102abea3e3d0e4.js",
+      "static/chunks/356-f53269e63c687b55.js",
+      "static/chunks/app/workshops/from-manual-to-automation-testing/page-1afac412149db8bd.js"
     ]
   }
 }

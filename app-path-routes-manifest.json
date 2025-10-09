@@ -1,1 +1,15 @@
-{"/_not-found/page":"/_not-found","/api/subscribe/route":"/api/subscribe","/favicon.ico/route":"/favicon.ico","/about/page":"/about","/consultations/page":"/consultations","/courses/page":"/courses","/page":"/","/talks/page":"/talks","/tutoring/page":"/tutoring","/welcome/page":"/welcome","/workshops/advanced-test-engineering/page":"/workshops/advanced-test-engineering","/workshops/from-manual-to-automation-testing/page":"/workshops/from-manual-to-automation-testing","/workshops/page":"/workshops"}
+{
+  "/_not-found/page": "/_not-found",
+  "/api/subscribe/route": "/api/subscribe",
+  "/favicon.ico/route": "/favicon.ico",
+  "/page": "/",
+  "/welcome/page": "/welcome",
+  "/about/page": "/about",
+  "/consultations/page": "/consultations",
+  "/talks/page": "/talks",
+  "/tutoring/page": "/tutoring",
+  "/courses/page": "/courses",
+  "/workshops/page": "/workshops",
+  "/workshops/advanced-test-engineering/page": "/workshops/advanced-test-engineering",
+  "/workshops/from-manual-to-automation-testing/page": "/workshops/from-manual-to-automation-testing"
+}
