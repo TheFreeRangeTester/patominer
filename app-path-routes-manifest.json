@@ -7,8 +7,8 @@
   "/about/page": "/about",
   "/consultations/page": "/consultations",
   "/talks/page": "/talks",
-  "/tutoring/page": "/tutoring",
   "/courses/page": "/courses",
+  "/tutoring/page": "/tutoring",
   "/workshops/page": "/workshops",
   "/workshops/advanced-test-engineering/page": "/workshops/advanced-test-engineering",
   "/workshops/from-manual-to-automation-testing/page": "/workshops/from-manual-to-automation-testing"

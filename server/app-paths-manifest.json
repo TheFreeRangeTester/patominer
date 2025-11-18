@@ -7,8 +7,8 @@
   "/about/page": "app/about/page.js",
   "/consultations/page": "app/consultations/page.js",
   "/talks/page": "app/talks/page.js",
-  "/tutoring/page": "app/tutoring/page.js",
   "/courses/page": "app/courses/page.js",
+  "/tutoring/page": "app/tutoring/page.js",
   "/workshops/page": "app/workshops/page.js",
   "/workshops/advanced-test-engineering/page": "app/workshops/advanced-test-engineering/page.js",
   "/workshops/from-manual-to-automation-testing/page": "app/workshops/from-manual-to-automation-testing/page.js"
