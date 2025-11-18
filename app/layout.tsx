@@ -8,6 +8,7 @@ import { useState } from "react";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import ThemeToggle from "@/components/ThemeToggle";
 import { ThemeScript } from "./theme-script";
+import Script from "next/script";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -95,6 +96,14 @@ function Navigation({
               text="Course"
               className="text-slate-800 dark:text-dark-text"
             />
+            <button
+              data-tally-open="A776AD"
+              data-tally-emoji-text="👋"
+              data-tally-emoji-animation="wave"
+              className="ml-4 px-4 py-2 bg-amber-500 dark:bg-amber-600 hover:bg-amber-600 dark:hover:bg-amber-700 text-black dark:text-white font-medium rounded-lg transition-colors duration-300"
+            >
+              Register Interest
+            </button>
             <div className="ml-4">
               <ThemeToggle />
             </div>
@@ -137,6 +146,15 @@ function Navigation({
                 onClick={() => setIsMenuOpen(false)}
                 className="text-slate-800 dark:text-dark-text hover:bg-warning"
               />
+              <button
+                data-tally-open="A776AD"
+                data-tally-emoji-text="👋"
+                data-tally-emoji-animation="wave"
+                onClick={() => setIsMenuOpen(false)}
+                className="w-full text-right px-4 py-3 bg-amber-500 dark:bg-amber-600 hover:bg-amber-600 dark:hover:bg-amber-700 text-black dark:text-white font-semibold rounded-lg transition-colors duration-300"
+              >
+                Register Interest
+              </button>
             </div>
           </div>
         </div>
@@ -170,6 +188,10 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-background`}
       >
+        <Script
+          src="https://tally.so/widgets/embed.js"
+          strategy="afterInteractive"
+        />
         <ThemeProvider>
           <AppContent>{children}</AppContent>
         </ThemeProvider>
