@@ -36,7 +36,7 @@ function Navigation({
           <div className="flex justify-between items-center w-full md:w-auto">
             <Link
               href="/"
-              className="text-xl font-bold text-slate-900 dark:text-dark-text flex items-center gap-2"
+              className="text-xl font-bold text-slate-900 dark:text-white flex items-center gap-2"
             >
               <img
                 src="/images/logo.png"
@@ -53,7 +53,7 @@ function Navigation({
                 aria-label="Toggle menu"
               >
                 <svg
-                  className="w-6 h-6 text-slate-900 dark:text-dark-text"
+                  className="w-6 h-6 text-slate-900 dark:text-white"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -79,23 +79,10 @@ function Navigation({
               href="https://discord.gg/Gz6ARafD"
               text="Community"
               external
-              className="text-slate-800 dark:text-dark-text"
             />
-            <NavLink
-              href="/about"
-              text="About me"
-              className="text-slate-800 dark:text-dark-text"
-            />
-            <NavLink
-              href="/workshops"
-              text="Workshops"
-              className="text-slate-800 dark:text-dark-text"
-            />
-            <NavLink
-              href="/courses"
-              text="Course"
-              className="text-slate-800 dark:text-dark-text"
-            />
+            <NavLink href="/about" text="About me" />
+            <NavLink href="/workshops" text="Workshops" />
+            <NavLink href="/courses" text="Course" />
             <button
               data-tally-open="A776AD"
               data-tally-emoji-text="👋"
@@ -126,25 +113,25 @@ function Navigation({
                 text="Community"
                 external
                 onClick={() => setIsMenuOpen(false)}
-                className="text-slate-800 dark:text-dark-text hover:bg-warning"
+                className="hover:bg-warning"
               />
               <MobileNavLink
                 href="/about"
                 text="About me"
                 onClick={() => setIsMenuOpen(false)}
-                className="text-slate-800 dark:text-dark-text hover:bg-warning"
+                className="hover:bg-warning"
               />
               <MobileNavLink
                 href="/workshops"
                 text="Workshops"
                 onClick={() => setIsMenuOpen(false)}
-                className="text-slate-800 dark:text-dark-text hover:bg-warning"
+                className="hover:bg-warning"
               />
               <MobileNavLink
                 href="/courses"
                 text="Course"
                 onClick={() => setIsMenuOpen(false)}
-                className="text-slate-800 dark:text-dark-text hover:bg-warning"
+                className="hover:bg-warning"
               />
               <button
                 data-tally-open="A776AD"
@@ -219,7 +206,7 @@ function NavLink({
       rel={external ? "noopener noreferrer" : undefined}
       className={`relative px-4 py-2 group ${className || ""}`}
     >
-      <span className="relative z-10 font-medium text-lg transition-colors duration-300 ease-in-out group-hover:text-white text-slate-800 dark:text-dark-text">
+      <span className="relative z-10 font-medium text-lg transition-colors duration-300 ease-in-out group-hover:text-white text-slate-800 dark:text-white">
         {text}
       </span>
       <span className="absolute inset-0 w-full h-full bg-transparent group-hover:bg-orange-300 transition-all duration-300 transform scale-x-0 group-hover:scale-x-100 origin-left rounded-lg"></span>
@@ -247,7 +234,7 @@ function MobileNavLink({
       href={href}
       target={external ? "_blank" : undefined}
       rel={external ? "noopener noreferrer" : undefined}
-      className={`block px-4 py-3 text-slate-800 dark:text-dark-text hover:bg-slate-100 dark:hover:bg-dark-surfaceHover rounded-lg transition-all duration-300 text-right ${
+      className={`block px-4 py-3 text-slate-800 dark:text-white hover:bg-slate-100 dark:hover:bg-dark-surfaceHover rounded-lg transition-all duration-300 text-right ${
         className || ""
       }`}
       onClick={onClick}

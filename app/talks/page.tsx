@@ -34,8 +34,8 @@ export default function Talks() {
       {/* Sección 2: Galería de Imágenes */}
       <section className="py-16 bg-gray-100 dark:bg-gray-800">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="col-span-2">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div>
               <Link
                 href="https://nerdear.la/en/"
                 target="_blank"
@@ -50,7 +50,7 @@ export default function Talks() {
                 />
               </Link>
             </div>
-            <div className="col-span-1">
+            <div>
               <Link
                 href="https://nztestingconf.nz"
                 target="_blank"
@@ -65,7 +65,7 @@ export default function Talks() {
                 />
               </Link>
             </div>
-            <div className="col-span-1">
+            <div>
               <Link
                 href="https://qualitysenseconf.com/en/"
                 target="_blank"
@@ -80,7 +80,7 @@ export default function Talks() {
                 />
               </Link>
             </div>
-            <div className="col-span-2">
+            <div>
               <Link
                 href="https://www.testingenchile.cl/testing-day-chile/"
                 target="_blank"
@@ -89,6 +89,21 @@ export default function Talks() {
                 <Image
                   src="/images/conferences/TestingDaysChile.png"
                   alt="Testing Day Chile"
+                  className="w-full h-auto rounded-lg shadow-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
+                  width={500}
+                  height={300}
+                />
+              </Link>
+            </div>
+            <div className="md:col-span-2 md:max-w-2xl md:mx-auto">
+              <Link
+                href="https://www.potentia.co.nz"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  src="/images/conferences/BoltonAndPato.png"
+                  alt="Testing & Automation in the Age of AI: Hype, Hope, or Headaches - Potentia"
                   className="w-full h-auto rounded-lg shadow-lg transition-all duration-300 hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[4px_4px_0px_0px_rgba(252,165,165,1)] active:translate-x-0 active:translate-y-0 active:shadow-none"
                   width={500}
                   height={300}

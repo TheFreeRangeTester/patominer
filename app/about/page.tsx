@@ -66,7 +66,7 @@ export default function About() {
                 meaningful feedback and with Quality as number one priority.
               </p>
             </div>
-            <p className="text-lg mb-6 text-black text-center">
+            <p className="text-lg mb-6 text-black dark:text-gray-100 text-center">
               As a trainer, I take great pride in sharing my knowledge and
               experience to the new generations of testers. I&apos;ve done this
               for several years, being the number one place to learn about
