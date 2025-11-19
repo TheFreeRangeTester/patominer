@@ -6,10 +6,10 @@
   "/welcome/page": "/welcome",
   "/about/page": "/about",
   "/consultations/page": "/consultations",
-  "/talks/page": "/talks",
-  "/courses/page": "/courses",
   "/tutoring/page": "/tutoring",
+  "/courses/page": "/courses",
+  "/talks/page": "/talks",
   "/workshops/page": "/workshops",
-  "/workshops/advanced-test-engineering/page": "/workshops/advanced-test-engineering",
-  "/workshops/from-manual-to-automation-testing/page": "/workshops/from-manual-to-automation-testing"
+  "/workshops/from-manual-to-automation-testing/page": "/workshops/from-manual-to-automation-testing",
+  "/workshops/advanced-test-engineering/page": "/workshops/advanced-test-engineering"
 }
