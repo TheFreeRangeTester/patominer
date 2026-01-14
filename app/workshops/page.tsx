@@ -145,6 +145,7 @@ export default function Workshops() {
                     src="https://js.stripe.com/v3/buy-button.js"
                   ></script>
                   <div className="mt-2 p-4 bg-white dark:bg-gray-100 rounded-lg border border-gray-200 dark:border-gray-300">
+                    {/* @ts-expect-error - stripe-buy-button is a custom web component */}
                     <stripe-buy-button
                       buy-button-id={workshop.buyButtonId}
                       publishable-key="pk_live_51NW6X0Gg3IBRIOi3EFcyicMON7GoIEYxMRMGDKk1WN52TVtZtjVzr1Bs2Zy8O7aVpQiTJe9YqjWE8yRcAsVhMlwB00QfOaI71V"

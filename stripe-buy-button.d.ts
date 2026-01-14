@@ -1,17 +1,12 @@
-/// <reference types="react" />
+import 'react';
 
-declare global {
+declare module 'react' {
     namespace JSX {
         interface IntrinsicElements {
-            'stripe-buy-button': React.DetailedHTMLProps<
-                {
-                    'buy-button-id': string;
-                    'publishable-key': string;
-                } & React.HTMLAttributes<HTMLElement>,
-                HTMLElement
-            >;
+            'stripe-buy-button': {
+                'buy-button-id'?: string;
+                'publishable-key'?: string;
+            };
         }
     }
 }
-
-export { };
