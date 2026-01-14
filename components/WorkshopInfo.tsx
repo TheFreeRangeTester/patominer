@@ -32,9 +32,10 @@ export default function WorkshopInfo({
               {isOnline ? (
                 <>
                   <li>
-                    Online workshop accessible desde cualquier parte del mundo
+                    Online workshop through Zoom, accessible from anywhere in
+                    the world
                   </li>
-                  <li>Recorded sessions and online lectures available 24/7</li>
+                  <li>Recorded sessions available after the workshop</li>
                 </>
               ) : (
                 <>

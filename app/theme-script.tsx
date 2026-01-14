@@ -3,6 +3,7 @@ import React from "react";
 export function ThemeScript() {
   return (
     <script
+      suppressHydrationWarning
       dangerouslySetInnerHTML={{
         __html: `
           (function() {
