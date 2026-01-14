@@ -76,7 +76,7 @@ function Navigation({
           {/* Desktop Navigation */}
           <div className="hidden md:flex md:space-x-4 md:items-center w-full md:w-auto justify-end">
             <NavLink
-              href="https://discord.gg/Gz6ARafD"
+              href="https://discord.gg/2jdDMp728D"
               text="Community"
               external
             />
@@ -109,7 +109,7 @@ function Navigation({
           >
             <div className="space-y-2">
               <MobileNavLink
-                href="https://discord.gg/Gz6ARafD"
+                href="https://discord.gg/2jdDMp728D"
                 text="Community"
                 external
                 onClick={() => setIsMenuOpen(false)}
@@ -168,7 +168,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es">
+    <html lang="es" suppressHydrationWarning>
       <head>
         <ThemeScript />
       </head>
