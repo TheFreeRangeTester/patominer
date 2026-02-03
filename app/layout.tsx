@@ -97,53 +97,50 @@ function Navigation({
           </div>
 
           {/* Mobile Navigation */}
-          <div
-            className={`md:hidden transition-all duration-300 ease-in-out ${
-              isMenuOpen
-                ? "max-h-screen opacity-100 mt-4 visible"
-                : "max-h-0 opacity-0 overflow-hidden invisible"
-            }`}
-            aria-hidden={!isMenuOpen}
-            role="navigation"
-            aria-label="Mobile navigation"
-          >
-            <div className="space-y-2">
-              <MobileNavLink
-                href="https://discord.gg/2jdDMp728D"
-                text="Community"
-                external
-                onClick={() => setIsMenuOpen(false)}
-                className="hover:bg-warning"
-              />
-              <MobileNavLink
-                href="/about"
-                text="About me"
-                onClick={() => setIsMenuOpen(false)}
-                className="hover:bg-warning"
-              />
-              <MobileNavLink
-                href="/workshops"
-                text="Workshops"
-                onClick={() => setIsMenuOpen(false)}
-                className="hover:bg-warning"
-              />
-              <MobileNavLink
-                href="/courses"
-                text="Course"
-                onClick={() => setIsMenuOpen(false)}
-                className="hover:bg-warning"
-              />
-              <button
-                data-tally-open="A776AD"
-                data-tally-emoji-text="👋"
-                data-tally-emoji-animation="wave"
-                onClick={() => setIsMenuOpen(false)}
-                className="w-full text-right px-4 py-3 bg-amber-500 dark:bg-amber-600 hover:bg-amber-600 dark:hover:bg-amber-700 text-black dark:text-white font-semibold rounded-lg transition-colors duration-300"
-              >
-                Register Interest
-              </button>
+          {isMenuOpen && (
+            <div
+              className="md:hidden w-full mt-4 pb-4 bg-white dark:bg-dark-surface"
+              role="navigation"
+              aria-label="Mobile navigation"
+            >
+              <div className="space-y-2">
+                <MobileNavLink
+                  href="https://discord.gg/2jdDMp728D"
+                  text="Community"
+                  external
+                  onClick={() => setIsMenuOpen(false)}
+                  className="hover:bg-warning"
+                />
+                <MobileNavLink
+                  href="/about"
+                  text="About me"
+                  onClick={() => setIsMenuOpen(false)}
+                  className="hover:bg-warning"
+                />
+                <MobileNavLink
+                  href="/workshops"
+                  text="Workshops"
+                  onClick={() => setIsMenuOpen(false)}
+                  className="hover:bg-warning"
+                />
+                <MobileNavLink
+                  href="/courses"
+                  text="Course"
+                  onClick={() => setIsMenuOpen(false)}
+                  className="hover:bg-warning"
+                />
+                <button
+                  data-tally-open="A776AD"
+                  data-tally-emoji-text="👋"
+                  data-tally-emoji-animation="wave"
+                  onClick={() => setIsMenuOpen(false)}
+                  className="w-full text-right px-4 py-3 bg-amber-500 dark:bg-amber-600 hover:bg-amber-600 dark:hover:bg-amber-700 text-black dark:text-white font-semibold rounded-lg transition-colors duration-300"
+                >
+                  Register Interest
+                </button>
+              </div>
             </div>
-          </div>
+          )}
         </div>
       </div>
     </nav>
